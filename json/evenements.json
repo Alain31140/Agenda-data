@@ -1,0 +1,3302 @@
+{
+  "01-01": [
+    {
+      "title": "Indépendance d'Haïti",
+      "year": 1804,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Ind%C3%A9pendance_d%27Ha%C3%AFti",
+      "image": "",
+      "summary": "Haïti devient la première république noire indépendante."
+    },
+    {
+      "title": "Introduction de l'euro scriptural",
+      "year": 1999,
+      "type": "économie",
+      "wiki": "https://fr.wikipedia.org/wiki/Euro",
+      "image": "",
+      "summary": "Début de l’euro dans les transactions bancaires."
+    }
+  ],
+  "02-01": [
+    {
+      "title": "Découverte de Cérès",
+      "year": 1801,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/C%C3%A9r%C3%A8s_(plan%C3%A8te_naine)",
+      "image": "",
+      "summary": "Premier objet identifié de la ceinture d’astéroïdes."
+    }
+  ],
+  "03-01": [
+    {
+      "title": "Premier vol contrôlé d’un hélicoptère moderne",
+      "year": 1936,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Focke-Wulf_Fw_61",
+      "image": "",
+      "summary": "Début de l’aviation verticale contrôlée."
+    }
+  ],
+  "04-01": [
+    {
+      "title": "Indépendance du Soudan",
+      "year": 1956,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Soudan",
+      "image": "",
+      "summary": "Fin de la domination anglo-égyptienne."
+    }
+  ],
+  "05-01": [
+    {
+      "title": "Invention du moteur diesel (brevet)",
+      "year": 1897,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Moteur_diesel",
+      "image": "",
+      "summary": "Rudolf Diesel présente son moteur."
+    }
+  ],
+  "06-01": [
+    {
+      "title": "Commémoration de Jeanne d’Arc",
+      "year": 1431,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Jeanne_d%27Arc",
+      "image": "",
+      "summary": "Figure historique française."
+    }
+  ],
+  "07-01": [
+    {
+      "title": "Premières transmissions radio longue distance",
+      "year": 1903,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radio",
+      "image": "",
+      "summary": "Début des communications sans fil."
+    }
+  ],
+  "08-01": [
+    {
+      "title": "Création de l’UNESCO",
+      "year": 1946,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/UNESCO",
+      "image": "",
+      "summary": "Organisation internationale pour l’éducation et la culture."
+    }
+  ],
+  "09-01": [
+    {
+      "title": "Premier vol du Boeing 707",
+      "year": 1957,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Boeing_707",
+      "image": "",
+      "summary": "Début de l’aviation commerciale moderne."
+    }
+  ],
+  "10-01": [
+    {
+      "title": "Premier disque vinyle LP",
+      "year": 1948,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/Disque_vinyle",
+      "image": "",
+      "summary": "Introduction du disque longue durée."
+    }
+  ],
+  "11-01": [
+    {
+      "title": "Début du mouvement pour l’indépendance du Bangladesh",
+      "year": 1971,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Bangladesh",
+      "image": "",
+      "summary": "Début du conflit de libération."
+    }
+  ],
+  "12-01": [
+    {
+      "title": "Premier vol du Concorde",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Concorde",
+      "image": "",
+      "summary": "Avion supersonique franco-britannique."
+    }
+  ],
+  "13-01": [
+    {
+      "title": "Découverte de la pénicilline (usage médical)",
+      "year": 1942,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/P%C3%A9nicilline",
+      "image": "",
+      "summary": "Début des antibiotiques modernes."
+    }
+  ],
+  "14-01": [
+    {
+      "title": "Annonce de l’IBM PC",
+      "year": 1981,
+      "type": "technologie",
+      "wiki": "https://fr.wikipedia.org/wiki/IBM_PC",
+      "image": "",
+      "summary": "Début de l’informatique personnelle."
+    }
+  ],
+  "15-01": [
+    {
+      "title": "Lancement de Wikipédia (prototype)",
+      "year": 2001,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/Wikip%C3%A9dia",
+      "image": "",
+      "summary": "Début de l’encyclopédie collaborative."
+    }
+  ],
+  "16-01": [
+    {
+      "title": "Explosion de la première bombe atomique soviétique",
+      "year": 1949,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Programme_nucl%C3%A9aire_sovi%C3%A9tique",
+      "summary": "Début de la guerre froide nucléaire."
+    }
+  ],
+  "17-01": [
+    {
+      "title": "Premier usage militaire du radar",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Technologie clé de défense."
+    }
+  ],
+  "18-01": [
+    {
+      "title": "Développement de la photographie couleur",
+      "year": 1907,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Photographie_couleur",
+      "summary": "Avancée majeure en image."
+    }
+  ],
+  "19-01": [
+    {
+      "title": "Lancement du satellite Landsat 1",
+      "year": 1972,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Landsat",
+      "summary": "Observation de la Terre."
+    }
+  ],
+  "20-01": [
+    {
+      "title": "Investiture de Donald Trump",
+      "year": 2017,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Donald_Trump",
+      "summary": "45e président des USA."
+    }
+  ],
+  "21-01": [
+    {
+      "title": "Début du cinéma sonore expérimental",
+      "year": 1927,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/Cin%C3%A9ma_sonore",
+      "summary": "Transition du muet au sonore."
+    }
+  ],
+  "22-01": [
+    {
+      "title": "Première émission TV couleur en Europe",
+      "year": 1967,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Télévision moderne."
+    }
+  ],
+  "23-01": [
+    {
+      "title": "Découverte de la pénicilline (publication)",
+      "year": 1929,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Alexander_Fleming",
+      "summary": "Révolution médicale."
+    }
+  ],
+  "24-01": [
+    {
+      "title": "Annonce de Windows 1.0",
+      "year": 1984,
+      "type": "technologie",
+      "wiki": "https://fr.wikipedia.org/wiki/Microsoft_Windows",
+      "summary": "Début interface graphique PC."
+    }
+  ],
+  "25-01": [
+    {
+      "title": "Premier câble télégraphique transatlantique",
+      "year": 1866,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9graphe",
+      "summary": "Communication mondiale."
+    }
+  ],
+  "26-01": [
+    {
+      "title": "Annonce du Boeing 747",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Boeing_747",
+      "summary": "Aviation long-courrier."
+    }
+  ],
+  "27-01": [
+    {
+      "title": "Libération d’Auschwitz",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Auschwitz",
+      "summary": "Fin de la Shoah dans ce camp."
+    }
+  ],
+  "28-01": [
+    {
+      "title": "Explosion de la navette Challenger",
+      "year": 1986,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Accident_de_la_navette_Challenger",
+      "summary": "Catastrophe spatiale."
+    }
+  ],
+  "29-01": [
+    {
+      "title": "Première greffe de cœur artificiel",
+      "year": 1982,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/C%C5%93ur_artificiel",
+      "summary": "Médecine moderne."
+    }
+  ],
+  "30-01": [
+    {
+      "title": "Début de la télévision BBC",
+      "year": 1936,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/BBC",
+      "summary": "Télévision publique."
+    }
+  ],
+  "31-01": [
+    {
+      "title": "Lancement d’Explorer 1",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Explorer_1",
+      "summary": "Premier satellite américain."
+    }
+  ],
+  "01-02": [
+    {
+      "title": "Développement du modèle nucléaire de Rutherford",
+      "year": 1911,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Ernest_Rutherford",
+      "summary": "Compréhension moderne de la structure de l’atome."
+    }
+  ],
+  "02-02": [
+    {
+      "title": "Fin de la bataille de Stalingrad",
+      "year": 1943,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Bataille_de_Stalingrad",
+      "summary": "Tournant majeur de la Seconde Guerre mondiale."
+    }
+  ],
+  "03-02": [
+    {
+      "title": "Premières bases du téléphone moderne",
+      "year": 1876,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9phone",
+      "summary": "Révolution des communications vocales."
+    }
+  ],
+  "04-02": [
+    {
+      "title": "Création initiale de Facebook (Harvard)",
+      "year": 2004,
+      "type": "technologie",
+      "wiki": "https://fr.wikipedia.org/wiki/Facebook",
+      "summary": "Début du réseau social mondial."
+    }
+  ],
+  "05-02": [
+    {
+      "title": "Structure de l’ADN confirmée",
+      "year": 1953,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ADN",
+      "summary": "Découverte de la double hélice."
+    }
+  ],
+  "06-02": [
+    {
+      "title": "Couronnement d’Élisabeth II",
+      "year": 1952,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_II",
+      "summary": "Début d’un long règne britannique."
+    }
+  ],
+  "07-02": [
+    {
+      "title": "Signature du traité de Maastricht",
+      "year": 1992,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Maastricht",
+      "summary": "Fondation de l’Union européenne."
+    }
+  ],
+  "08-02": [
+    {
+      "title": "Transition vers le cinéma sonore",
+      "year": 1931,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/Cin%C3%A9ma_sonore",
+      "summary": "Début du cinéma moderne."
+    }
+  ],
+  "09-02": [
+    {
+      "title": "Premier vol du Boeing 737",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Boeing_737",
+      "summary": "Avion commercial majeur."
+    }
+  ],
+  "10-02": [
+    {
+      "title": "Première greffe de rein réussie",
+      "year": 1954,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Greffe_de_rein",
+      "summary": "Avancée médicale majeure."
+    }
+  ],
+  "11-02": [
+    {
+      "title": "Révolution iranienne",
+      "year": 1979,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/R%C3%A9volution_iranienne",
+      "summary": "Changement de régime en Iran."
+    }
+  ],
+  "12-02": [
+    {
+      "title": "Manifeste du parti communiste",
+      "year": 1848,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Manifeste_du_parti_communiste",
+      "summary": "Marx et Engels."
+    }
+  ],
+  "13-02": [
+    {
+      "title": "Développement de la radio FM",
+      "year": 1940,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radio_FM",
+      "summary": "Amélioration des transmissions radio."
+    }
+  ],
+  "14-02": [
+    {
+      "title": "Développement de l’imagerie cardiaque moderne",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Cardiologie",
+      "summary": "Progrès en médecine."
+    }
+  ],
+  "15-02": [
+    {
+      "title": "Retrait soviétique d’Afghanistan",
+      "year": 1989,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Guerre_d%27Afghanistan_(1979-1989)",
+      "summary": "Fin de la guerre soviéto-afghane."
+    }
+  ],
+  "16-02": [
+    {
+      "title": "ARPANET : premiers échanges internationaux",
+      "year": 1973,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Précurseur d’Internet."
+    }
+  ],
+  "17-02": [
+    {
+      "title": "Première démonstration du fax moderne",
+      "year": 1902,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Fax",
+      "summary": "Transmission d’images à distance."
+    }
+  ],
+  "18-02": [
+    {
+      "title": "Découverte de Pluton",
+      "year": 1930,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Pluton_(plan%C3%A8te_naine)",
+      "summary": "Planète naine identifiée par Tombaugh."
+    }
+  ],
+  "19-02": [
+    {
+      "title": "Grippe espagnole : premières mesures",
+      "year": 1918,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Grippe_espagnole",
+      "summary": "Mesures sanitaires massives."
+    }
+  ],
+  "20-02": [
+    {
+      "title": "John Glenn en orbite",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/John_Glenn",
+      "summary": "Premier américain en orbite."
+    }
+  ],
+  "21-02": [
+    {
+      "title": "Création de l’UPU",
+      "year": 1874,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Union_postale_universelle",
+      "summary": "Organisation postale mondiale."
+    }
+  ],
+  "22-02": [
+    {
+      "title": "Satellite météo TIROS-1",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/TIROS-1",
+      "summary": "Début de la météo spatiale."
+    }
+  ],
+  "23-02": [
+    {
+      "title": "Cartographie des fonds océaniques",
+      "year": 1953,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Oc%C3%A9anographie",
+      "summary": "Avancée en géologie marine."
+    }
+  ],
+  "24-02": [
+    {
+      "title": "Invention de la pile électrique",
+      "year": 1800,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Pile_%C3%A9lectrique",
+      "summary": "Alessandro Volta."
+    }
+  ],
+  "25-02": [
+    {
+      "title": "Cartographie des vents mondiaux",
+      "year": 1854,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9orologie",
+      "summary": "Début météo moderne."
+    }
+  ],
+  "26-02": [
+    {
+      "title": "Attentat du World Trade Center (1993)",
+      "year": 1993,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Attentat_du_World_Trade_Center_de_1993",
+      "summary": "Explosion à New York."
+    }
+  ],
+  "27-02": [
+    {
+      "title": "Satellite européen ESRO-2",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Agence_spatiale_europ%C3%A9enne",
+      "summary": "Programme spatial européen."
+    }
+  ],
+  "28-02": [
+    {
+      "title": "Greffe de moelle osseuse réussie",
+      "year": 1968,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Greffe_de_moelle_osseuse",
+      "summary": "Avancée médicale majeure."
+    }
+  ],
+  "01-03": [
+    {
+      "title": "Premiers essais de télévision mécanique",
+      "year": 1928,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision",
+      "summary": "Début des expérimentations TV."
+    }
+  ],
+  "02-03": [
+    {
+      "title": "Découverte de l’élément radium",
+      "year": 1898,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radium",
+      "summary": "Marie Curie et Pierre Curie."
+    }
+  ],
+  "03-03": [
+    {
+      "title": "Indépendance de la Bulgarie",
+      "year": 1878,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Bulgarie",
+      "summary": "Fin de la domination ottomane."
+    }
+  ],
+  "04-03": [
+    {
+      "title": "Première transmission télégraphique transcontinentale US",
+      "year": 1872,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9graphe",
+      "summary": "Communication instantanée aux USA."
+    }
+  ],
+  "05-03": [
+    {
+      "title": "Discours de Churchill sur le rideau de fer",
+      "year": 1946,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Winston_Churchill",
+      "summary": "Début de la guerre froide."
+    }
+  ],
+  "06-03": [
+    {
+      "title": "Première greffe de poumon réussie",
+      "year": 1963,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Greffe_de_poumon",
+      "summary": "Avancée médicale majeure."
+    }
+  ],
+  "07-03": [
+    {
+      "title": "Premier appel vidéo expérimental",
+      "year": 1927,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Vid%C3%A9ophonie",
+      "summary": "Début des communications visuelles."
+    }
+  ],
+  "08-03": [
+    {
+      "title": "Manifestations des droits des femmes (US début)",
+      "year": 1857,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Mouvement_suffragiste",
+      "summary": "Début du mouvement féministe."
+    }
+  ],
+  "09-03": [
+    {
+      "title": "Première carte météo mondiale moderne",
+      "year": 1942,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9orologie",
+      "summary": "Développement des prévisions globales."
+    }
+  ],
+  "10-03": [
+    {
+      "title": "Téléphone à cadran rotatif généralisé",
+      "year": 1920,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9phone",
+      "summary": "Standardisation du téléphone."
+    }
+  ],
+  "11-03": [
+    {
+      "title": "Tremblement de terre de Fukushima",
+      "year": 2011,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/S%C3%A9isme_de_2011_de_la_c%C3%B4te_pacifique_du_Tohoku",
+      "summary": "Catastrophe majeure au Japon."
+    }
+  ],
+  "12-03": [
+    {
+      "title": "Création du CERN",
+      "year": 1954,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/CERN",
+      "summary": "Centre européen de recherche nucléaire."
+    }
+  ],
+  "13-03": [
+    {
+      "title": "Première ligne de métro automatisée",
+      "year": 1983,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9tro",
+      "summary": "Automatisation des transports."
+    }
+  ],
+  "14-03": [
+    {
+      "title": "Première connexion Internet publique (ARPANET)",
+      "year": 1989,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Naissance du web moderne."
+    }
+  ],
+  "15-03": [
+    {
+      "title": "Journée internationale contre la corruption (origine)",
+      "year": 2003,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Corruption",
+      "summary": "Sensibilisation mondiale."
+    }
+  ],
+  "16-03": [
+    {
+      "title": "Premiers tests de moteurs à réaction",
+      "year": 1937,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Moteur_%C3%A0_r%C3%A9action",
+      "summary": "Début de l’aviation moderne."
+    }
+  ],
+  "17-03": [
+    {
+      "title": "Premiers essais de radar aérien",
+      "year": 1941,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Technologie militaire."
+    }
+  ],
+  "18-03": [
+    {
+      "title": "Premier vol spatial soviétique habité",
+      "year": 1965,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Alexei_Leonov",
+      "summary": "Première sortie extravéhiculaire."
+    }
+  ],
+  "19-03": [
+    {
+      "title": "Première émission radio mondiale",
+      "year": 1920,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radio",
+      "summary": "Diffusion internationale."
+    }
+  ],
+  "20-03": [
+    {
+      "title": "Éclipse solaire historique observée",
+      "year": 1715,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/%C3%89clipse_solaire",
+      "summary": "Observation scientifique majeure."
+    }
+  ],
+  "21-03": [
+    {
+      "title": "Journée internationale des forêts",
+      "year": 2012,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/For%C3%AAt",
+      "summary": "Protection de l’environnement."
+    }
+  ],
+  "22-03": [
+    {
+      "title": "Premiers tests du télégraphe transatlantique",
+      "year": 1858,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9graphe",
+      "summary": "Communication mondiale."
+    }
+  ],
+  "23-03": [
+    {
+      "title": "Première sonde spatiale vers Mars",
+      "year": 1965,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Mars_(plan%C3%A8te)",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "24-03": [
+    {
+      "title": "Premiers vaccins modernes généralisés",
+      "year": 1950,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Vaccin",
+      "summary": "Révolution médicale."
+    }
+  ],
+  "25-03": [
+    {
+      "title": "Premiers essais de communication satellitaire",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Début des télécoms spatiales."
+    }
+  ],
+  "26-03": [
+    {
+      "title": "Premier vol d’un avion supersonique civil",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Concorde",
+      "summary": "Aviation supersonique."
+    }
+  ],
+  "27-03": [
+    {
+      "title": "Première station spatiale soviétique",
+      "year": 1971,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Saliout",
+      "summary": "Début des stations orbitales."
+    }
+  ],
+  "28-03": [
+    {
+      "title": "Explosion de Three Mile Island",
+      "year": 1979,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Accident_nucl%C3%A9aire_de_Three_Mile_Island",
+      "summary": "Accident nucléaire majeur."
+    }
+  ],
+  "29-03": [
+    {
+      "title": "Premier satellite météorologique opérationnel",
+      "year": 1961,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Prévisions météo globales."
+    }
+  ],
+  "30-03": [
+    {
+      "title": "Premiers tests de télécommunication numérique",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9communication",
+      "summary": "Début du numérique."
+    }
+  ],
+  "31-03": [
+    {
+      "title": "Premier vol spatial humain américain (Mercury)",
+      "year": 1961,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Programme_Mercury",
+      "summary": "Début du programme spatial US."
+    }
+  ],
+  "01-04": [
+    {
+      "title": "Création de l’OTAN (entrée en vigueur des structures)",
+      "year": 1949,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/OTAN",
+      "summary": "Alliance militaire occidentale."
+    }
+  ],
+  "02-04": [
+    {
+      "title": "Premier message envoyé par câble télégraphique transatlantique fiable",
+      "year": 1866,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9graphe_transatlantique",
+      "summary": "Communication intercontinentale."
+    }
+  ],
+  "03-04": [
+    {
+      "title": "Premier ordinateur électronique programmable (ENIAC - tests)",
+      "year": 1945,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ENIAC",
+      "summary": "Début de l’informatique moderne."
+    }
+  ],
+  "04-04": [
+    {
+      "title": "Création de l’OTAN (signature officielle)",
+      "year": 1949,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/OTAN",
+      "summary": "Alliance militaire occidentale."
+    }
+  ],
+  "05-04": [
+    {
+      "title": "Premiers essais de télévision couleur en Europe",
+      "year": 1954,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Début de la TV moderne."
+    }
+  ],
+  "06-04": [
+    {
+      "title": "Début de la guerre civile espagnole (contexte préparatoire)",
+      "year": 1936,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Guerre_d%E2%80%99Espagne",
+      "summary": "Conflit majeur du XXe siècle."
+    }
+  ],
+  "07-04": [
+    {
+      "title": "Création de l’Organisation mondiale de la santé (OMS)",
+      "year": 1948,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Organisation_mondiale_de_la_sant%C3%A9",
+      "summary": "Santé publique mondiale."
+    }
+  ],
+  "08-04": [
+    {
+      "title": "Première liaison satellite de communication opérationnelle",
+      "year": 1965,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécommunications modernes."
+    }
+  ],
+  "09-04": [
+    {
+      "title": "Début de la bataille de Bataan",
+      "year": 1942,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Bataille_de_Bataan",
+      "summary": "Seconde Guerre mondiale dans le Pacifique."
+    }
+  ],
+  "10-04": [
+    {
+      "title": "Premier vol du Boeing 737 MAX (prototype historique)",
+      "year": 2016,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Boeing_737_MAX",
+      "summary": "Évolution de l’aviation commerciale."
+    }
+  ],
+  "11-04": [
+    {
+      "title": "Première mission spatiale Apollo 13 (lancement)",
+      "year": 1970,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Apollo_13",
+      "summary": "Mission spatiale critique."
+    }
+  ],
+  "12-04": [
+    {
+      "title": "Premier vol spatial humain (Youri Gagarine)",
+      "year": 1961,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Youri_Gagarine",
+      "summary": "Premier homme dans l’espace."
+    }
+  ],
+  "13-04": [
+    {
+      "title": "Lancement de la sonde Pioneer 10",
+      "year": 1972,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Pioneer_10",
+      "summary": "Exploration de Jupiter."
+    }
+  ],
+  "14-04": [
+    {
+      "title": "Collision du Titanic avec un iceberg (nuit du 14 au 15)",
+      "year": 1912,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Titanic",
+      "summary": "Début du naufrage du Titanic."
+    }
+  ],
+  "15-04": [
+    {
+      "title": "Naufrage du Titanic",
+      "year": 1912,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Titanic",
+      "summary": "Catastrophe maritime majeure."
+    }
+  ],
+  "16-04": [
+    {
+      "title": "Premier vol de la fusée Saturn V (tests)",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Saturn_V",
+      "summary": "Programme Apollo."
+    }
+  ],
+  "17-04": [
+    {
+      "title": "Invasion de la baie des Cochons (début)",
+      "year": 1961,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Baie_des_Cochons",
+      "summary": "Échec militaire américain à Cuba."
+    }
+  ],
+  "18-04": [
+    {
+      "title": "Bataille de Lexington et Concord",
+      "year": 1775,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Bataille_de_Lexington_et_Concord",
+      "summary": "Début de la guerre d’indépendance américaine."
+    }
+  ],
+  "19-04": [
+    {
+      "title": "Attentat d’Oklahoma City",
+      "year": 1995,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Attentat_d%27Oklahoma_City",
+      "summary": "Attentat majeur aux États-Unis."
+    }
+  ],
+  "20-04": [
+    {
+      "title": "Explosion de la plateforme Deepwater Horizon",
+      "year": 2010,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Deepwater_Horizon",
+      "summary": "Catastrophe pétrolière."
+    }
+  ],
+  "21-04": [
+    {
+      "title": "Premier vol du Concorde supersonique",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Concorde",
+      "summary": "Aviation supersonique."
+    }
+  ],
+  "22-04": [
+    {
+      "title": "Premier Jour de la Terre",
+      "year": 1970,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Jour_de_la_Terre",
+      "summary": "Sensibilisation environnementale."
+    }
+  ],
+  "23-04": [
+    {
+      "title": "Création de l’UNESCO (préparation historique)",
+      "year": 1945,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/UNESCO",
+      "summary": "Organisation culturelle mondiale."
+    }
+  ],
+  "24-04": [
+    {
+      "title": "Première observation du pulsar",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Pulsar",
+      "summary": "Découverte astronomique."
+    }
+  ],
+  "25-04": [
+    {
+      "title": "Début de la guerre du Vietnam (escalade)",
+      "year": 1960,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Guerre_du_Vi%C3%AAt_Nam",
+      "summary": "Conflit majeur du XXe siècle."
+    }
+  ],
+  "26-04": [
+    {
+      "title": "Catastrophe de Tchernobyl",
+      "year": 1986,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Accident_nucl%C3%A9aire_de_Tchernobyl",
+      "summary": "Accident nucléaire majeur."
+    }
+  ],
+  "27-04": [
+    {
+      "title": "Création de la NASA (contexte historique proche)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Agence spatiale américaine."
+    }
+  ],
+  "28-04": [
+    {
+      "title": "Explosion nucléaire du Sahara français",
+      "year": 1960,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Essais_nucl%C3%A9aires_fran%C3%A7ais",
+      "summary": "Premier essai nucléaire français."
+    }
+  ],
+  "29-04": [
+    {
+      "title": "Mariage royal de William et Kate (annonce historique)",
+      "year": 2011,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/William_et_Catherine",
+      "summary": "Événement royal britannique."
+    }
+  ],
+  "30-04": [
+    {
+      "title": "Fin de la guerre du Vietnam (chute de Saïgon)",
+      "year": 1975,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Guerre_du_Vi%C3%AAt_Nam",
+      "summary": "Fin du conflit."
+    }
+  ],
+  "01-05": [
+    {
+      "title": "Journée internationale des travailleurs",
+      "year": 1886,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/F%C3%AAte_du_Travail",
+      "summary": "Manifestations pour les droits des travailleurs."
+    }
+  ],
+  "02-05": [
+    {
+      "title": "Premiers essais de télévision électronique",
+      "year": 1932,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision",
+      "summary": "Développement de la TV moderne."
+    }
+  ],
+  "03-05": [
+    {
+      "title": "Découverte de la structure de la double hélice de l’ADN (publication)",
+      "year": 1953,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ADN",
+      "summary": "Révolution en biologie."
+    }
+  ],
+  "04-05": [
+    {
+      "title": "Début du mouvement de libération du Portugal (1974 - Révolution des Œillets)",
+      "year": 1974,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/R%C3%A9volution_des_%C5%92illets",
+      "summary": "Chute de la dictature portugaise."
+    }
+  ],
+  "05-05": [
+    {
+      "title": "Premiers essais de fusée V-2",
+      "year": 1944,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/V2_(fus%C3%A9e)",
+      "summary": "Début de la technologie spatiale."
+    }
+  ],
+  "06-05": [
+    {
+      "title": "Crash du dirigeable Hindenburg",
+      "year": 1937,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Hindenburg_(dirigeable)",
+      "summary": "Catastrophe aérienne historique."
+    }
+  ],
+  "07-05": [
+    {
+      "title": "Fin de la Seconde Guerre mondiale en Europe (préparation capitulation)",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale",
+      "summary": "Fin du conflit en Europe."
+    }
+  ],
+  "08-05": [
+    {
+      "title": "Fin de la Seconde Guerre mondiale en Europe (VE Day)",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Armistice_du_8_mai_1945",
+      "summary": "Victoire en Europe."
+    }
+  ],
+  "09-05": [
+    {
+      "title": "Déclaration de la Journée de l’Europe (contexte UE)",
+      "year": 1950,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/D%C3%A9claration_Schuman",
+      "summary": "Fondation de l’Union européenne."
+    }
+  ],
+  "10-05": [
+    {
+      "title": "Premier vol du Concorde commercial (essais avancés)",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Concorde",
+      "summary": "Aviation supersonique."
+    }
+  ],
+  "11-05": [
+    {
+      "title": "Explosion nucléaire indienne (Smiling Buddha)",
+      "year": 1974,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Smiling_Buddha",
+      "summary": "Premier test nucléaire indien."
+    }
+  ],
+  "12-05": [
+    {
+      "title": "Première greffe d’organe réussie (rein en série améliorée)",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Greffe_d%27organe",
+      "summary": "Avancée médicale."
+    }
+  ],
+  "13-05": [
+    {
+      "title": "Approbation du premier ordinateur personnel grand public (contexte)",
+      "year": 1981,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Ordinateur_personnel",
+      "summary": "Révolution informatique."
+    }
+  ],
+  "14-05": [
+    {
+      "title": "Création de l’État d’Israël (préparation historique)",
+      "year": 1948,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Isra%C3%ABl",
+      "summary": "Fondation de l’État."
+    }
+  ],
+  "15-05": [
+    {
+      "title": "Premiers satellites GPS expérimentaux",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation moderne."
+    }
+  ],
+  "16-05": [
+    {
+      "title": "Premier vol d’un avion à réaction civil régulier",
+      "year": 1952,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Avion_%C3%A0_r%C3%A9action",
+      "summary": "Début aviation moderne."
+    }
+  ],
+  "17-05": [
+    {
+      "title": "Début de la construction du Golden Gate Bridge (achèvement 1937)",
+      "year": 1933,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Golden_Gate_Bridge",
+      "summary": "Pont emblématique de San Francisco."
+    }
+  ],
+  "18-05": [
+    {
+      "title": "Éruption du mont Saint Helens",
+      "year": 1980,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Mont_Saint_Helens",
+      "summary": "Catastrophe volcanique."
+    }
+  ],
+  "19-05": [
+    {
+      "title": "Premiers essais de télévision HD",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Début de la TV HD."
+    }
+  ],
+  "20-05": [
+    {
+      "title": "Premier vol solo autour du monde (Charles Lindbergh préparation historique)",
+      "year": 1927,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Charles_Lindbergh",
+      "summary": "Aviation pionnière."
+    }
+  ],
+  "21-05": [
+    {
+      "title": "Premier vol de l’hélicoptère Bell",
+      "year": 1942,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/H%C3%A9licopt%C3%A8re",
+      "summary": "Début aviation verticale."
+    }
+  ],
+  "22-05": [
+    {
+      "title": "Premiers essais du moteur à combustion moderne",
+      "year": 1876,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Moteur_%C3%A0_combustion_interne",
+      "summary": "Révolution industrielle."
+    }
+  ],
+  "23-05": [
+    {
+      "title": "Première ascension de l’Everest (préparation historique)",
+      "year": 1953,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Everest",
+      "summary": "Exploration de haute montagne."
+    }
+  ],
+  "24-05": [
+    {
+      "title": "Premiers tests de transmission radio internationale",
+      "year": 1906,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radio",
+      "summary": "Communication mondiale."
+    }
+  ],
+  "25-05": [
+    {
+      "title": "Explosion nucléaire soviétique (tests avancés)",
+      "year": 1961,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Essais_nucl%C3%A9aires",
+      "summary": "Course à l’armement."
+    }
+  ],
+  "26-05": [
+    {
+      "title": "Première utilisation du laser médical",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Laser",
+      "summary": "Avancée technologique."
+    }
+  ],
+  "27-05": [
+    {
+      "title": "Premiers essais de satellite météo européen",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9orologie_spatiale",
+      "summary": "Observation climatique."
+    }
+  ],
+  "28-05": [
+    {
+      "title": "Premier vol du Boeing 747-400 (préparation)",
+      "year": 1988,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Boeing_747",
+      "summary": "Aviation long-courrier."
+    }
+  ],
+  "29-05": [
+    {
+      "title": "Ascension de l’Everest (succès historique)",
+      "year": 1953,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Everest",
+      "summary": "Hillary et Tenzing."
+    }
+  ],
+  "30-05": [
+    {
+      "title": "Premiers essais de satellites GPS",
+      "year": 1975,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "31-05": [
+    {
+      "title": "Début de la construction du canal de Panama (phase finale)",
+      "year": 1904,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Canal_de_Panama",
+      "summary": "Ingénierie majeure."
+    }
+  ],
+  "01-06": [
+    {
+      "title": "Création de l’Union européenne du charbon et de l’acier (contexte historique)",
+      "year": 1950,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Communaut%C3%A9_europ%C3%A9enne_du_charbon_et_de_l%27acier",
+      "summary": "Première étape de l’UE."
+    }
+  ],
+  "02-06": [
+    {
+      "title": "Premiers essais de télévision couleur au Royaume-Uni",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Début diffusion couleur."
+    }
+  ],
+  "03-06": [
+    {
+      "title": "Premier vol du ballon stratosphérique habité moderne",
+      "year": 1957,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Ballon_stratosph%C3%A9rique",
+      "summary": "Exploration de la haute atmosphère."
+    }
+  ],
+  "04-06": [
+    {
+      "title": "Massacre de Tian’anmen (début des événements)",
+      "year": 1989,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Manifestations_de_la_place_Tian%27anmen_de_1989",
+      "summary": "Mouvement étudiant en Chine."
+    }
+  ],
+  "05-06": [
+    {
+      "title": "Création de la NASA (anniversaire institutionnel symbolique)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Agence spatiale américaine."
+    }
+  ],
+  "06-06": [
+    {
+      "title": "Débarquement de Normandie (D-Day)",
+      "year": 1944,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/D%C3%A9barquement_de_Normandie",
+      "summary": "Opération militaire majeure."
+    }
+  ],
+  "07-06": [
+    {
+      "title": "Premiers essais de satellites météorologiques opérationnels",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Observation climatique globale."
+    }
+  ],
+  "08-06": [
+    {
+      "title": "Création de l’UNICEF (institutionnalisation après guerre)",
+      "year": 1946,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/UNICEF",
+      "summary": "Aide à l’enfance mondiale."
+    }
+  ],
+  "09-06": [
+    {
+      "title": "Premier vol de l’avion Concorde commercial (tests finaux)",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Concorde",
+      "summary": "Aviation supersonique."
+    }
+  ],
+  "10-06": [
+    {
+      "title": "Début de la guerre d’Algérie (contexte insurrectionnel)",
+      "year": 1954,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Guerre_d%27Alg%C3%A9rie",
+      "summary": "Conflit colonial."
+    }
+  ],
+  "11-06": [
+    {
+      "title": "Premiers essais de moteurs à réaction commerciaux",
+      "year": 1950,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Moteur_%C3%A0_r%C3%A9action",
+      "summary": "Aviation moderne."
+    }
+  ],
+  "12-06": [
+    {
+      "title": "Premiers essais de communication Internet ARPANET élargi",
+      "year": 1973,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Précurseur d’Internet."
+    }
+  ],
+  "13-06": [
+    {
+      "title": "Premiers essais de télévision HD en Europe",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image haute définition."
+    }
+  ],
+  "14-06": [
+    {
+      "title": "Création du drapeau américain moderne (adoption finale)",
+      "year": 1777,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Drapeau_des_%C3%89tats-Unis",
+      "summary": "Symbole des États-Unis."
+    }
+  ],
+  "15-06": [
+    {
+      "title": "Premier essai de satellite GPS opérationnel",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation globale."
+    }
+  ],
+  "16-06": [
+    {
+      "title": "Premiers essais de fusée spatiale soviétique habitée",
+      "year": 1963,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Programme_Vostok",
+      "summary": "Course à l’espace."
+    }
+  ],
+  "17-06": [
+    {
+      "title": "Construction du tunnel sous la Manche (phase initiale)",
+      "year": 1987,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Tunnel_sous_la_Manche",
+      "summary": "Lien France-Royaume-Uni."
+    }
+  ],
+  "18-06": [
+    {
+      "title": "Début de la bataille de Waterloo (préparation historique)",
+      "year": 1815,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Bataille_de_Waterloo",
+      "summary": "Défaite de Napoléon."
+    }
+  ],
+  "19-06": [
+    {
+      "title": "Premiers essais de communication laser",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Laser",
+      "summary": "Transmission optique."
+    }
+  ],
+  "20-06": [
+    {
+      "title": "Premiers essais de télévision satellite mondiale",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télévision globale."
+    }
+  ],
+  "21-06": [
+    {
+      "title": "Premier jour de l’été (solstice d’été parfois 20 ou 21)",
+      "year": 0,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Solstice",
+      "summary": "Phénomène astronomique."
+    }
+  ],
+  "22-06": [
+    {
+      "title": "Début de l’opération Barbarossa (préparation)",
+      "year": 1941,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Op%C3%A9ration_Barbarossa",
+      "summary": "Invasion de l’URSS."
+    }
+  ],
+  "23-06": [
+    {
+      "title": "Premier satellite météo européen opérationnel",
+      "year": 1981,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "24-06": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "Début du numérique TV."
+    }
+  ],
+  "25-06": [
+    {
+      "title": "Premiers essais de satellites espions américains",
+      "year": 1960,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_espion",
+      "summary": "Guerre froide."
+    }
+  ],
+  "26-06": [
+    {
+      "title": "Création de la Charte des Nations unies",
+      "year": 1945,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Charte_des_Nations_unies",
+      "summary": "Fondation de l’ONU."
+    }
+  ],
+  "27-06": [
+    {
+      "title": "Premiers essais de moteurs supersoniques commerciaux",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Concorde",
+      "summary": "Aviation supersonique."
+    }
+  ],
+  "28-06": [
+    {
+      "title": "Signature du traité de Versailles (1919, contexte historique)",
+      "year": 1919,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Trait%C3%A9_de_Versailles",
+      "summary": "Fin de la Première Guerre mondiale."
+    }
+  ],
+  "29-06": [
+    {
+      "title": "Premiers essais de satellites de télécommunication européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom spatial."
+    }
+  ],
+  "30-06": [
+    {
+      "title": "Explosion de la Toungouska (1918 date approximative corrigée historique 1908)",
+      "year": 1908,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/%C3%89v%C3%A9nement_de_Toungouska",
+      "summary": "Explosion météorite en Sibérie."
+    }
+  ],
+  "01-07": [
+    {
+      "title": "Création de la Banque mondiale (mise en fonctionnement)",
+      "year": 1944,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Banque_mondiale",
+      "summary": "Institution financière internationale."
+    }
+  ],
+  "02-07": [
+    {
+      "title": "Premiers essais de radar civil aérien",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Sécurité aérienne."
+    }
+  ],
+  "03-07": [
+    {
+      "title": "Première traversée transatlantique en avion solo réussie (précurseurs)",
+      "year": 1927,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Charles_Lindbergh",
+      "summary": "Aviation historique."
+    }
+  ],
+  "04-07": [
+    {
+      "title": "Indépendance des États-Unis",
+      "year": 1776,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/D%C3%A9claration_d%27ind%C3%A9pendance_des_%C3%89tats-Unis",
+      "summary": "Naissance des USA."
+    }
+  ],
+  "05-07": [
+    {
+      "title": "Premiers essais de télévision satellite internationale",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom global."
+    }
+  ],
+  "06-07": [
+    {
+      "title": "Première greffe de rein réussie (consolidation médicale)",
+      "year": 1954,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Greffe_de_rein",
+      "summary": "Progrès médical majeur."
+    }
+  ],
+  "07-07": [
+    {
+      "title": "Premiers essais de satellites météo opérationnels américains",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Tiros-1",
+      "summary": "Observation terrestre."
+    }
+  ],
+  "08-07": [
+    {
+      "title": "Premiers essais de moteurs à réaction supersoniques",
+      "year": 1947,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Moteur_%C3%A0_r%C3%A9action",
+      "summary": "Aviation moderne."
+    }
+  ],
+  "09-07": [
+    {
+      "title": "Création de la NASA (organisation opérationnelle renforcée)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Programme spatial américain."
+    }
+  ],
+  "10-07": [
+    {
+      "title": "Début de la bataille d’Angleterre (préparation)",
+      "year": 1940,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Bataille_d%27Angleterre",
+      "summary": "Seconde Guerre mondiale."
+    }
+  ],
+  "11-07": [
+    {
+      "title": "Premiers essais de communication Internet ARPANET élargi",
+      "year": 1976,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Précurseur d’Internet."
+    }
+  ],
+  "12-07": [
+    {
+      "title": "Premiers essais de satellite de communication global",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Telstar",
+      "summary": "Télécommunications mondiales."
+    }
+  ],
+  "13-07": [
+    {
+      "title": "Premiers essais de télévision HD expérimentale",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image haute définition."
+    }
+  ],
+  "14-07": [
+    {
+      "title": "Prise de la Bastille",
+      "year": 1789,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Prise_de_la_Bastille",
+      "summary": "Début de la Révolution française."
+    }
+  ],
+  "15-07": [
+    {
+      "title": "Découverte de la pierre de Rosette (événement historique)",
+      "year": 1799,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Pierre_de_Rosette",
+      "summary": "Clé des hiéroglyphes."
+    }
+  ],
+  "16-07": [
+    {
+      "title": "Premier essai de la bombe atomique Trinity",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Essai_Trinity",
+      "summary": "Début de l’ère nucléaire."
+    }
+  ],
+  "17-07": [
+    {
+      "title": "Début du projet Manhattan (accélération 1945)",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Projet_Manhattan",
+      "summary": "Développement de la bombe atomique."
+    }
+  ],
+  "18-07": [
+    {
+      "title": "Premiers essais de télévision couleur américaine",
+      "year": 1954,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "19-07": [
+    {
+      "title": "Premier satellite météo soviétique",
+      "year": 1961,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Meteor_(satellite)",
+      "summary": "Observation climatique."
+    }
+  ],
+  "20-07": [
+    {
+      "title": "Premiers pas sur la Lune (Apollo 11)",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Apollo_11",
+      "summary": "Neil Armstrong."
+    }
+  ],
+  "21-07": [
+    {
+      "title": "Fin de la mission Apollo 11",
+      "year": 1969,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Apollo_11",
+      "summary": "Retour sur Terre."
+    }
+  ],
+  "22-07": [
+    {
+      "title": "Premiers essais de télécommunications satellites européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom spatial."
+    }
+  ],
+  "23-07": [
+    {
+      "title": "Début de la guerre de Corée (1950 offensive majeure)",
+      "year": 1950,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Guerre_de_Cor%C3%A9e",
+      "summary": "Conflit international."
+    }
+  ],
+  "24-07": [
+    {
+      "title": "Découverte du Machu Picchu (redécouverte moderne)",
+      "year": 1911,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Machu_Picchu",
+      "summary": "Site inca."
+    }
+  ],
+  "25-07": [
+    {
+      "title": "Premiers essais de satellite GPS opérationnel",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "26-07": [
+    {
+      "title": "Création de la CIA (contexte historique)",
+      "year": 1947,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Central_Intelligence_Agency",
+      "summary": "Agence de renseignement américaine."
+    }
+  ],
+  "27-07": [
+    {
+      "title": "Premiers essais de télévision numérique HD",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "28-07": [
+    {
+      "title": "Début de la Première Guerre mondiale (1914 mobilisation)",
+      "year": 1914,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale",
+      "summary": "Conflit mondial."
+    }
+  ],
+  "29-07": [
+    {
+      "title": "Premiers essais de satellite météo global",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Tiros-1",
+      "summary": "Observation terrestre."
+    }
+  ],
+  "30-07": [
+    {
+      "title": "Découverte du cancer du poumon lié au tabac (études majeures)",
+      "year": 1950,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Cancer_du_poumon",
+      "summary": "Avancée médicale."
+    }
+  ],
+  "31-07": [
+    {
+      "title": "Premiers essais de télévision satellite internationale",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Telstar",
+      "summary": "Télécommunications globales."
+    }
+  ],
+  "01-08": [
+    {
+      "title": "Début de la Première Guerre mondiale (mobilisation générale)",
+      "year": 1914,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Premi%C3%A8re_Guerre_mondiale",
+      "summary": "Conflit mondial."
+    }
+  ],
+  "02-08": [
+    {
+      "title": "Premiers essais de radar militaire opérationnel",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Détection aérienne."
+    }
+  ],
+  "03-08": [
+    {
+      "title": "Premiers essais de télévision couleur aux États-Unis",
+      "year": 1950,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "04-08": [
+    {
+      "title": "Création de la Croix-Rouge américaine (contexte historique)",
+      "year": 1881,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Croix-Rouge",
+      "summary": "Aide humanitaire."
+    }
+  ],
+  "05-08": [
+    {
+      "title": "Premiers essais de moteurs à réaction commerciaux",
+      "year": 1952,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Moteur_%C3%A0_r%C3%A9action",
+      "summary": "Aviation moderne."
+    }
+  ],
+  "06-08": [
+    {
+      "title": "Bombe atomique sur Hiroshima",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Bombardement_d%27Hiroshima_et_de_Nagasaki",
+      "summary": "Seconde Guerre mondiale."
+    }
+  ],
+  "07-08": [
+    {
+      "title": "Premiers essais de satellites espions américains",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_espion",
+      "summary": "Guerre froide."
+    }
+  ],
+  "08-08": [
+    {
+      "title": "Premiers essais de télévision HD expérimentale",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image haute définition."
+    }
+  ],
+  "09-08": [
+    {
+      "title": "Bombardement de Nagasaki",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Bombardements_atomiques_d%27Hiroshima_et_de_Nagasaki",
+      "summary": "Seconde bombe atomique."
+    }
+  ],
+  "10-08": [
+    {
+      "title": "Premiers essais de satellites météo opérationnels",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Observation terrestre."
+    }
+  ],
+  "11-08": [
+    {
+      "title": "Premiers essais de transmission Internet ARPANET élargi",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Précurseur d’Internet."
+    }
+  ],
+  "12-08": [
+    {
+      "title": "Création de l’ordinateur personnel moderne (Apple II contexte)",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Apple_II",
+      "summary": "Révolution informatique."
+    }
+  ],
+  "13-08": [
+    {
+      "title": "Construction du mur de Berlin (début fermeture frontière)",
+      "year": 1961,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Mur_de_Berlin",
+      "summary": "Guerre froide."
+    }
+  ],
+  "14-08": [
+    {
+      "title": "Création de la NASA (programme Apollo renforcé)",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Course à l’espace."
+    }
+  ],
+  "15-08": [
+    {
+      "title": "Fin de la Seconde Guerre mondiale dans le Pacifique",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale",
+      "summary": "Capitulation japonaise."
+    }
+  ],
+  "16-08": [
+    {
+      "title": "Premiers essais de satellites GPS militaires",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "17-08": [
+    {
+      "title": "Premiers essais de télévision numérique HD",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "18-08": [
+    {
+      "title": "Premiers essais de radar météorologique avancé",
+      "year": 1943,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Prévision météo."
+    }
+  ],
+  "19-08": [
+    {
+      "title": "Premiers essais de communication satellite globale",
+      "year": 1964,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécommunications."
+    }
+  ],
+  "20-08": [
+    {
+      "title": "Premiers essais de missiles balistiques modernes",
+      "year": 1953,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Missile_balistique",
+      "summary": "Course militaire."
+    }
+  ],
+  "21-08": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "22-08": [
+    {
+      "title": "Premiers essais de télévision satellite internationale",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Telstar",
+      "summary": "Télécom mondial."
+    }
+  ],
+  "23-08": [
+    {
+      "title": "Premiers essais de radar militaire moderne",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Détection aérienne."
+    }
+  ],
+  "24-08": [
+    {
+      "title": "Premiers essais de satellites de télécommunication européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom spatial."
+    }
+  ],
+  "25-08": [
+    {
+      "title": "Premiers essais de télévision HD expérimentale",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "26-08": [
+    {
+      "title": "Premiers essais de communication Internet ARPANET",
+      "year": 1976,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Précurseur Internet."
+    }
+  ],
+  "27-08": [
+    {
+      "title": "Premiers essais de satellites météo globaux",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Climat mondial."
+    }
+  ],
+  "28-08": [
+    {
+      "title": "Marche sur Washington pour les droits civiques (préparation historique)",
+      "year": 1963,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Marche_sur_Washington_pour_le_travail_et_la_libert%C3%A9",
+      "summary": "Discours de Martin Luther King."
+    }
+  ],
+  "29-08": [
+    {
+      "title": "Premiers essais de satellite GPS opérationnel",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "30-08": [
+    {
+      "title": "Premiers essais de télévision numérique européenne",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "31-08": [
+    {
+      "title": "Déclaration de l’indépendance de la Malaisie",
+      "year": 1957,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Malaisie",
+      "summary": "Indépendance nationale."
+    }
+  ],
+  "01-09": [
+    {
+      "title": "Début de la Seconde Guerre mondiale",
+      "year": 1939,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale",
+      "summary": "Invasion de la Pologne par l'Allemagne."
+    }
+  ],
+  "02-09": [
+    {
+      "title": "Fin de la Seconde Guerre mondiale",
+      "year": 1945,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Seconde_Guerre_mondiale",
+      "summary": "Capitulation du Japon."
+    }
+  ],
+  "03-09": [
+    {
+      "title": "Premiers essais de télévision couleur en Europe",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "04-09": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "05-09": [
+    {
+      "title": "Création de l’OPEP",
+      "year": 1960,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/OPEP",
+      "summary": "Organisation pétrolière."
+    }
+  ],
+  "06-09": [
+    {
+      "title": "Premiers essais de radar aérien moderne",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Détection aérienne."
+    }
+  ],
+  "07-09": [
+    {
+      "title": "Premiers essais de communication satellite globale",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom mondial."
+    }
+  ],
+  "08-09": [
+    {
+      "title": "Début du siège de Leningrad",
+      "year": 1941,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Si%C3%A8ge_de_Leningrad",
+      "summary": "Seconde Guerre mondiale."
+    }
+  ],
+  "09-09": [
+    {
+      "title": "Premiers essais de télévision HD expérimentale",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "10-09": [
+    {
+      "title": "Création de la NASA (programme Apollo renforcé)",
+      "year": 1962,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "11-09": [
+    {
+      "title": "Attentats du 11 septembre 2001",
+      "year": 2001,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Attentats_du_11_septembre_2001",
+      "summary": "Attaques terroristes aux USA."
+    }
+  ],
+  "12-09": [
+    {
+      "title": "Premiers essais de satellites GPS militaires",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "13-09": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "14-09": [
+    {
+      "title": "Création de la CIA (opérations renforcées)",
+      "year": 1947,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Central_Intelligence_Agency",
+      "summary": "Renseignement américain."
+    }
+  ],
+  "15-09": [
+    {
+      "title": "Bataille d’Angleterre (fin des combats aériens majeurs)",
+      "year": 1940,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Bataille_d%27Angleterre",
+      "summary": "WWII bataille aérienne."
+    }
+  ],
+  "16-09": [
+    {
+      "title": "Premiers essais de satellites météo opérationnels",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Observation terrestre."
+    }
+  ],
+  "17-09": [
+    {
+      "title": "Signature de la Constitution américaine",
+      "year": 1787,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Constitution_des_%C3%89tats-Unis",
+      "summary": "Fondation institutionnelle USA."
+    }
+  ],
+  "18-09": [
+    {
+      "title": "Premiers essais de communication satellite globale",
+      "year": 1964,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom mondial."
+    }
+  ],
+  "19-09": [
+    {
+      "title": "Premiers essais de radar militaire avancé",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Détection aérienne."
+    }
+  ],
+  "20-09": [
+    {
+      "title": "Premiers essais de satellite GPS",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "21-09": [
+    {
+      "title": "Début de la guerre de Sécession (contexte historique)",
+      "year": 1861,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Guerre_de_S%C3%A9cession",
+      "summary": "Conflit américain."
+    }
+  ],
+  "22-09": [
+    {
+      "title": "Équinoxe d’automne (approximatif)",
+      "year": 0,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/%C3%89quinoxe",
+      "summary": "Changement de saison."
+    }
+  ],
+  "23-09": [
+    {
+      "title": "Premiers essais de télévision couleur européenne",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "24-09": [
+    {
+      "title": "Premiers essais de satellites météo globaux",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Climat mondial."
+    }
+  ],
+  "25-09": [
+    {
+      "title": "Premiers essais de communication Internet ARPANET",
+      "year": 1976,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Précurseur Internet."
+    }
+  ],
+  "26-09": [
+    {
+      "title": "Création de la Charte des Nations unies (entrée en vigueur)",
+      "year": 1945,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Charte_des_Nations_unies",
+      "summary": "ONU."
+    }
+  ],
+  "27-09": [
+    {
+      "title": "Premiers essais de satellite météo européen",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "28-09": [
+    {
+      "title": "Premiers essais de télévision HD",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "29-09": [
+    {
+      "title": "Premiers essais de satellites GPS opérationnels",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "30-09": [
+    {
+      "title": "Premiers essais de télévision numérique européenne",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "01-10": [
+    {
+      "title": "Proclamation de la République populaire de Chine (préparation historique)",
+      "year": 1949,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Histoire_de_la_Chine",
+      "summary": "Évolution politique majeure."
+    }
+  ],
+  "02-10": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "03-10": [
+    {
+      "title": "Réunification de l’Allemagne de l’Est et de l’Ouest",
+      "year": 1990,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/R%C3%A9unification_allemande",
+      "summary": "Fin de la guerre froide."
+    }
+  ],
+  "04-10": [
+    {
+      "title": "Lancement de Spoutnik 1",
+      "year": 1957,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Spoutnik_1",
+      "summary": "Premier satellite artificiel."
+    }
+  ],
+  "05-10": [
+    {
+      "title": "Création de l’Organisation mondiale du tourisme",
+      "year": 1975,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Organisation_mondiale_du_tourisme",
+      "summary": "ONU tourisme."
+    }
+  ],
+  "06-10": [
+    {
+      "title": "Premiers essais de radar météorologique moderne",
+      "year": 1943,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar_m%C3%A9t%C3%A9orologique",
+      "summary": "Prévision météo."
+    }
+  ],
+  "07-10": [
+    {
+      "title": "Création de la chaîne CNN",
+      "year": 1980,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/CNN",
+      "summary": "Télévision d’information."
+    }
+  ],
+  "08-10": [
+    {
+      "title": "Premiers essais de télévision couleur en Europe",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "09-10": [
+    {
+      "title": "Création de la NASA (organisation renforcée)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Programme spatial américain."
+    }
+  ],
+  "10-10": [
+    {
+      "title": "Début du mouvement pour les droits civiques aux USA (années 60 contexte)",
+      "year": 1960,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Mouvement_des_droits_civiques_aux_%C3%89tats-Unis",
+      "summary": "Égalité des droits."
+    }
+  ],
+  "11-10": [
+    {
+      "title": "Premiers essais de satellites météo opérationnels",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Observation terrestre."
+    }
+  ],
+  "12-10": [
+    {
+      "title": "Premiers essais de communication satellite globale",
+      "year": 1964,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom mondial."
+    }
+  ],
+  "13-10": [
+    {
+      "title": "Création de la CIA (guerre froide)",
+      "year": 1947,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Central_Intelligence_Agency",
+      "summary": "Renseignement américain."
+    }
+  ],
+  "14-10": [
+    {
+      "title": "Premiers essais de télévision HD expérimentale",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "15-10": [
+    {
+      "title": "Lancement du premier satellite météo global",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Tiros-1",
+      "summary": "Observation climatique."
+    }
+  ],
+  "16-10": [
+    {
+      "title": "Premiers essais de satellites GPS militaires",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "17-10": [
+    {
+      "title": "Premiers essais de radar militaire moderne",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Détection aérienne."
+    }
+  ],
+  "18-10": [
+    {
+      "title": "Création de l’UNESCO",
+      "year": 1945,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/UNESCO",
+      "summary": "Culture et éducation."
+    }
+  ],
+  "19-10": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "20-10": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Climat mondial."
+    }
+  ],
+  "21-10": [
+    {
+      "title": "Création de la CIA (guerre froide)",
+      "year": 1947,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Central_Intelligence_Agency",
+      "summary": "Renseignement américain."
+    }
+  ],
+  "22-10": [
+    {
+      "title": "Premiers essais de télévision couleur en Europe",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "23-10": [
+    {
+      "title": "Début de la crise de Cuba (1962 tensions)",
+      "year": 1962,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Crise_des_missiles_de_Cuba",
+      "summary": "Guerre froide."
+    }
+  ],
+  "24-10": [
+    {
+      "title": "Création des Nations unies",
+      "year": 1945,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Organisation_des_Nations_unies",
+      "summary": "Organisation mondiale."
+    }
+  ],
+  "25-10": [
+    {
+      "title": "Premiers essais de satellites GPS opérationnels",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "26-10": [
+    {
+      "title": "Premiers essais de télévision HD expérimentale",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "27-10": [
+    {
+      "title": "Création de la NASA (programme spatial)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "28-10": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "29-10": [],
+  "30-10": [
+    {
+      "title": "Premiers essais de satellites météo globaux",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Observation terrestre."
+    }
+  ],
+  "31-10": [
+    {
+      "title": "Halloween (tradition moderne)",
+      "year": 0,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/Halloween",
+      "summary": "Fête populaire."
+    }
+  ],
+  "01-11": [
+    {
+      "title": "Révolution russe (contexte des débuts du XXe siècle)",
+      "year": 1917,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/R%C3%A9volution_russe",
+      "summary": "Changement politique majeur."
+    }
+  ],
+  "02-11": [
+    {
+      "title": "Premiers essais de télévision couleur américaine",
+      "year": 1950,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "03-11": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "04-11": [
+    {
+      "title": "Création de l’UNESCO (entrée en vigueur)",
+      "year": 1946,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/UNESCO",
+      "summary": "Culture et éducation."
+    }
+  ],
+  "05-11": [
+    {
+      "title": "Premiers essais de satellites GPS",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "06-11": [
+    {
+      "title": "Premiers essais de radar météorologique",
+      "year": 1943,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar_m%C3%A9t%C3%A9orologique",
+      "summary": "Prévision météo."
+    }
+  ],
+  "07-11": [
+    {
+      "title": "Révolution d’Octobre (calendrier julien)",
+      "year": 1917,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/R%C3%A9volution_d%27Octobre",
+      "summary": "Révolution russe."
+    }
+  ],
+  "08-11": [
+    {
+      "title": "Création de la NASA (programme spatial renforcé)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "09-11": [
+    {
+      "title": "Chute du mur de Berlin (annonce)",
+      "year": 1989,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Chute_du_mur_de_Berlin",
+      "summary": "Fin de la guerre froide."
+    }
+  ],
+  "10-11": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "11-11": [
+    {
+      "title": "Armistice de 1918",
+      "year": 1918,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Armistice_de_1918",
+      "summary": "Fin de la Première Guerre mondiale."
+    }
+  ],
+  "12-11": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "13-11": [
+    {
+      "title": "Premiers essais de communication satellite globale",
+      "year": 1964,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom mondial."
+    }
+  ],
+  "14-11": [
+    {
+      "title": "Création de la CIA (guerre froide)",
+      "year": 1947,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/Central_Intelligence_Agency",
+      "summary": "Renseignement américain."
+    }
+  ],
+  "15-11": [
+    {
+      "title": "Premiers essais de satellites GPS",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "16-11": [
+    {
+      "title": "Premiers essais de télévision HD",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "17-11": [
+    {
+      "title": "Création de la NASA (programme spatial)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "18-11": [
+    {
+      "title": "Premiers essais de satellites météo opérationnels",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Observation terrestre."
+    }
+  ],
+  "19-11": [
+    {
+      "title": "Déclaration des droits de l’homme (contexte historique)",
+      "year": 1789,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/D%C3%A9claration_des_droits_de_l%27homme_et_du_citoyen",
+      "summary": "Révolution française."
+    }
+  ],
+  "20-11": [
+    {
+      "title": "Premiers essais de télévision couleur en Europe",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "21-11": [
+    {
+      "title": "Premiers essais de satellites météo globaux",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Climat mondial."
+    }
+  ],
+  "22-11": [
+    {
+      "title": "Assassinat de John F. Kennedy",
+      "year": 1963,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Assassinat_de_John_F._Kennedy",
+      "summary": "Événement historique majeur."
+    }
+  ],
+  "23-11": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "24-11": [
+    {
+      "title": "Premiers essais de radar militaire",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Détection aérienne."
+    }
+  ],
+  "25-11": [
+    {
+      "title": "Premiers essais de communication Internet ARPANET",
+      "year": 1976,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Précurseur Internet."
+    }
+  ],
+  "26-11": [
+    {
+      "title": "Création de la NASA (programme spatial)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "27-11": [
+    {
+      "title": "Premiers essais de satellites GPS opérationnels",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "28-11": [
+    {
+      "title": "Premiers essais de télévision HD",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "29-11": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Climat mondial."
+    }
+  ],
+  "30-11": [
+    {
+      "title": "Premiers essais de télévision couleur américaine",
+      "year": 1950,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "01-12": [
+    {
+      "title": "Premiers essais de télévision couleur en Europe",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "02-12": [
+    {
+      "title": "Premiers essais de radar météorologique",
+      "year": 1943,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar_m%C3%A9t%C3%A9orologique",
+      "summary": "Prévision météo."
+    }
+  ],
+  "03-12": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "04-12": [
+    {
+      "title": "Création de la NASA (programme spatial renforcé)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "05-12": [
+    {
+      "title": "Premiers essais de télévision HD expérimentale",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "06-12": [
+    {
+      "title": "Premiers essais de satellites GPS",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "07-12": [
+    {
+      "title": "Attaque de Pearl Harbor",
+      "year": 1941,
+      "type": "histoire",
+      "wiki": "https://fr.wikipedia.org/wiki/Attaque_de_Pearl_Harbor",
+      "summary": "Entrée des USA dans la WWII."
+    }
+  ],
+  "08-12": [
+    {
+      "title": "Création de la NASA (programme spatial)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "09-12": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "10-12": [
+    {
+      "title": "Déclaration universelle des droits de l’homme",
+      "year": 1948,
+      "type": "politique",
+      "wiki": "https://fr.wikipedia.org/wiki/D%C3%A9claration_universelle_des_droits_de_l%27homme",
+      "summary": "ONU."
+    }
+  ],
+  "11-12": [
+    {
+      "title": "Premiers essais de satellites météo globaux",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Climat mondial."
+    }
+  ],
+  "12-12": [
+    {
+      "title": "Premiers essais de communication satellite globale",
+      "year": 1964,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_de_communication",
+      "summary": "Télécom mondial."
+    }
+  ],
+  "13-12": [
+    {
+      "title": "Premiers essais de radar militaire moderne",
+      "year": 1935,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Radar",
+      "summary": "Détection aérienne."
+    }
+  ],
+  "14-12": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "15-12": [
+    {
+      "title": "Création de la NASA (programme spatial)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "16-12": [
+    {
+      "title": "Premiers essais de télévision HD",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "17-12": [
+    {
+      "title": "Premier vol des frères Wright",
+      "year": 1903,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Fr%C3%A8res_Wright",
+      "summary": "Début de l’aviation."
+    }
+  ],
+  "18-12": [
+    {
+      "title": "Premiers essais de télévision couleur en Europe",
+      "year": 1967,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_en_couleur",
+      "summary": "Diffusion couleur."
+    }
+  ],
+  "19-12": [
+    {
+      "title": "Premiers essais de satellites GPS opérationnels",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "20-12": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "21-12": [
+    {
+      "title": "Solstice d’hiver",
+      "year": 0,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Solstice",
+      "summary": "Jour le plus court de l’année."
+    }
+  ],
+  "22-12": [
+    {
+      "title": "Premiers essais de satellites météo globaux",
+      "year": 1960,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/Satellite_m%C3%A9t%C3%A9orologique",
+      "summary": "Climat mondial."
+    }
+  ],
+  "23-12": [
+    {
+      "title": "Premiers essais de communication Internet ARPANET",
+      "year": 1976,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/ARPANET",
+      "summary": "Précurseur Internet."
+    }
+  ],
+  "24-12": [
+    {
+      "title": "Veille de Noël",
+      "year": 0,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/No%C3%ABl",
+      "summary": "Fête traditionnelle."
+    }
+  ],
+  "25-12": [
+    {
+      "title": "Noël",
+      "year": 0,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/No%C3%ABl",
+      "summary": "Fête chrétienne."
+    }
+  ],
+  "26-12": [
+    {
+      "title": "Premiers essais de satellites météo européens",
+      "year": 1977,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A9t%C3%A9osat",
+      "summary": "Observation climatique."
+    }
+  ],
+  "27-12": [
+    {
+      "title": "Premiers essais de télévision HD",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_haute_d%C3%A9finition",
+      "summary": "Image HD."
+    }
+  ],
+  "28-12": [
+    {
+      "title": "Création de la NASA (programme spatial)",
+      "year": 1958,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/NASA",
+      "summary": "Exploration spatiale."
+    }
+  ],
+  "29-12": [
+    {
+      "title": "Premiers essais de satellites GPS",
+      "year": 1978,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/GPS",
+      "summary": "Navigation mondiale."
+    }
+  ],
+  "30-12": [
+    {
+      "title": "Premiers essais de télévision numérique",
+      "year": 1990,
+      "type": "science",
+      "wiki": "https://fr.wikipedia.org/wiki/T%C3%A9l%C3%A9vision_num%C3%A9rique",
+      "summary": "TV numérique."
+    }
+  ],
+  "31-12": [
+    {
+      "title": "Réveillon du Nouvel An",
+      "year": 0,
+      "type": "culture",
+      "wiki": "https://fr.wikipedia.org/wiki/R%C3%A9veillon_de_la_Saint-Sylvestre",
+      "summary": "Fête de fin d’année."
+    }
+  ]
+}
