@@ -1,0 +1,85 @@
+{
+  "01": {
+    "titre": "Cancer du col de l'utérus",
+    "description": "Mois de sensibilisation au dépistage et à la prévention du cancer du col de l'utérus.",
+    "image": "cancer-col.jpg",
+    "couleur": "#40E0D0"
+  },
+
+  "02": {
+    "titre": "Maladies rares",
+    "description": "Mois consacré à la sensibilisation aux maladies rares et au soutien des patients et de leurs proches.",
+    "image": "maladies-rares.jpg",
+    "couleur": "#8E44AD"
+  },
+
+  "03": {
+    "titre": "Endométriose",
+    "description": "Mois de sensibilisation à l'endométriose, une maladie chronique touchant des millions de femmes.",
+    "image": "endometriose.jpg",
+    "couleur": "#F4D03F"
+  },
+
+  "04": {
+    "titre": "Autisme",
+    "description": "Mois mondial de sensibilisation aux troubles du spectre de l'autisme.",
+    "image": "autisme.jpg",
+    "couleur": "#3498DB"
+  },
+
+  "05": {
+    "titre": "Cancer de la peau",
+    "description": "Mois de prévention contre les cancers de la peau et de promotion de la protection solaire.",
+    "image": "cancer-peau.jpg",
+    "couleur": "#E67E22"
+  },
+
+  "06": {
+    "titre": "Don du sang",
+    "description": "Mois de promotion du don du sang et de sensibilisation à son importance vitale.",
+    "image": "don-sang.jpg",
+    "couleur": "#E74C3C"
+  },
+
+  "07": {
+    "titre": "Hépatites virales",
+    "description": "Mois de sensibilisation aux hépatites virales et à leur prévention.",
+    "image": "hepatites.jpg",
+    "couleur": "#27AE60"
+  },
+
+  "08": {
+    "titre": "Allaitement maternel",
+    "description": "Mois de promotion de l'allaitement maternel et de ses bienfaits pour la santé.",
+    "image": "allaitement.jpg",
+    "couleur": "#D2B48C"
+  },
+
+  "09": {
+    "titre": "Cancers pédiatriques",
+    "description": "Mois international de sensibilisation aux cancers de l'enfant et de l'adolescent.",
+    "image": "cancers-pediatriques.jpg",
+    "couleur": "#D4AF37"
+  },
+
+  "10": {
+    "titre": "Octobre Rose",
+    "description": "Campagne annuelle de sensibilisation au dépistage du cancer du sein.",
+    "image": "octobre-rose.jpg",
+    "couleur": "#FF69B4"
+  },
+
+  "11": {
+    "titre": "Movember",
+    "description": "Mois dédié à la santé masculine : cancer de la prostate, cancer des testicules et santé mentale.",
+    "image": "movember.jpg",
+    "couleur": "#2C3E50"
+  },
+
+  "12": {
+    "titre": "Lutte contre le VIH/SIDA",
+    "description": "Mois de sensibilisation à la prévention du VIH/SIDA et de soutien aux personnes concernées.",
+    "image": "vih-sida.jpg",
+    "couleur": "#C0392B"
+  }
+}
