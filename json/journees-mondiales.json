@@ -1,0 +1,900 @@
+{
+  "04-01": {
+    "label": "Journée mondiale du braille",
+    "type": "journee",
+    "image": "braille.png"
+  },
+  "24-01": {
+    "label": "Journée internationale de l'éducation",
+    "type": "journee",
+    "image": "education.png"
+  },
+  "26-01": {
+    "label": "Journée internationale des énergies propres",
+    "type": "journee",
+    "image": "energies-propres.png"
+  },
+  "27-01": {
+    "label": "Journée internationale dédiée à la mémoire des victimes de l'Holocauste",
+    "type": "journee"
+  },
+  "28-01": {
+    "label": "Journée internationale de la coexistence pacifique",
+    "type": "journee",
+    "image": "paix.png"
+  },
+  "30-01": {
+    "label": "Journée mondiale de lutte contre les maladies tropicales négligées",
+    "type": "journee",
+    "image": "maladies-tropicales.png"
+  },
+  "02-02": {
+    "label": "Journée mondiale des zones humides",
+    "type": "journee",
+    "image": "zones-humides.png"
+  },
+  "04-02": {
+    "label": "Journée internationale de la fraternité humaine",
+    "type": "journee",
+    "image": "fraternite.png"
+  },
+  "06-02": {
+    "label": "Journée internationale de tolérance zéro à l'égard des mutilations génitales féminines",
+    "type": "journee"
+  },
+  "10-02": {
+    "label": "Journée internationale du léopard d'Arabie | Journée internationale des légumineuses",
+    "type": "journee",
+    "image": "leopard-arabie.png"
+  },
+  "11-02": {
+    "label": "Journée internationale des femmes et des filles de science",
+    "type": "journee",
+    "image": "science.png"
+  },
+  "12-02": {
+    "label": "Journée internationale pour la prévention de l'extrémisme violent pouvant conduire au terrorisme",
+    "type": "journee"
+  },
+  "13-02": {
+    "label": "Journée mondiale de la radio",
+    "type": "journee",
+    "image": "radio.png"
+  },
+  "17-02": {
+    "label": "Journée mondiale de la résilience du tourisme",
+    "type": "journee",
+    "image": "tourisme.png"
+  },
+  "20-02": {
+    "label": "Journée mondiale de la justice sociale",
+    "type": "journee",
+    "image": "justice-sociale.png"
+  },
+  "21-02": {
+    "label": "Journée internationale de la langue maternelle",
+    "type": "journee",
+    "image": "langue-maternelle.png"
+  },
+  "01-03": {
+    "label": "Journée mondiale des herbiers marins | Journée Zéro discrimination",
+    "type": "journee",
+    "image": "herbiers-marins.png"
+  },
+  "03-03": {
+    "label": "Journée mondiale de la vie sauvage | Journée mondiale de l'audition",
+    "type": "journee",
+    "image": "vie-sauvage.png"
+  },
+  "05-03": {
+    "label": "Journée internationale de sensibilisation au désarmement et à la non-prolifération",
+    "type": "journee"
+  },
+  "08-03": {
+    "label": "Journée internationale des femmes",
+    "type": "journee",
+    "image": "femmes.png"
+  },
+  "10-03": {
+    "label": "Journée internationale des femmes juges",
+    "type": "journee"
+  },
+  "15-03": {
+    "label": "Journée internationale de lutte contre l’islamophobie",
+    "type": "journee"
+  },
+  "20-03": {
+    "label": "Journée internationale du bonheur | Journée de la langue française",
+    "type": "journee",
+    "image": "bonheur.png"
+  },
+  "21-03": {
+    "label": "Journée internationale des forêts | Journée mondiale des glaciers | Journée internationale du Novruz | Journée internationale pour l'élimination de la discrimination raciale | Journée mondiale de la poésie | Journée mondiale de la trisomie 21",
+    "type": "journee",
+    "image": "foret.png"
+  },
+  "22-03": {
+    "label": "Journée mondiale de l'eau",
+    "type": "journee",
+    "image": "eau.png"
+  },
+  "23-03": {
+    "label": "Journée météorologique mondiale",
+    "type": "journee",
+    "image": "meteo.png"
+  },
+  "24-03": {
+    "label": "Journée internationale pour le droit à la vérité concernant les violations flagrantes des droits de l’homme | Journée mondiale de la lutte contre la tuberculose",
+    "type": "journee"
+  },
+  "25-03": {
+    "label": "Journée de solidarité avec les fonctionnaires détenus ou portés disparus | Journée internationale de commémoration des victimes de l’esclavage et de la traite transatlantique des esclaves",
+    "type": "journee"
+  },
+  "30-03": {
+    "label": "Journée internationale du zéro déchet",
+    "type": "journee",
+    "image": "zero-dechet.png"
+  },
+  "02-04": {
+    "label": "Journée mondiale de sensibilisation à l'autisme",
+    "type": "journee",
+    "image": "autisme.png"
+  },
+  "04-04": {
+    "label": "Journée internationale pour la sensibilisation aux mines et l'assistance à la lutte antimines",
+    "type": "journee"
+  },
+  "05-04": {
+    "label": "Journée internationale de la conscience",
+    "type": "journee"
+  },
+  "06-04": {
+    "label": "Journée internationale du sport au service du développement et de la paix",
+    "type": "journee",
+    "image": "sport-paix.png"
+  },
+  "07-04": {
+    "label": "Journée internationale de réflexion sur le génocide des Tutsis au Rwanda en 1994 | Journée mondiale de la santé",
+    "type": "journee",
+    "image": "sante.png"
+  },
+  "12-04": {
+    "label": "Journée internationale du vol spatial habité",
+    "type": "journee",
+    "image": "espace.png"
+  },
+  "14-04": {
+    "label": "Journée mondiale de la maladie de Chagas",
+    "type": "journee"
+  },
+  "15-04": {
+    "label": "Journée internationale du mieux-être",
+    "type": "journee",
+    "image": "bien-etre.png"
+  },
+  "20-04": {
+    "label": "Journée de la langue chinoise",
+    "type": "journee"
+  },
+  "21-04": {
+    "label": "Journée mondiale de la créativité et de l’innovation",
+    "type": "journee",
+    "image": "innovation.png"
+  },
+  "22-04": {
+    "label": "Journée internationale de la Terre nourricière",
+    "type": "journee",
+    "image": "terre.png"
+  },
+  "23-04": {
+    "label": "Journée de la langue anglaise | Journée de la langue espagnole | Journée mondiale du livre et du droit d'auteur",
+    "type": "journee",
+    "image": "livre.png"
+  },
+  "24-04": {
+    "label": "Journée des jeunes filles dans le secteur des TIC | Journée internationale du multilatéralisme et de la diplomatie au service de la paix | Semaine mondiale de la vaccination",
+    "type": "journee"
+  },
+  "25-04": {
+    "label": "Journée mondiale contre le paludisme | Journée internationale des délégués",
+    "type": "journee",
+    "image": "paludisme.png"
+  },
+  "26-04": {
+    "label": "Journée internationale du souvenir de la catastrophe de Chornobyl | Journée mondiale de la propriété intellectuelle",
+    "type": "journee",
+    "image": "propriete-intellectuelle.png"
+  },
+  "28-04": {
+    "label": "Journée mondiale pour la sécurité et la santé au travail",
+    "type": "journee",
+    "image": "securite-travail.png"
+  },
+  "29-04": {
+    "label": "Journée internationale dédiée à la mémoire des victimes des tremblements de terre",
+    "type": "journee",
+    "image": "tremblement-terre.png"
+  },
+  "30-04": {
+    "label": "Journée internationale du jazz",
+    "type": "journee",
+    "image": "jazz.png"
+  },
+  "01-05": {
+    "label": "Journée du Vesak",
+    "type": "journee"
+  },
+  "02-05": {
+    "label": "Journée mondiale du thon",
+    "type": "journee",
+    "image": "thon.png"
+  },
+  "03-05": {
+    "label": "Journée mondiale de la liberté de la presse",
+    "type": "journee",
+    "image": "presse.png"
+  },
+  "05-05": {
+    "label": "Journée mondiale de la langue portugaise | Journée mondiale de l'hygiène des mains",
+    "type": "journee"
+  },
+  "08-05": {
+    "label": "Journées du souvenir et de la réconciliation en l'honneur des morts de la Seconde Guerre mondiale",
+    "type": "journee",
+    "image": "souvenir.png"
+  },
+  "11-05": {
+    "label": "Journée mondiale des oiseaux migrateurs",
+    "type": "journee",
+    "image": "oiseaux-migrateurs.png"
+  },
+  "12-05": {
+    "label": "Journée internationale de la santé des végétaux",
+    "type": "journee",
+    "image": "vegetaux.png"
+  },
+  "15-05": {
+    "label": "Journée internationale des familles",
+    "type": "journee",
+    "image": "familles.png"
+  },
+  "16-05": {
+    "label": "Journée internationale de la lumière | Journée internationale du vivre-ensemble en paix",
+    "type": "journee",
+    "image": "lumiere.png"
+  },
+  "17-05": {
+    "label": "Journée mondiale des télécommunications et de la société de l'information",
+    "type": "journee",
+    "image": "telecommunications.png"
+  },
+  "19-05": {
+    "label": "Journée mondiale du fair-play",
+    "type": "journee",
+    "image": "fair-play.png"
+  },
+  "20-05": {
+    "label": "Journée mondiale des abeilles",
+    "type": "journee",
+    "image": "abeille.png"
+  },
+  "21-05": {
+    "label": "Journée internationale du thé | Journée mondiale de la diversité culturelle pour le dialogue et le développement",
+    "type": "journee",
+    "image": "the.png"
+  },
+  "22-05": {
+    "label": "Journée internationale de la diversité biologique",
+    "type": "journee",
+    "image": "biodiversite.png"
+  },
+  "23-05": {
+    "label": "Journée internationale pour l’élimination de la fistule obstétricale",
+    "type": "journee"
+  },
+  "24-05": {
+    "label": "Journée internationale du markhor",
+    "type": "journee",
+    "image": "markhor.png"
+  },
+  "25-05": {
+    "label": "Journée mondiale du football",
+    "type": "journee",
+    "image": "football.png"
+  },
+  "29-05": {
+    "label": "Journée internationale des Casques bleus des Nations Unies",
+    "type": "journee",
+    "image": "casques-bleus.png"
+  },
+  "30-05": {
+    "label": "Journée internationale de la pomme de terre",
+    "type": "journee",
+    "image": "pomme-de-terre.png"
+  },
+  "31-05": {
+    "label": "Journée mondiale sans tabac",
+    "type": "journee",
+    "image": "sans-tabac.png"
+  },
+  "01-06": {
+    "label": "Journée mondiale des parents",
+    "type": "journee",
+    "image": "parents.png"
+  },
+  "02-06": {
+    "label": "Journée mondiale de la bicyclette",
+    "type": "journee",
+    "image": "bicyclette.png"
+  },
+  "04-06": {
+    "label": "Journée internationale des enfants victimes innocentes de l'agression",
+    "type": "journee"
+  },
+  "05-06": {
+    "label": "Journée internationale de la lutte contre la pêche illicite, non déclarée et non réglementée | Journée mondiale de l'environnement",
+    "type": "journee",
+    "image": "environnement.png"
+  },
+  "06-06": {
+    "label": "Journée de la langue russe",
+    "type": "journee"
+  },
+  "07-06": {
+    "label": "Journée internationale de la sécurité sanitaire des aliments",
+    "type": "journee",
+    "image": "alimentation.png"
+  },
+  "08-06": {
+    "label": "Journée mondiale de l'océan",
+    "type": "journee",
+    "image": "ocean.png"
+  },
+  "10-06": {
+    "label": "Journée internationale pour le dialogue entre les civilisations",
+    "type": "journee"
+  },
+  "11-06": {
+    "label": "Journée internationale du jeu",
+    "type": "journee",
+    "image": "jeu.png"
+  },
+  "12-06": {
+    "label": "Journée mondiale contre le travail des enfants",
+    "type": "journee",
+    "image": "enfants.png"
+  },
+  "13-06": {
+    "label": "Journée internationale de sensibilisation à l'albinisme",
+    "type": "journee"
+  },
+  "14-06": {
+    "label": "Journée mondiale du donneur de sang",
+    "type": "journee",
+    "image": "donneur-sang.png"
+  },
+  "15-06": {
+    "label": "Journée mondiale de sensibilisation à la maltraitance des personnes âgées",
+    "type": "journee",
+    "image": "personnes-agees.png"
+  },
+  "16-06": {
+    "label": "Journée internationale des envois de fonds familiaux",
+    "type": "journee"
+  },
+  "17-06": {
+    "label": "Journée mondiale de la lutte contre la désertification et la sécheresse",
+    "type": "journee",
+    "image": "desertification.png"
+  },
+  "18-06": {
+    "label": "Journée internationale de la lutte contre les discours de haine | Journée de la gastronomie durable",
+    "type": "journee",
+    "image": "gastronomie.png"
+  },
+  "19-06": {
+    "label": "Journée internationale pour l'élimination de la violence sexuelle en temps de conflit",
+    "type": "journee"
+  },
+  "20-06": {
+    "label": "Journée mondiale des réfugiés",
+    "type": "journee",
+    "image": "refugies.png"
+  },
+  "21-06": {
+    "label": "Journée internationale de la célébration du solstice | Journée internationale du Yoga",
+    "type": "journee",
+    "image": "yoga.png"
+  },
+  "22-06": {
+    "label": "Journée nationale de réflexion sur le don d'organes et la greffe",
+    "type": "journee"
+  },
+  "23-06": {
+    "label": "Journée des Nations Unies pour la fonction publique | Journée internationale des veuves",
+    "type": "journee"
+  },
+  "24-06": {
+    "label": "Journée internationale des femmes dans la diplomatie",
+    "type": "journee",
+    "image": "diplomatie.png"
+  },
+  "25-06": {
+    "label": "Journée des gens de mer",
+    "type": "journee",
+    "image": "gens-mer.png"
+  },
+  "26-06": {
+    "label": "Journée internationale contre l'abus et le trafic de drogues | Journée internationale pour le soutien aux victimes de la torture",
+    "type": "journee"
+  },
+  "27-06": {
+    "label": "Journée internationale des personnes sourdaveugles | Journée des micro-, petites et moyennes entreprises",
+    "type": "journee"
+  },
+  "29-06": {
+    "label": "Journée internationale des tropiques",
+    "type": "journee",
+    "image": "tropiques.png"
+  },
+  "30-06": {
+    "label": "Journée internationale des astéroïdes | Journée internationale du parlementarisme",
+    "type": "journee",
+    "image": "asteroides.png"
+  },
+  "06-07": {
+    "label": "Journée internationale des coopératives | Journée mondiale du développement rural",
+    "type": "journee",
+    "image": "cooperatives.png"
+  },
+  "07-07": {
+    "label": "Journée mondiale de la langue kiswahili",
+    "type": "journee"
+  },
+  "11-07": {
+    "label": "Journée internationale de réflexion et de commémoration du génocide commis à Srebrenica en 1995 | Journée mondiale du cheval | Journée mondiale de la population",
+    "type": "journee",
+    "image": "cheval.png"
+  },
+  "12-07": {
+    "label": "Journée internationale de l’espoir | Journée internationale de la lutte contre les tempêtes de sable et de poussière",
+    "type": "journee",
+    "image": "espoir.png"
+  },
+  "15-07": {
+    "label": "Journée mondiale des compétences des jeunes",
+    "type": "journee",
+    "image": "competences-jeunes.png"
+  },
+  "18-07": {
+    "label": "Journée internationale Nelson Mandela",
+    "type": "journee",
+    "image": "mandela.png"
+  },
+  "20-07": {
+    "label": "Journée internationale de la Lune | Journée mondiale du jeu d'échecs",
+    "type": "journee",
+    "image": "lune.png"
+  },
+  "25-07": {
+    "label": "Journée internationale des femmes et des filles d’ascendance africaine | Journée internationale pour le bien-être des juges | Journée mondiale de prévention de la noyade",
+    "type": "journee",
+    "image": "noyade.png"
+  },
+  "28-07": {
+    "label": "Journée mondiale contre l'hépatite",
+    "type": "journee",
+    "image": "hepatite.png"
+  },
+  "30-07": {
+    "label": "Journée internationale de l'amitié | Journée mondiale de la lutte contre la traite d’êtres humains",
+    "type": "journee",
+    "image": "amitie.png"
+  },
+  "01-08": {
+    "label": "Semaine mondiale de l'allaitement maternel",
+    "type": "journee",
+    "image": "allaitement.png"
+  },
+  "06-08": {
+    "label": "Journée internationale de sensibilisation aux besoins et enjeux de développement propres aux pays en développement sans littoral",
+    "type": "journee"
+  },
+  "09-08": {
+    "label": "Journée internationale des peuples autochtones",
+    "type": "journee",
+    "image": "peuples-autochtones.png"
+  },
+  "11-08": {
+    "label": "Journée mondiale du steel pan",
+    "type": "journee",
+    "image": "steel-pan.png"
+  },
+  "12-08": {
+    "label": "Journée internationale de la jeunesse",
+    "type": "journee",
+    "image": "jeunesse.png"
+  },
+  "19-08": {
+    "label": "Journée mondiale de l'aide humanitaire",
+    "type": "journee",
+    "image": "aide-humanitaire.png"
+  },
+  "21-08": {
+    "label": "Journée internationale du souvenir, en hommage aux victimes du terrorisme",
+    "type": "journee"
+  },
+  "22-08": {
+    "label": "Journée internationale de commémoration des personnes victimes de violences en raison de leur religion ou de leurs convictions",
+    "type": "journee"
+  },
+  "23-08": {
+    "label": "Journée internationale du souvenir de la traite négrière et de son abolition",
+    "type": "journee",
+    "image": "abolition-esclavage.png"
+  },
+  "27-08": {
+    "label": "Journée mondiale des lacs",
+    "type": "journee",
+    "image": "lac.png"
+  },
+  "29-08": {
+    "label": "Journée internationale contre les essais nucléaires",
+    "type": "journee",
+    "image": "nucleaire.png"
+  },
+  "30-08": {
+    "label": "Journée internationale des victimes de disparition forcée",
+    "type": "journee"
+  },
+  "31-08": {
+    "label": "Journée internationale des personnes d’ascendance africaine",
+    "type": "journee",
+    "image": "ascendance-africaine.png"
+  },
+  "05-09": {
+    "label": "Journée internationale des femmes et des filles autochtones | Journée internationale de la charité",
+    "type": "journee",
+    "image": "charite.png"
+  },
+  "07-09": {
+    "label": "Journée internationale de la coopération policière | Journée internationale de l’air pur pour des ciels bleus",
+    "type": "journee",
+    "image": "air-pur.png"
+  },
+  "08-09": {
+    "label": "Journée internationale de l'alphabétisation",
+    "type": "journee",
+    "image": "alphabetisation.png"
+  },
+  "09-09": {
+    "label": "Journée internationale pour la protection de l’éducation contre les attaques",
+    "type": "journee"
+  },
+  "10-09": {
+    "label": "Journée mondiale de prévention du suicide",
+    "type": "journee",
+    "image": "prevention-suicide.png"
+  },
+  "12-09": {
+    "label": "Journée des Nations Unies pour la coopération Sud-Sud",
+    "type": "journee"
+  },
+  "15-09": {
+    "label": "Journée internationale de la démocratie",
+    "type": "journee",
+    "image": "democratie.png"
+  },
+  "16-09": {
+    "label": "Journée internationale pour la science, la technologie et l’innovation dans le Sud | Journée internationale de la cardiologie interventionnelle | Journée internationale de la protection de la couche d'ozone",
+    "type": "journee",
+    "image": "ozone.png"
+  },
+  "17-09": {
+    "label": "Journée mondiale de la sécurité des patients",
+    "type": "journee",
+    "image": "securite-patients.png"
+  },
+  "18-09": {
+    "label": "Journée internationale de l’égalité de rémunération",
+    "type": "journee"
+  },
+  "20-09": {
+    "label": "Journée mondiale du nettoyage",
+    "type": "journee",
+    "image": "nettoyage.png"
+  },
+  "21-09": {
+    "label": "Journée internationale de la paix",
+    "type": "journee",
+    "image": "paix.png"
+  },
+  "23-09": {
+    "label": "Journée internationale des langues des signes",
+    "type": "journee",
+    "image": "langues-signes.png"
+  },
+  "26-09": {
+    "label": "Journée mondiale de la mer | Journée internationale pour l'élimination totale des armes nucléaires",
+    "type": "journee",
+    "image": "mer.png"
+  },
+  "27-09": {
+    "label": "Journée mondiale du tourisme",
+    "type": "journee",
+    "image": "tourisme.png"
+  },
+  "28-09": {
+    "label": "Journée internationale de l'accès universel à l'information | Journée mondiale contre la rage",
+    "type": "journee"
+  },
+  "29-09": {
+    "label": "Journée internationale de sensibilisation aux pertes et gaspillages de nourriture",
+    "type": "journee",
+    "image": "alimentation.png"
+  },
+  "30-09": {
+    "label": "Journée internationale de la traduction",
+    "type": "journee",
+    "image": "traduction.png"
+  },
+  "01-10": {
+    "label": "Journée internationale du café | Journée internationale pour les personnes âgées",
+    "type": "journee",
+    "image": "cafe.png"
+  },
+  "02-10": {
+    "label": "Journée internationale de la non-violence",
+    "type": "journee",
+    "image": "non-violence.png"
+  },
+  "04-10": {
+    "label": "Semaine mondiale de l'espace",
+    "type": "journee",
+    "image": "espace.png"
+  },
+  "05-10": {
+    "label": "Journée mondiale des enseignants",
+    "type": "journee",
+    "image": "enseignants.png"
+  },
+  "07-10": {
+    "label": "Journée mondiale de l'habitat | Journée mondiale du coton",
+    "type": "journee",
+    "image": "habitat.png"
+  },
+  "09-10": {
+    "label": "Journée mondiale de la poste",
+    "type": "journee",
+    "image": "poste.png"
+  },
+  "10-10": {
+    "label": "Journée mondiale de la santé mentale",
+    "type": "journee",
+    "image": "sante-mentale.png"
+  },
+  "11-10": {
+    "label": "Journée internationale de la fille",
+    "type": "journee",
+    "image": "fille.png"
+  },
+  "12-10": {
+    "label": "Journée mondiale des oiseaux migrateurs",
+    "type": "journee",
+    "image": "oiseaux-migrateurs.png"
+  },
+  "13-10": {
+    "label": "Journée internationale pour la réduction des risques de catastrophes",
+    "type": "journee",
+    "image": "catastrophes.png"
+  },
+  "15-10": {
+    "label": "Journée internationale des femmes rurales",
+    "type": "journee",
+    "image": "femmes-rurales.png"
+  },
+  "16-10": {
+    "label": "Journée mondiale de l'alimentation",
+    "type": "journee",
+    "image": "alimentation.png"
+  },
+  "17-10": {
+    "label": "Journée internationale pour l'élimination de la pauvreté",
+    "type": "journee",
+    "image": "pauvrete.png"
+  },
+  "20-10": {
+    "label": "Journée mondiale de la statistique",
+    "type": "journee",
+    "image": "statistique.png"
+  },
+  "23-10": {
+    "label": "Journée internationale de la panthère des neiges",
+    "type": "journee",
+    "image": "panthere-neiges.png"
+  },
+  "24-10": {
+    "label": "Semaine mondiale de l’éducation aux médias et à l’information | Journée mondiale d'information sur le développement | Semaine du désarmement | Journée des Nations Unies | Journée mondiale contre la poliomyélite",
+    "type": "journee",
+    "image": "onu.png"
+  },
+  "27-10": {
+    "label": "Journée mondiale du patrimoine audiovisuel",
+    "type": "journee",
+    "image": "audiovisuel.png"
+  },
+  "29-10": {
+    "label": "Journée internationale des soins et de l’assistance",
+    "type": "journee",
+    "image": "soins.png"
+  },
+  "31-10": {
+    "label": "Journée mondiale des villes",
+    "type": "journee",
+    "image": "villes.png"
+  },
+  "02-11": {
+    "label": "Journée internationale de la fin de l’impunité pour les crimes commis contre des journalistes",
+    "type": "journee",
+    "image": "journalistes.png"
+  },
+  "05-11": {
+    "label": "Journée mondiale de sensibilisation aux tsunamis",
+    "type": "journee",
+    "image": "tsunami.png"
+  },
+  "06-11": {
+    "label": "Journée internationale pour la prévention de l'exploitation de l'environnement en temps de guerre et de conflit armé",
+    "type": "journee",
+    "image": "environnement.png"
+  },
+  "10-11": {
+    "label": "Semaine mondiale de la science au service de la paix et du développement",
+    "type": "journee",
+    "image": "science.png"
+  },
+  "14-11": {
+    "label": "Journée mondiale du diabète",
+    "type": "journee",
+    "image": "diabete.png"
+  },
+  "15-11": {
+    "label": "Journée internationale de la prévention de toutes les formes de criminalité transnationale organisée et de la lutte contre ce fléau | Journée mondiale de la prématurité",
+    "type": "journee"
+  },
+  "16-11": {
+    "label": "Journée mondiale du souvenir des victimes de la circulation routière | Journée internationale du régime méditerranéen | Journée mondiale de la tolérance",
+    "type": "journee",
+    "image": "tolerance.png"
+  },
+  "17-11": {
+    "label": "Journée mondiale pour l'élimination du cancer du col de l'utérus",
+    "type": "journee",
+    "image": "cancer-col-uterus.png"
+  },
+  "18-11": {
+    "label": "Journée mondiale pour la prévention et la guérison de l’exploitation, des atteintes et des violences sexuelles visant les enfants",
+    "type": "journee"
+  },
+  "19-11": {
+    "label": "Journée mondiale des toilettes",
+    "type": "journee",
+    "image": "toilettes.png"
+  },
+  "20-11": {
+    "label": "Journée de l'industrialisation de l'Afrique | Journée mondiale de l'enfance",
+    "type": "journee",
+    "image": "enfance.png"
+  },
+  "21-11": {
+    "label": "Journée mondiale de la philosophie | Journée mondiale de la télévision",
+    "type": "journee",
+    "image": "philosophie.png"
+  },
+  "24-11": {
+    "label": "Journée mondiale des jumeaux siamois",
+    "type": "journee"
+  },
+  "25-11": {
+    "label": "Journée internationale pour l'élimination de la violence à l'égard des femmes",
+    "type": "journee",
+    "image": "violence-femmes.png"
+  },
+  "26-11": {
+    "label": "Journée mondiale des transports durables",
+    "type": "journee",
+    "image": "transports-durables.png"
+  },
+  "29-11": {
+    "label": "Journée internationale de solidarité avec le peuple palestinien",
+    "type": "journee"
+  },
+  "30-11": {
+    "label": "Journée du souvenir dédiée à toutes les victimes de la guerre chimique",
+    "type": "journee"
+  },
+  "01-12": {
+    "label": "Journée mondiale de lutte contre le sida",
+    "type": "journee",
+    "image": "sida.png"
+  },
+  "02-12": {
+    "label": "Journée internationale pour l'abolition de l'esclavage",
+    "type": "journee",
+    "image": "abolition-esclavage.png"
+  },
+  "03-12": {
+    "label": "Journée internationale des personnes handicapées",
+    "type": "journee",
+    "image": "handicap.png"
+  },
+  "04-12": {
+    "label": "Journée internationale des banques",
+    "type": "journee",
+    "image": "banques.png"
+  },
+  "05-12": {
+    "label": "Journée internationale des volontaires | Journée mondiale des sols",
+    "type": "journee",
+    "image": "volontaires.png"
+  },
+  "07-12": {
+    "label": "Journée de l'aviation civile internationale",
+    "type": "journee",
+    "image": "aviation.png"
+  },
+  "09-12": {
+    "label": "Journée internationale contre la corruption | Journée internationale de commémoration des victimes du crime de génocide",
+    "type": "journee",
+    "image": "corruption.png"
+  },
+  "10-12": {
+    "label": "Journée des droits de l'homme",
+    "type": "journee",
+    "image": "droits-homme.png"
+  },
+  "11-12": {
+    "label": "Journée internationale de la montagne",
+    "type": "journee",
+    "image": "montagne.png"
+  },
+  "12-12": {
+    "label": "Journée internationale de la couverture sanitaire universelle | Journée internationale de la neutralité",
+    "type": "journee",
+    "image": "sante.png"
+  },
+  "14-12": {
+    "label": "Journée internationale contre le colonialisme sous toutes ses formes et dans toutes ses manifestations",
+    "type": "journee"
+  },
+  "15-12": {
+    "label": "Journée mondiale de la famille des langues turciques",
+    "type": "journee"
+  },
+  "18-12": {
+    "label": "Journée internationale des migrants | Journée de la langue arabe",
+    "type": "journee",
+    "image": "migrants.png"
+  },
+  "20-12": {
+    "label": "Journée internationale de la solidarité humaine",
+    "type": "journee",
+    "image": "solidarite.png"
+  },
+  "21-12": {
+    "label": "Journée mondiale du basket-ball | Journée mondiale de la méditation",
+    "type": "journee",
+    "image": "basket.png"
+  },
+  "24-12": {
+    "label": "Journée internationale de la lutte contre la cybercriminalité",
+    "type": "journee",
+    "image": "cybercriminalite.png"
+  },
+  "27-12": {
+    "label": "Journée internationale de la préparation aux épidémies",
+    "type": "journee",
+    "image": "epidemies.png"
+  }
+}
