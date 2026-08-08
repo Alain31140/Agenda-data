@@ -8,57 +8,14 @@ const FICHIER_SORTIE = path.join(
     "evenements-live.json"
 );
 
-// --------------------------------------------------
-// RÉGLAGES
-// --------------------------------------------------
-
 const DUREE_MAX_HEURES = 48;
-const NOMBRE_MAX = 5;
+const NOMBRE_MAX = 8;
 
-const SOURCES = [
-    {
-        nom: "ESA",
-        icone: "🚀",
-        url: "https://www.esa.int/rssfeed/Our_Activities/Space_News"
-    },
-    {
-        nom: "ESA Science",
-        icone: "🔭",
-        url: "https://www.esa.int/rssfeed/Our_Activities/Space_Science"
-    },
-    {
-        nom: "NASA/JPL",
-        icone: "🛰️",
-        url: "https://www.jpl.nasa.gov/feeds/news/"
-    }
-];
-
-// Mots à exclure absolument.
-const MOTS_INTERDITS = [
-    "politic",
-    "election",
-    "president",
-    "government",
-    "minister",
-    "war",
-    "military",
-    "attack",
-    "terror",
-    "conflict",
-    "religion",
-    "murder",
-    "crime",
-    "court",
-    "trial"
-];
-
-
-// --------------------------------------------------
+// ==================================================
 // OUTILS
-// --------------------------------------------------
+// ==================================================
 
 function nettoyerTexte(texte) {
-
     return String(texte || "")
         .replace(/<!\[CDATA\[|\]\]>/g, "")
         .replace(/<[^>]+>/g, "")
@@ -71,9 +28,7 @@ function nettoyerTexte(texte) {
         .trim();
 }
 
-
 function extraireBalise(bloc, balise) {
-
     const regex = new RegExp(
         `<${balise}[^>]*>([\\s\\S]*?)<\\/${balise}>`,
         "i"
@@ -86,79 +41,63 @@ function extraireBalise(bloc, balise) {
         : "";
 }
 
+function dateRecente(date) {
+    const limite =
+        Date.now()
+        -
+        DUREE_MAX_HEURES
+        * 60
+        * 60
+        * 1000;
 
-function contientMotInterdit(texte) {
-
-    const t = texte.toLowerCase();
-
-    return MOTS_INTERDITS.some(
-        mot => t.includes(mot)
-    );
+    return date.getTime() >= limite;
 }
 
+// ==================================================
+// ESA
+// ==================================================
 
-function convertirDate(dateTexte) {
+async function lireESA() {
 
-    const date = new Date(dateTexte);
-
-    return Number.isNaN(date.getTime())
-        ? null
-        : date;
-}
-
-
-// --------------------------------------------------
-// LECTURE D'UN FLUX RSS
-// --------------------------------------------------
-
-async function lireFlux(source) {
-
-    try {
-
-        console.log(
-            `Lecture : ${source.nom}`
-        );
-
-        const reponse = await fetch(
-            source.url,
-            {
-                headers: {
-                    "User-Agent":
-                        "Agenda-du-jour/1.0"
-                }
-            }
-        );
-
-        if (!reponse.ok) {
-
-            throw new Error(
-                `HTTP ${reponse.status}`
-            );
+    const sources = [
+        {
+            nom: "ESA",
+            icone: "🚀",
+            url: "https://www.esa.int/rssfeed/Our_Activities/Space_News"
+        },
+        {
+            nom: "ESA Science",
+            icone: "🔭",
+            url: "https://www.esa.int/rssfeed/Our_Activities/Space_Science"
         }
+    ];
 
-        const xml =
-            await reponse.text();
+    let resultats = [];
 
-        const blocs =
-            xml.match(
-                /<item[\s\S]*?<\/item>/gi
-            ) || [];
+    for (const source of sources) {
 
-        const maintenant =
-            new Date();
+        try {
 
-        const limite =
-            new Date(
-                maintenant.getTime()
-                -
-                DUREE_MAX_HEURES
-                * 60
-                * 60
-                * 1000
-            );
+            console.log(`Lecture : ${source.nom}`);
 
-        return blocs
-            .map(bloc => {
+            const reponse =
+                await fetch(source.url);
+
+            if (!reponse.ok) {
+                throw new Error(
+                    `HTTP ${reponse.status}`
+                );
+            }
+
+            const xml =
+                await reponse.text();
+
+            const blocs =
+                xml.match(
+                    /<item[\s\S]*?<\/item>/gi
+                ) || [];
+
+            for (const bloc of blocs) {
 
                 const titre =
                     extraireBalise(
@@ -170,37 +109,34 @@ async function lireFlux(source) {
                     extraireBalise(
                         bloc,
                         "pubDate"
-                    )
-                    ||
-                    extraireBalise(
-                        bloc,
-                        "date"
                     );
 
                 const date =
-                    convertirDate(
-                        dateTexte
-                    );
+                    new Date(dateTexte);
 
                 if (
                     !titre
                     ||
-                    !date
+                    Number.isNaN(date.getTime())
                     ||
-                    date < limite
+                    !dateRecente(date)
                 ) {
-                    return null;
+                    continue;
                 }
+
+                // Petits contenus peu intéressants
+                const titreMin =
+                    titre.toLowerCase();
 
                 if (
-                    contientMotInterdit(
-                        titre
-                    )
+                    titreMin.includes("week in images")
+                    ||
+                    titreMin.includes("implementation")
                 ) {
-                    return null;
+                    continue;
                 }
 
-                return {
+                resultats.push({
                     date:
                         date.toISOString(),
 
@@ -212,14 +148,97 @@ async function lireFlux(source) {
 
                     source:
                         source.nom
-                };
+                });
+            }
+
+        } catch (erreur) {
+
+            console.error(
+                `Erreur ${source.nom} :`,
+                erreur.message
+            );
+        }
+    }
+
+    return resultats;
+}
+
+// ==================================================
+// SÉISMES USGS
+// ==================================================
+
+async function lireSeismesUSGS() {
+
+    console.log("Lecture : USGS séismes");
+
+    try {
+
+        const url =
+            "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_day.geojson";
+
+        const reponse =
+            await fetch(url);
+
+        if (!reponse.ok) {
+            throw new Error(
+                `HTTP ${reponse.status}`
+            );
+        }
+
+        const donnees =
+            await reponse.json();
+
+        return donnees.features
+            .filter(feature => {
+
+                const magnitude =
+                    feature.properties.mag;
+
+                const date =
+                    new Date(
+                        feature.properties.time
+                    );
+
+                return (
+                    magnitude >= 6
+                    &&
+                    dateRecente(date)
+                );
             })
-            .filter(Boolean);
+            .map(feature => {
+
+                const magnitude =
+                    feature.properties.mag;
+
+                const lieu =
+                    feature.properties.place
+                    ||
+                    "région non précisée";
+
+                const date =
+                    new Date(
+                        feature.properties.time
+                    );
+
+                return {
+                    date:
+                        date.toISOString(),
+
+                    icone:
+                        "🌍",
+
+                    texte:
+                        `Séisme de magnitude ${magnitude.toFixed(1)} — ${lieu}`,
+
+                    source:
+                        "USGS"
+                };
+            });
 
     } catch (erreur) {
 
         console.error(
-            `Erreur ${source.nom} :`,
+            "Erreur USGS séismes :",
             erreur.message
         );
 
@@ -227,41 +246,121 @@ async function lireFlux(source) {
     }
 }
 
+// ==================================================
+// VOLCANS SMITHSONIAN / USGS
+// ==================================================
 
-// --------------------------------------------------
+async function lireVolcans() {
+
+    console.log(
+        "Lecture : Smithsonian volcans"
+    );
+
+    try {
+
+        const url =
+            "https://volcano.si.edu/reports_weekly.cfm";
+
+        const reponse =
+            await fetch(
+                url,
+                {
+                    headers: {
+                        "User-Agent":
+                            "Agenda-du-jour/1.0"
+                    }
+                }
+            );
+
+        if (!reponse.ok) {
+            throw new Error(
+                `HTTP ${reponse.status}`
+            );
+        }
+
+        const html =
+            await reponse.text();
+
+        const resultats = [];
+
+        // Cherche les lignes marquées
+        // "New Eruptive Activity"
+        const regex =
+            />([^<>]{2,80})<\/a>[\s\S]{0,500}?New Eruptive Activity/gi;
+
+        let correspondance;
+
+        while (
+            (
+                correspondance =
+                    regex.exec(html)
+            ) !== null
+        ) {
+
+            const nom =
+                nettoyerTexte(
+                    correspondance[1]
+                );
+
+            if (!nom) {
+                continue;
+            }
+
+            resultats.push({
+                date:
+                    new Date()
+                        .toISOString(),
+
+                icone:
+                    "🌋",
+
+                texte:
+                    `Activité volcanique nouvelle ou notable : ${nom}`,
+
+                source:
+                    "Smithsonian / USGS"
+            });
+        }
+
+        return resultats;
+
+    } catch (erreur) {
+
+        console.error(
+            "Erreur Smithsonian volcans :",
+            erreur.message
+        );
+
+        return [];
+    }
+}
+
+// ==================================================
 // PROGRAMME PRINCIPAL
-// --------------------------------------------------
+// ==================================================
 
 async function principal() {
 
     let evenements = [];
 
-    for (
-        const source
-        of SOURCES
-    ) {
+    const [
+        esa,
+        seismes,
+        volcans
+    ] = await Promise.all([
+        lireESA(),
+        lireSeismesUSGS(),
+        lireVolcans()
+    ]);
 
-        const resultats =
-            await lireFlux(source);
-
-        evenements.push(
-            ...resultats
-        );
-    }
-
-
-    // Plus récent en premier.
-    evenements.sort(
-        (a, b) =>
-            new Date(b.date)
-            -
-            new Date(a.date)
+    evenements.push(
+        ...esa,
+        ...seismes,
+        ...volcans
     );
 
-
-    // Éviter les doublons.
-    const titresVus =
-        new Set();
+    // Doublons
+    const vus = new Set();
 
     evenements =
         evenements.filter(
@@ -271,26 +370,30 @@ async function principal() {
                     evenement.texte
                         .toLowerCase();
 
-                if (
-                    titresVus.has(cle)
-                ) {
+                if (vus.has(cle)) {
                     return false;
                 }
 
-                titresVus.add(cle);
+                vus.add(cle);
 
                 return true;
             }
         );
 
+    // Plus récent en premier
+    evenements.sort(
+        (a, b) =>
+            new Date(b.date)
+            -
+            new Date(a.date)
+    );
 
-    // Éviter de surcharger le bandeau.
+    // Limite pour le bandeau
     evenements =
         evenements.slice(
             0,
             NOMBRE_MAX
         );
-
 
     fs.writeFileSync(
         FICHIER_SORTIE,
@@ -304,11 +407,9 @@ async function principal() {
         "utf8"
     );
 
-
     console.log(
         `${evenements.length} événement(s) live enregistré(s)`
     );
 }
-
 
 principal();
