@@ -4,10 +4,18 @@
     "type": "journee",
     "image": "braille.png"
   },
+  "14-01": {
+    "label": "Journée mondiale de la logique",
+    "type": "journee"
+  },
   "24-01": {
-    "label": "Journée internationale de l'éducation",
+    "label": "Journée internationale de l'éducation | Journée mondiale de la culture africaine et afro-descendante",
     "type": "journee",
     "image": "education.png"
+  },
+  "25-01": {
+    "label": "Journée internationale des femmes dans le multilatéralisme",
+    "type": "journee"
   },
   "26-01": {
     "label": "Journée internationale des énergies propres",
@@ -86,6 +94,10 @@
     "type": "journee",
     "image": "vie-sauvage.png"
   },
+  "04-03": {
+    "label": "Journée mondiale de l'ingénierie pour le développement durable",
+    "type": "journee"
+  },
   "05-03": {
     "label": "Journée internationale de sensibilisation au désarmement et à la non-prolifération",
     "type": "journee"
@@ -99,12 +111,20 @@
     "label": "Journée internationale des femmes juges",
     "type": "journee"
   },
+  "14-03": {
+    "label": "Journée internationale des mathématiques",
+    "type": "journee"
+  },
   "15-03": {
     "label": "Journée internationale de lutte contre l’islamophobie",
     "type": "journee"
   },
+  "19-03": {
+    "label": "Journée internationale de l'apprentissage numérique",
+    "type": "journee"
+  },
   "20-03": {
-    "label": "Journée internationale du bonheur | Journée de la langue française",
+    "label": "Journée internationale du bonheur | Journée de la langue française | Journée internationale de la francophonie",
     "type": "journee",
     "image": "bonheur.png"
   },
@@ -169,7 +189,7 @@
     "type": "journee"
   },
   "15-04": {
-    "label": "Journée internationale du mieux-être",
+    "label": "Journée internationale du mieux-être | Journée mondiale de l'art",
     "type": "journee",
     "image": "bien-etre.png"
   },
@@ -236,7 +256,7 @@
     "image": "presse.png"
   },
   "05-05": {
-    "label": "Journée mondiale de la langue portugaise | Journée mondiale de l'hygiène des mains",
+    "label": "Journée mondiale de la langue portugaise | Journée mondiale de l'hygiène des mains | Journée du patrimoine mondial africain",
     "type": "journee"
   },
   "08-05": {
@@ -275,7 +295,7 @@
     "image": "fair-play.png"
   },
   "20-05": {
-    "label": "Journée mondiale des abeilles",
+    "label": "Journée mondiale des abeilles | Journée mondiale de la métrologie",
     "type": "journee",
     "image": "abeille.png"
   },
@@ -482,6 +502,10 @@
     "type": "journee",
     "image": "noyade.png"
   },
+  "26-07": {
+    "label": "Journée internationale pour la conservation de l'écosystème des mangroves",
+    "type": "journee"
+  },
   "28-07": {
     "label": "Journée mondiale contre l'hépatite",
     "type": "journee",
@@ -581,6 +605,10 @@
     "label": "Journée des Nations Unies pour la coopération Sud-Sud",
     "type": "journee"
   },
+  "13-09": {
+    "label": "Journée internationale des grottes et du karst",
+    "type": "journee"
+  },
   "15-09": {
     "label": "Journée internationale de la démocratie",
     "type": "journee",
@@ -601,7 +629,7 @@
     "type": "journee"
   },
   "20-09": {
-    "label": "Journée mondiale du nettoyage",
+    "label": "Journée mondiale du nettoyage | Journée internationale du sport universitaire",
     "type": "journee",
     "image": "nettoyage.png"
   },
@@ -659,6 +687,10 @@
     "type": "journee",
     "image": "enseignants.png"
   },
+  "06-10": {
+    "label": "Journée internationale de la géodiversité",
+    "type": "journee"
+  },
   "07-10": {
     "label": "Journée mondiale de l'habitat | Journée mondiale du coton",
     "type": "journee",
@@ -700,7 +732,7 @@
     "image": "alimentation.png"
   },
   "17-10": {
-    "label": "Journée internationale pour l'élimination de la pauvreté",
+    "label": "Journée internationale pour l'élimination de la pauvreté | Journée internationale du patrimoine culturel immatériel",
     "type": "journee",
     "image": "pauvrete.png"
   },
@@ -725,7 +757,7 @@
     "image": "audiovisuel.png"
   },
   "29-10": {
-    "label": "Journée internationale des soins et de l’assistance",
+    "label": "Journée internationale des soins et de l’assistance | Journée mondiale du codage",
     "type": "journee",
     "image": "soins.png"
   },
@@ -739,23 +771,27 @@
     "type": "journee",
     "image": "journalistes.png"
   },
+  "03-11": {
+    "label": "Journée internationale des réserves de biosphère",
+    "type": "journee"
+  },
   "05-11": {
-    "label": "Journée mondiale de sensibilisation aux tsunamis",
+    "label": "Journée mondiale de sensibilisation aux tsunamis | Journée mondiale de la langue romani",
     "type": "journee",
     "image": "tsunami.png"
   },
   "06-11": {
-    "label": "Journée internationale pour la prévention de l'exploitation de l'environnement en temps de guerre et de conflit armé",
+    "label": "Journée internationale pour la prévention de l'exploitation de l'environnement en temps de guerre et de conflit armé | Journée internationale contre la violence et le harcèlement en milieu scolaire, y compris le cyber-harcèlement",
     "type": "journee",
     "image": "environnement.png"
   },
   "10-11": {
-    "label": "Semaine mondiale de la science au service de la paix et du développement",
+    "label": "Semaine mondiale de la science au service de la paix et du développement | Journée mondiale de la science au service de la paix et du développement",
     "type": "journee",
     "image": "science.png"
   },
   "14-11": {
-    "label": "Journée mondiale du diabète",
+    "label": "Journée mondiale du diabète | Journée internationale contre le trafic illicite de biens culturels",
     "type": "journee",
     "image": "diabete.png"
   },
@@ -774,7 +810,7 @@
     "image": "cancer-col-uterus.png"
   },
   "18-11": {
-    "label": "Journée mondiale pour la prévention et la guérison de l’exploitation, des atteintes et des violences sexuelles visant les enfants",
+    "label": "Journée mondiale pour la prévention et la guérison de l’exploitation, des atteintes et des violences sexuelles visant les enfants | Journée internationale de l’art islamique",
     "type": "journee"
   },
   "19-11": {
@@ -802,9 +838,13 @@
     "image": "violence-femmes.png"
   },
   "26-11": {
-    "label": "Journée mondiale des transports durables",
+    "label": "Journée mondiale des transports durables | Journée mondiale de l’olivier",
     "type": "journee",
     "image": "transports-durables.png"
+  },
+  "27-11": {
+    "label": "Journée internationale de l’engagement dans la science pour le développement durable",
+    "type": "journee"
   },
   "29-11": {
     "label": "Journée internationale de solidarité avec le peuple palestinien",
@@ -820,7 +860,7 @@
     "image": "sida.png"
   },
   "02-12": {
-    "label": "Journée internationale pour l'abolition de l'esclavage",
+    "label": "Journée internationale pour l'abolition de l'esclavage | Journée mondiale des futurs",
     "type": "journee",
     "image": "abolition-esclavage.png"
   },

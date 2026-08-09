@@ -1,0 +1,68 @@
+{
+  "21-01": {
+    "label": "Journée des câlins",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🤗",
+    "officiel_onu": false,
+    "note": "Célébration populaire connue internationalement sous le nom National Hugging Day."
+  },
+  "05-02": {
+    "label": "Journée mondiale du Nutella",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍫",
+    "officiel_onu": false,
+    "note": "Célébration portée par Nutella."
+  },
+  "09-04": {
+    "label": "Journée de la licorne",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🦄",
+    "officiel_onu": false
+  },
+  "01-07": {
+    "label": "Journée internationale de la blague",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "😂",
+    "officiel_onu": false
+  },
+  "07-07": {
+    "label": "Journée mondiale du chocolat",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍫",
+    "officiel_onu": false
+  },
+  "17-07": {
+    "label": "Journée mondiale des emoji",
+    "type": "insolite",
+    "categorie": "numérique",
+    "emoji": "😀",
+    "officiel_onu": false
+  },
+  "08-08": {
+    "label": "Journée internationale du chat",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐱",
+    "officiel_onu": false
+  },
+  "19-09": {
+    "label": "Journée internationale « Parlez comme un pirate »",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🏴‍☠️",
+    "officiel_onu": false
+  },
+  "01-10": {
+    "label": "Journée internationale du café",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "☕",
+    "officiel_onu": false,
+    "note": "Célébration reconnue par l’Organisation internationale du café."
+  }
+}
