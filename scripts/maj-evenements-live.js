@@ -248,6 +248,8 @@ async function lireSeismesUSGS() {
 
 // ==================================================
 // VOLCANS SMITHSONIAN / USGS
+// Priorité : France (outre-mer compris), puis Europe
+// Maximum : 3 volcans
 // ==================================================
 
 async function lireVolcans() {
@@ -281,48 +283,263 @@ async function lireVolcans() {
         const html =
             await reponse.text();
 
-        const resultats = [];
+        const volcans = [];
 
-        // Cherche les lignes marquées
-        // "New Eruptive Activity"
-        const regex =
-            />([^<>]{2,80})<\/a>[\s\S]{0,500}?New Eruptive Activity/gi;
+        // ------------------------------------------
+        // PAYS EUROPÉENS VOLCANIQUES
+        // France inclut aussi les territoires
+        // français classés "France" par Smithsonian
+        // ------------------------------------------
 
-        let correspondance;
+        const PAYS_EUROPE = [
+            "France",
+            "Italy",
+            "Iceland",
+            "Greece",
+            "Spain",
+            "Portugal",
+            "Norway"
+        ];
 
-        while (
-            (
-                correspondance =
-                    regex.exec(html)
-            ) !== null
-        ) {
+        // Traduction pour affichage
+        const NOMS_PAYS = {
+            France: "France",
+            Italy: "Italie",
+            Iceland: "Islande",
+            Greece: "Grèce",
+            Spain: "Espagne",
+            Portugal: "Portugal",
+            Norway: "Norvège"
+        };
 
-            const nom =
-                nettoyerTexte(
-                    correspondance[1]
-                );
+        // ------------------------------------------
+        // EXTRACTION DES LIGNES DU TABLEAU
+        // ------------------------------------------
 
-            if (!nom) {
+        const lignes =
+            html.match(
+                /<tr[\s\S]*?<\/tr>/gi
+            ) || [];
+
+        for (const ligne of lignes) {
+
+            const cellules = [
+                ...ligne.matchAll(
+                    /<td[^>]*>([\s\S]*?)<\/td>/gi
+                )
+            ].map(
+                correspondance =>
+                    nettoyerTexte(
+                        correspondance[1]
+                    )
+            );
+
+            // Tableau Smithsonian :
+            // 0 = nom
+            // 1 = pays
+            // 2 = région volcanique
+            // 3 = début éruption
+            // 4 = type de rapport
+
+            if (cellules.length < 5) {
                 continue;
             }
 
-            resultats.push({
-                date:
-                    new Date()
-                        .toISOString(),
+            const nom =
+                cellules[0];
 
-                icone:
-                    "🌋",
+            const pays =
+                cellules[1];
 
-                texte:
-                    `Activité volcanique nouvelle ou notable : ${nom}`,
+            const region =
+                cellules[2];
 
-                source:
-                    "Smithsonian / USGS"
+            const type =
+                cellules[4];
+
+            if (
+                !nom
+                ||
+                !pays
+                ||
+                !type
+            ) {
+                continue;
+            }
+
+            // --------------------------------------
+            // On ne garde que les nouveautés
+            // significatives
+            // --------------------------------------
+
+            const typeMin =
+                type.toLowerCase();
+
+            const estNouveau =
+                typeMin.includes(
+                    "new eruptive activity"
+                )
+                ||
+                typeMin.includes(
+                    "new unrest"
+                );
+
+            if (!estNouveau) {
+                continue;
+            }
+
+            volcans.push({
+                nom,
+                pays,
+                region,
+                type
             });
         }
 
-        return resultats;
+        // ------------------------------------------
+        // ÉVITER LES DOUBLONS
+        // ------------------------------------------
+
+        const uniques = [];
+
+        const nomsVus =
+            new Set();
+
+        for (const volcan of volcans) {
+
+            const cle =
+                volcan.nom
+                    .toLowerCase();
+
+            if (nomsVus.has(cle)) {
+                continue;
+            }
+
+            nomsVus.add(cle);
+
+            uniques.push(volcan);
+        }
+
+        // ------------------------------------------
+        // PRIORITÉS
+        //
+        // 1 - France, outre-mer compris
+        // 2 - reste de l'Europe
+        // 3 - si rien en Europe :
+        //     un seul volcan ailleurs
+        // ------------------------------------------
+
+        const france =
+            uniques.filter(
+                volcan =>
+                    volcan.pays === "France"
+            );
+
+        const europe =
+            uniques.filter(
+                volcan =>
+                    volcan.pays !== "France"
+                    &&
+                    PAYS_EUROPE.includes(
+                        volcan.pays
+                    )
+            );
+
+        const monde =
+            uniques.filter(
+                volcan =>
+                    !PAYS_EUROPE.includes(
+                        volcan.pays
+                    )
+            );
+
+        let retenus = [];
+
+        if (
+            france.length > 0
+            ||
+            europe.length > 0
+        ) {
+
+            retenus = [
+                ...france,
+                ...europe
+            ].slice(
+                0,
+                3
+            );
+
+        } else {
+
+            // Pas d'activité nouvelle en Europe :
+            // seulement UNE info volcanique mondiale.
+
+            retenus =
+                monde.slice(
+                    0,
+                    1
+                );
+        }
+
+        // ------------------------------------------
+        // CONSTRUCTION DES MESSAGES
+        // ------------------------------------------
+
+        return retenus.map(
+            volcan => {
+
+                const paysAffiche =
+                    NOMS_PAYS[volcan.pays]
+                    ||
+                    volcan.pays;
+
+                let typeAffiche =
+                    "activité volcanique notable";
+
+                if (
+                    volcan.type
+                        .toLowerCase()
+                        .includes(
+                            "new eruptive activity"
+                        )
+                ) {
+                    typeAffiche =
+                        "nouvelle activité éruptive";
+                }
+
+                if (
+                    volcan.type
+                        .toLowerCase()
+                        .includes(
+                            "new unrest"
+                        )
+                ) {
+                    typeAffiche =
+                        "nouvelle agitation volcanique";
+                }
+
+                const localisation =
+                    volcan.region
+                        ? `${paysAffiche} — ${volcan.region}`
+                        : paysAffiche;
+
+                return {
+
+                    date:
+                        new Date()
+                            .toISOString(),
+
+                    icone:
+                        "🌋",
+
+                    texte:
+                        `${volcan.nom} — ${localisation} : ${typeAffiche}`,
+
+                    source:
+                        "Smithsonian / USGS"
+                };
+            }
+        );
 
     } catch (erreur) {
 
