@@ -1,50 +1,50 @@
 [
   {
-    "date": "2026-08-09T09:55:01.449Z",
+    "date": "2026-08-09T10:51:59.124Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Pusat Vulkanologi dan Mitigasi Bencana Geologi (PVMBG, also known as CVGHM)",
+    "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-09T10:51:59.124Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Servicio Geológico Colombiano (SGC)",
+    "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-09T10:51:59.123Z",
     "icone": "🌋",
     "texte": "Activité volcanique nouvelle ou notable : Etna",
     "source": "Smithsonian / USGS"
   },
   {
-    "date": "2026-08-09T09:55:01.449Z",
+    "date": "2026-08-09T10:51:59.123Z",
     "icone": "🌋",
     "texte": "Activité volcanique nouvelle ou notable : Fuego",
     "source": "Smithsonian / USGS"
   },
   {
-    "date": "2026-08-09T09:55:01.449Z",
+    "date": "2026-08-09T10:51:59.123Z",
     "icone": "🌋",
     "texte": "Activité volcanique nouvelle ou notable : Krakatau",
     "source": "Smithsonian / USGS"
   },
   {
-    "date": "2026-08-09T09:55:01.449Z",
+    "date": "2026-08-09T10:51:59.123Z",
     "icone": "🌋",
     "texte": "Activité volcanique nouvelle ou notable : Purace",
     "source": "Smithsonian / USGS"
   },
   {
-    "date": "2026-08-09T09:55:01.449Z",
+    "date": "2026-08-09T10:51:59.123Z",
     "icone": "🌋",
     "texte": "Activité volcanique nouvelle ou notable : Telica",
     "source": "Smithsonian / USGS"
   },
   {
-    "date": "2026-08-09T09:55:01.449Z",
+    "date": "2026-08-09T10:51:59.123Z",
     "icone": "🌋",
     "texte": "Activité volcanique nouvelle ou notable : Archive",
-    "source": "Smithsonian / USGS"
-  },
-  {
-    "date": "2026-08-09T09:55:01.449Z",
-    "icone": "🌋",
-    "texte": "Activité volcanique nouvelle ou notable : Sezione di Catania - Osservatorio Etneo (INGV)",
-    "source": "Smithsonian / USGS"
-  },
-  {
-    "date": "2026-08-09T09:55:01.449Z",
-    "icone": "🌋",
-    "texte": "Activité volcanique nouvelle ou notable : Coordinadora Nacional para la Reducción de Desastres (CONRED)",
     "source": "Smithsonian / USGS"
   }
 ]
