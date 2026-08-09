@@ -6204,25 +6204,7 @@
       "image": ""
     }
   ],
-  "01-08": [
-    {
-      "name": "Jason Momoa",
-      "type": "naissance",
-      "year": 1979,
-      "death": null,
-      "job": "acteur et producteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Jason_Momoa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Jason_Momoa_2017.jpg"
-    },
-    {
-      "name": "Dan Donegan",
-      "type": "naissance",
-      "year": 1968,
-      "death": null,
-      "job": "guitariste et musicien",
-      "wiki": "https://fr.wikipedia.org/wiki/Dan_Donegan",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dan_Donegan_2012.jpg"
-    },
+    "01-08": [
     {
       "name": "Yves Saint Laurent",
       "type": "naissance",
@@ -6231,65 +6213,38 @@
       "job": "couturier et créateur de mode",
       "wiki": "https://fr.wikipedia.org/wiki/Yves_Saint_Laurent",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Yves_Saint_Laurent_1980.jpg"
+    },
+    {
+      "name": "Herman Melville",
+      "job": "Écrivain américain",
+      "type": "naissance",
+      "year": 1819,
+      "death": 1891,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Herman%20Melville",
+      "image": ""
     }
   ],
   "02-08": [
     {
-      "name": "Peter O’Toole",
+      "name": "James Baldwin",
+      "job": "Écrivain américain",
+      "type": "naissance",
+      "year": 1924,
+      "death": 1987,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=James%20Baldwin",
+      "image": ""
+    },
+    {
+      "name": "Peter O'Toole",
+      "job": "Acteur",
       "type": "naissance",
       "year": 1932,
       "death": 2013,
-      "job": "acteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Peter_O%27Toole",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Peter_O%27Toole_1968.jpg"
-    },
-    {
-      "name": "Sam Worthington",
-      "type": "naissance",
-      "year": 1976,
-      "death": null,
-      "job": "acteur et producteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Sam_Worthington",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sam_Worthington_2010.jpg"
-    },
-    {
-      "name": "Kevin Smith",
-      "type": "naissance",
-      "year": 1970,
-      "death": null,
-      "job": "réalisateur, scénariste et acteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Kevin_Smith",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Kevin_Smith_2011.jpg"
-    },
-    {
-      "name": "Wes Craven",
-      "job": "Réalisateur de films d’horreur.",
-      "type": "naissance",
-      "year": 1939,
-      "death": null,
-      "wiki": "https://fr.wikipedia.org/wiki/Wes_Craven",
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Peter%20O%27Toole",
       "image": ""
     }
   ],
   "03-08": [
-    {
-      "name": "James Hetfield",
-      "type": "naissance",
-      "year": 1963,
-      "death": null,
-      "job": "chanteur et guitariste",
-      "wiki": "https://fr.wikipedia.org/wiki/James_Hetfield",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/James_Hetfield_2010.jpg"
-    },
-    {
-      "name": "Tom Brady",
-      "type": "naissance",
-      "year": 1977,
-      "death": null,
-      "job": "joueur de football américain",
-      "wiki": "https://fr.wikipedia.org/wiki/Tom_Brady",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tom_Brady_2017.jpg"
-    },
     {
       "name": "Tony Bennett",
       "type": "naissance",
@@ -6298,6 +6253,15 @@
       "job": "chanteur de jazz",
       "wiki": "https://fr.wikipedia.org/wiki/Tony_Bennett",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tony_Bennett_2013.jpg"
+    },
+    {
+      "name": "Martin Sheen",
+      "job": "Acteur",
+      "type": "naissance",
+      "year": 1940,
+      "death": null,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Martin%20Sheen",
+      "image": ""
     }
   ],
   "04-08": [
@@ -6309,31 +6273,58 @@
       "death": null,
       "wiki": "https://fr.wikipedia.org/wiki/Barack_Obama",
       "image": ""
+    },
+    {
+      "name": "Meghan Markle",
+      "job": "Actrice / duchesse",
+      "type": "naissance",
+      "year": 1981,
+      "death": null,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Meghan%20Markle",
+      "image": ""
     }
   ],
   "05-08": [
     {
-      "name": "Neil Armstrong (date symbolique calendrier)",
-      "job": "Premier homme sur la Lune.",
+      "name": "Neil Armstrong",
+      "job": "Astronaute",
       "type": "naissance",
       "year": 1930,
-      "death": null,
-      "wiki": "https://fr.wikipedia.org/wiki/Neil_Armstrong",
+      "death": 2012,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Neil%20Armstrong",
+      "image": ""
+    },
+    {
+      "name": "Guy de Maupassant",
+      "job": "Écrivain français",
+      "type": "naissance",
+      "year": 1850,
+      "death": 1893,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Guy%20de%20Maupassant",
       "image": ""
     }
   ],
   "06-08": [
     {
-      "name": "Lucille Ball",
-      "job": "Actrice américaine.",
+      "name": "Andy Warhol",
+      "job": "Artiste",
       "type": "naissance",
-      "year": 1911,
-      "death": null,
-      "wiki": "https://fr.wikipedia.org/wiki/Lucille_Ball",
+      "year": 1928,
+      "death": 1987,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Andy%20Warhol",
       "image": ""
     }
   ],
   "07-08": [
+    {
+      "name": "Mata Hari",
+      "job": "Danseuse / espionne",
+      "type": "naissance",
+      "year": 1876,
+      "death": 1917,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Mata%20Hari",
+      "image": ""
+    },
     {
       "name": "Charlize Theron",
       "job": "Actrice sud-africaine.",
@@ -6345,6 +6336,15 @@
     }
   ],
   "08-08": [
+    {
+      "name": "Roger Federer",
+      "job": "Tennis",
+      "type": "naissance",
+      "year": 1981,
+      "death": null,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Roger%20Federer",
+      "image": ""
+    },
     {
       "name": "Dustin Hoffman",
       "job": "Acteur américain.",
@@ -6361,8 +6361,17 @@
       "job": "Chanteuse américaine.",
       "type": "naissance",
       "year": 1963,
-      "death": null,
+      "death": 2012,
       "wiki": "https://fr.wikipedia.org/wiki/Whitney_Houston",
+      "image": ""
+    },
+    {
+      "name": "Jean Piaget",
+      "job": "Psychologue",
+      "type": "naissance",
+      "year": 1896,
+      "death": 1980,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Jean%20Piaget",
       "image": ""
     }
   ],
@@ -6375,55 +6384,46 @@
       "death": null,
       "wiki": "https://fr.wikipedia.org/wiki/Antonio_Banderas",
       "image": ""
+    },
+    {
+      "name": "Herbert Hoover",
+      "job": "Président des États-Unis",
+      "type": "naissance",
+      "year": 1874,
+      "death": 1964,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Herbert%20Hoover",
+      "image": ""
     }
   ],
   "11-08": [
     {
-      "name": "Enid Blyton",
+      "name": "Steve Wozniak",
+      "job": "Cofondateur d’Apple",
       "type": "naissance",
-      "year": 1897,
-      "death": 1968,
-      "job": "écrivaine",
-      "wiki": "https://fr.wikipedia.org/wiki/Enid_Blyton",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Enid_Blyton_1920.jpg"
-    },
-    {
-      "name": "Viola Davis",
-      "type": "naissance",
-      "year": 1965,
+      "year": 1950,
       "death": null,
-      "job": "actrice et productrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Viola_Davis",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Viola_Davis_2014.jpg"
-    },
-    {
-      "name": "Joe Rogan",
-      "type": "naissance",
-      "year": 1967,
-      "death": null,
-      "job": "animateur, humoriste et commentateur",
-      "wiki": "https://fr.wikipedia.org/wiki/Joe_Rogan",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Joe_Rogan_2019.jpg"
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Steve%20Wozniak",
+      "image": ""
     },
     {
       "name": "Hulk Hogan",
       "job": "Lutte professionnelle.",
       "type": "naissance",
       "year": 1953,
-      "death": null,
+      "death": 2025,
       "wiki": "https://fr.wikipedia.org/wiki/Hulk_Hogan",
       "image": ""
     }
   ],
   "12-08": [
     {
-      "name": "Cara Delevingne",
+      "name": "Cecil B. DeMille",
       "type": "naissance",
-      "year": 1992,
-      "death": null,
-      "job": "mannequin et actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Cara_Delevingne",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Cara_Delevingne_2014.jpg"
+      "year": 1881,
+      "death": 1959,
+      "job": "réalisateur et producteur",
+      "wiki": "https://fr.wikipedia.org/wiki/Cecil_B._DeMille",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cecil_B_DeMille_1930.jpg"
     },
     {
       "name": "Mark Knopfler",
@@ -6433,36 +6433,9 @@
       "job": "guitariste, chanteur et compositeur",
       "wiki": "https://fr.wikipedia.org/wiki/Mark_Knopfler",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Mark_Knopfler_2013.jpg"
-    },
-    {
-      "name": "Cecil B. DeMille",
-      "type": "naissance",
-      "year": 1881,
-      "death": 1959,
-      "job": "réalisateur et producteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Cecil_B._DeMille",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cecil_B_DeMille_1930.jpg"
     }
   ],
   "13-08": [
-    {
-      "name": "Sebastian Stan",
-      "type": "naissance",
-      "year": 1982,
-      "death": null,
-      "job": "acteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Sebastian_Stan",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sebastian_Stan_2016.jpg"
-    },
-    {
-      "name": "Debi Mazar",
-      "type": "naissance",
-      "year": 1964,
-      "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Debi_Mazar",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Debi_Mazar_2013.jpg"
-    },
     {
       "name": "Alfred Hitchcock",
       "type": "naissance",
@@ -6471,6 +6444,15 @@
       "job": "réalisateur et producteur",
       "wiki": "https://fr.wikipedia.org/wiki/Alfred_Hitchcock",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Alfred_Hitchcock_1955.jpg"
+    },
+    {
+      "name": "Fidel Castro",
+      "job": "Dirigeant cubain",
+      "type": "naissance",
+      "year": 1926,
+      "death": 2016,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Fidel%20Castro",
+      "image": ""
     }
   ],
   "14-08": [
@@ -6482,27 +6464,18 @@
       "job": "actrice et productrice",
       "wiki": "https://fr.wikipedia.org/wiki/Halle_Berry",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Halle_Berry_2013.jpg"
-    },
-    {
-      "name": "Emmanuelle Béart",
-      "type": "naissance",
-      "year": 1963,
-      "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Emmanuelle_B%C3%A9art",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Emmanuelle_Beart_2014.jpg"
-    },
-    {
-      "name": "Magic Johnson",
-      "type": "naissance",
-      "year": 1959,
-      "death": null,
-      "job": "joueur de basket-ball et homme d’affaires",
-      "wiki": "https://fr.wikipedia.org/wiki/Magic_Johnson",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Magic_Johnson_2014.jpg"
     }
   ],
   "15-08": [
+    {
+      "name": "Napoléon Bonaparte",
+      "job": "Empereur des Français",
+      "type": "naissance",
+      "year": 1769,
+      "death": 1821,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Napol%C3%A9on%20Bonaparte",
+      "image": ""
+    },
     {
       "name": "Jennifer Lawrence",
       "type": "naissance",
@@ -6511,35 +6484,17 @@
       "job": "actrice",
       "wiki": "https://fr.wikipedia.org/wiki/Jennifer_Lawrence",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Jennifer_Lawrence_2014.jpg"
-    },
-    {
-      "name": "Princess Anne",
-      "type": "naissance",
-      "year": 1950,
-      "death": null,
-      "job": "membre de la famille royale britannique",
-      "wiki": "https://fr.wikipedia.org/wiki/Anne_du_Royaume-Uni",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Princess_Anne_2014.jpg"
-    },
-    {
-      "name": "Ben Affleck",
-      "type": "naissance",
-      "year": 1972,
-      "death": null,
-      "job": "acteur, réalisateur et scénariste",
-      "wiki": "https://fr.wikipedia.org/wiki/Ben_Affleck",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Ben_Affleck_2013.jpg"
     }
   ],
   "16-08": [
     {
-      "name": "Steve Carell",
+      "name": "Madonna",
       "type": "naissance",
-      "year": 1962,
+      "year": 1958,
       "death": null,
-      "job": "acteur, humoriste, producteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Steve_Carell",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Steve_Carell_2014.jpg"
+      "job": "chanteuse, auteure-compositrice, actrice",
+      "wiki": "https://fr.wikipedia.org/wiki/Madonna",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Madonna_2015.jpg"
     },
     {
       "name": "James Cameron",
@@ -6549,36 +6504,9 @@
       "job": "réalisateur, scénariste, producteur",
       "wiki": "https://fr.wikipedia.org/wiki/James_Cameron",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/James_Cameron_2016.jpg"
-    },
-    {
-      "name": "Madonna",
-      "type": "naissance",
-      "year": 1958,
-      "death": null,
-      "job": "chanteuse, auteure-compositrice, actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Madonna",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Madonna_2015.jpg"
     }
   ],
   "17-08": [
-    {
-      "name": "Sean Penn",
-      "type": "naissance",
-      "year": 1960,
-      "death": null,
-      "job": "acteur, réalisateur, scénariste",
-      "wiki": "https://fr.wikipedia.org/wiki/Sean_Penn",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sean_Penn_2014.jpg"
-    },
-    {
-      "name": "Wendie Malick",
-      "type": "naissance",
-      "year": 1950,
-      "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Wendie_Malick",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Wendie_Malick_2013.jpg"
-    },
     {
       "name": "Robert De Niro",
       "type": "naissance",
@@ -6587,6 +6515,15 @@
       "job": "acteur, réalisateur, producteur",
       "wiki": "https://fr.wikipedia.org/wiki/Robert_De_Niro",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Robert_De_Niro_2016.jpg"
+    },
+    {
+      "name": "Sean Penn",
+      "type": "naissance",
+      "year": 1960,
+      "death": null,
+      "job": "acteur, réalisateur, scénariste",
+      "wiki": "https://fr.wikipedia.org/wiki/Sean_Penn",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sean_Penn_2014.jpg"
     }
   ],
   "18-08": [
@@ -6600,51 +6537,24 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Robert_Redford_2013.jpg"
     },
     {
-      "name": "Edward Norton",
+      "name": "Roman Polanski",
+      "job": "Réalisateur",
       "type": "naissance",
-      "year": 1969,
+      "year": 1933,
       "death": null,
-      "job": "acteur, réalisateur, scénariste",
-      "wiki": "https://fr.wikipedia.org/wiki/Edward_Norton",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Edward_Norton_2014.jpg"
-    },
-    {
-      "name": "Andy Samberg",
-      "type": "naissance",
-      "year": 1978,
-      "death": null,
-      "job": "acteur, humoriste, musicien",
-      "wiki": "https://fr.wikipedia.org/wiki/Andy_Samberg",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Andy_Samberg_2012.jpg"
-    },
-    {
-      "name": "Patrick Swayze",
-      "job": "Acteur et danseur.",
-      "type": "naissance",
-      "year": 1952,
-      "death": null,
-      "wiki": "https://fr.wikipedia.org/wiki/Patrick_Swayze",
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Roman%20Polanski",
       "image": ""
     }
   ],
   "19-08": [
     {
-      "name": "John Stamos",
+      "name": "Coco Chanel",
+      "job": "Créatrice de mode",
       "type": "naissance",
-      "year": 1963,
-      "death": null,
-      "job": "acteur, musicien",
-      "wiki": "https://fr.wikipedia.org/wiki/John_Stamos",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/John_Stamos_2012.jpg"
-    },
-    {
-      "name": "Tammy Grimes",
-      "type": "naissance",
-      "year": 1934,
-      "death": 2016,
-      "job": "actrice, chanteuse",
-      "wiki": "https://fr.wikipedia.org/wiki/Tammy_Grimes",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tammy_Grimes_1960.jpg"
+      "year": 1883,
+      "death": 1971,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Coco%20Chanel",
+      "image": ""
     },
     {
       "name": "Bill Clinton",
@@ -6658,24 +6568,6 @@
   ],
   "20-08": [
     {
-      "name": "Amy Adams",
-      "type": "naissance",
-      "year": 1974,
-      "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Amy_Adams",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Amy_Adams_2013.jpg"
-    },
-    {
-      "name": "Demi Lovato",
-      "type": "naissance",
-      "year": 1992,
-      "death": null,
-      "job": "chanteuse, actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Demi_Lovato",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Demi_Lovato_2016.jpg"
-    },
-    {
       "name": "Robert Plant",
       "type": "naissance",
       "year": 1948,
@@ -6687,24 +6579,6 @@
   ],
   "21-08": [
     {
-      "name": "Wilt Chamberlain",
-      "type": "naissance",
-      "year": 1936,
-      "death": 1999,
-      "job": "joueur de basket-ball",
-      "wiki": "https://fr.wikipedia.org/wiki/Wilt_Chamberlain",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Wilt_Chamberlain_1967.jpg"
-    },
-    {
-      "name": "Kim Cattrall",
-      "type": "naissance",
-      "year": 1956,
-      "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Kim_Cattrall",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Kim_Cattrall_2013.jpg"
-    },
-    {
       "name": "Usain Bolt",
       "type": "naissance",
       "year": 1986,
@@ -6712,18 +6586,18 @@
       "job": "athlète, sprinteur",
       "wiki": "https://fr.wikipedia.org/wiki/Usain_Bolt",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Usain_Bolt_2016.jpg"
-    },
-    {
-      "name": "Carrie-Anne Moss",
-      "job": "Actrice (Matrix).",
-      "type": "naissance",
-      "year": 1967,
-      "death": null,
-      "wiki": "https://fr.wikipedia.org/wiki/Carrie-Anne_Moss",
-      "image": ""
     }
   ],
   "22-08": [
+    {
+      "name": "Claude Debussy",
+      "job": "Compositeur français",
+      "type": "naissance",
+      "year": 1862,
+      "death": 1918,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Claude%20Debussy",
+      "image": ""
+    },
     {
       "name": "Ray Bradbury",
       "type": "naissance",
@@ -6732,103 +6606,49 @@
       "job": "écrivain, scénariste",
       "wiki": "https://fr.wikipedia.org/wiki/Ray_Bradbury",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ray_Bradbury_1975.jpg"
-    },
-    {
-      "name": "Dua Lipa",
-      "type": "naissance",
-      "year": 1995,
-      "death": null,
-      "job": "chanteuse, auteure-compositrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Dua_Lipa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dua_Lipa_2018.jpg"
     }
   ],
   "23-08": [
     {
-      "name": "Jay Mohr",
+      "name": "Gene Kelly",
+      "job": "Danseur / acteur",
       "type": "naissance",
-      "year": 1970,
-      "death": null,
-      "job": "acteur, humoriste",
-      "wiki": "https://fr.wikipedia.org/wiki/Jay_Mohr",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Jay_Mohr_2012.jpg"
+      "year": 1912,
+      "death": 1996,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Gene%20Kelly",
+      "image": ""
     },
     {
-      "name": "Glória Pires",
+      "name": "Kobe Bryant",
+      "job": "Basket",
       "type": "naissance",
-      "year": 1963,
-      "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Gl%C3%B3ria_Pires",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Gloria_Pires_2010.jpg"
-    },
-    {
-      "name": "River Phoenix",
-      "type": "naissance",
-      "year": 1970,
-      "death": 1993,
-      "job": "acteur, musicien",
-      "wiki": "https://fr.wikipedia.org/wiki/River_Phoenix",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/River_Phoenix_1988.jpg"
+      "year": 1978,
+      "death": 2020,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Kobe%20Bryant",
+      "image": ""
     }
   ],
   "24-08": [
     {
-      "name": "Rupert Grint",
+      "name": "Paulo Coelho",
+      "job": "Écrivain",
       "type": "naissance",
-      "year": 1988,
+      "year": 1947,
       "death": null,
-      "job": "acteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Rupert_Grint",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Rupert_Grint_2013.jpg"
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Paulo%20Coelho",
+      "image": ""
     },
     {
-      "name": "Dave Chappelle",
+      "name": "Stephen Fry",
+      "job": "Acteur / écrivain",
       "type": "naissance",
-      "year": 1973,
+      "year": 1957,
       "death": null,
-      "job": "humoriste, acteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Dave_Chappelle",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Dave_Chappelle_2018.jpg"
-    },
-    {
-      "name": "Marlee Matlin",
-      "type": "naissance",
-      "year": 1965,
-      "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Marlee_Matlin",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Marlee_Matlin_2011.jpg"
-    },
-    {
-      "name": "Caligula",
-      "job": "Empereur romain.",
-      "type": "naissance",
-      "year": 12,
-      "death": null,
-      "wiki": "https://fr.wikipedia.org/wiki/Caligula",
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Stephen%20Fry",
       "image": ""
     }
   ],
   "25-08": [
-    {
-      "name": "Tim Burton",
-      "type": "naissance",
-      "year": 1958,
-      "death": null,
-      "job": "réalisateur, scénariste, producteur",
-      "wiki": "https://fr.wikipedia.org/wiki/Tim_Burton",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tim_Burton_2012.jpg"
-    },
-    {
-      "name": "Blake Lively",
-      "type": "naissance",
-      "year": 1987,
-      "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Blake_Lively",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Blake_Lively_2011.jpg"
-    },
     {
       "name": "Sean Connery",
       "type": "naissance",
@@ -6837,9 +6657,27 @@
       "job": "acteur",
       "wiki": "https://fr.wikipedia.org/wiki/Sean_Connery",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sean_Connery_1988.jpg"
+    },
+    {
+      "name": "Tim Burton",
+      "type": "naissance",
+      "year": 1958,
+      "death": null,
+      "job": "réalisateur, scénariste, producteur",
+      "wiki": "https://fr.wikipedia.org/wiki/Tim_Burton",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Tim_Burton_2012.jpg"
     }
   ],
   "26-08": [
+    {
+      "name": "Mère Teresa",
+      "job": "Religieuse / Nobel",
+      "type": "naissance",
+      "year": 1910,
+      "death": 1997,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=M%C3%A8re%20Teresa",
+      "image": ""
+    },
     {
       "name": "Macaulay Culkin",
       "type": "naissance",
@@ -6848,24 +6686,6 @@
       "job": "acteur",
       "wiki": "https://fr.wikipedia.org/wiki/Macaulay_Culkin",
       "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Macaulay_Culkin_2018.jpg"
-    },
-    {
-      "name": "Thalía",
-      "type": "naissance",
-      "year": 1971,
-      "death": null,
-      "job": "chanteuse, actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Thal%C3%ADa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Thalia_2013.jpg"
-    },
-    {
-      "name": "Mother Teresa",
-      "type": "naissance",
-      "year": 1910,
-      "death": 1997,
-      "job": "religieuse, missionnaire",
-      "wiki": "https://fr.wikipedia.org/wiki/M%C3%A8re_Teresa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Mother_Teresa_1995.jpg"
     }
   ],
   "27-08": [
@@ -6874,19 +6694,28 @@
       "job": "Président américain.",
       "type": "naissance",
       "year": 1908,
-      "death": null,
+      "death": 1973,
       "wiki": "https://fr.wikipedia.org/wiki/Lyndon_B._Johnson",
       "image": ""
     }
   ],
   "28-08": [
     {
-      "name": "Shania Twain",
-      "job": "Chanteuse country.",
+      "name": "Johann Wolfgang von Goethe",
+      "job": "Écrivain",
       "type": "naissance",
-      "year": 1965,
+      "year": 1749,
+      "death": 1832,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Johann%20Wolfgang%20von%20Goethe",
+      "image": ""
+    },
+    {
+      "name": "David Fincher",
+      "job": "Réalisateur",
+      "type": "naissance",
+      "year": 1962,
       "death": null,
-      "wiki": "https://fr.wikipedia.org/wiki/Shania_Twain",
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=David%20Fincher",
       "image": ""
     }
   ],
@@ -6899,27 +6728,54 @@
       "death": null,
       "wiki": "https://fr.wikipedia.org/wiki/Michael_Jackson",
       "image": ""
+    },
+    {
+      "name": "Ingrid Bergman",
+      "job": "Actrice (décès en 1982 le même jour)",
+      "type": "naissance",
+      "year": 1915,
+      "death": 1982,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Ingrid%20Bergman",
+      "image": ""
     }
   ],
   "30-08": [
     {
-      "name": "Cameron Diaz",
+      "name": "Mary Shelley",
+      "job": "Écrivaine",
       "type": "naissance",
-      "year": 1972,
+      "year": 1797,
+      "death": 1851,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Mary%20Shelley",
+      "image": ""
+    },
+    {
+      "name": "Warren Buffett",
+      "job": "Investisseur",
+      "type": "naissance",
+      "year": 1930,
       "death": null,
-      "job": "actrice",
-      "wiki": "https://fr.wikipedia.org/wiki/Cameron_Diaz",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Cameron_Diaz_2012.jpg"
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Warren%20Buffett",
+      "image": ""
     }
   ],
   "31-08": [
     {
-      "name": "Richard Gere",
-      "job": "Acteur américain.",
+      "name": "Maria Montessori",
+      "job": "Pédagogue",
       "type": "naissance",
-      "year": 1949,
+      "year": 1870,
+      "death": 1952,
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Maria%20Montessori",
+      "image": ""
+    },
+    {
+      "name": "Van Morrison",
+      "job": "Chanteur",
+      "type": "naissance",
+      "year": 1945,
       "death": null,
-      "wiki": "https://fr.wikipedia.org/wiki/Richard_Gere",
+      "wiki": "https://fr.wikipedia.org/wiki/Special:Search?search=Van%20Morrison",
       "image": ""
     }
   ],
