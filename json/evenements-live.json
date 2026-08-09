@@ -1,26 +1,50 @@
 [
   {
-    "date": "2026-08-07T14:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Join us live and enjoy the total solar eclipse!",
-    "source": "ESA"
+    "date": "2026-08-09T05:57:08.898Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Etna",
+    "source": "Smithsonian / USGS"
   },
   {
-    "date": "2026-08-07T13:10:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Week in images: 03-07 August 2026",
-    "source": "ESA"
+    "date": "2026-08-09T05:57:08.898Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Fuego",
+    "source": "Smithsonian / USGS"
   },
   {
-    "date": "2026-08-07T11:40:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Danube’s waters fall to record lows",
-    "source": "ESA"
+    "date": "2026-08-09T05:57:08.898Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Krakatau",
+    "source": "Smithsonian / USGS"
   },
   {
-    "date": "2026-08-07T09:27:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : IRIS² reinforced and accelerated as implementation advances",
-    "source": "ESA"
+    "date": "2026-08-09T05:57:08.898Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Purace",
+    "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-09T05:57:08.898Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Telica",
+    "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-09T05:57:08.898Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Archive",
+    "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-09T05:57:08.898Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Sezione di Catania - Osservatorio Etneo (INGV)",
+    "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-09T05:57:08.898Z",
+    "icone": "🌋",
+    "texte": "Activité volcanique nouvelle ou notable : Coordinadora Nacional para la Reducción de Desastres (CONRED)",
+    "source": "Smithsonian / USGS"
   }
 ]
