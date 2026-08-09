@@ -1,25 +1,305 @@
 {
+  "02-01": {
+    "label": "Journée de la science-fiction",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "🚀",
+    "officiel_onu": false
+  },
+  "03-01": {
+    "label": "Journée du sommeil",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "😴",
+    "officiel_onu": false
+  },
+  "19-01": {
+    "label": "Journée du popcorn",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍿",
+    "officiel_onu": false
+  },
   "21-01": {
     "label": "Journée des câlins",
     "type": "insolite",
     "categorie": "fun",
     "emoji": "🤗",
-    "officiel_onu": false,
-    "note": "Célébration populaire connue internationalement sous le nom National Hugging Day."
+    "officiel_onu": false
+  },
+  "28-01": {
+    "label": "Journée internationale LEGO",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "🧱",
+    "officiel_onu": false
+  },
+  "29-01": {
+    "label": "Journée du puzzle",
+    "type": "insolite",
+    "categorie": "jeu",
+    "emoji": "🧩",
+    "officiel_onu": false
+  },
+  "30-01": {
+    "label": "Journée du croissant",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🥐",
+    "officiel_onu": false
   },
   "05-02": {
     "label": "Journée mondiale du Nutella",
     "type": "insolite",
     "categorie": "gourmand",
     "emoji": "🍫",
-    "officiel_onu": false,
-    "note": "Célébration portée par Nutella."
+    "officiel_onu": false
+  },
+  "08-02": {
+    "label": "Journée du cerf-volant",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🪁",
+    "officiel_onu": false
+  },
+  "09-02": {
+    "label": "Journée de la pizza",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍕",
+    "officiel_onu": false
+  },
+  "14-02": {
+    "label": "Journée internationale du don de livres",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "📚",
+    "officiel_onu": false
+  },
+  "20-02": {
+    "label": "Journée « Aime ton animal de compagnie »",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐾",
+    "officiel_onu": false
+  },
+  "21-02": {
+    "label": "Journée du pangolin",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🦔",
+    "officiel_onu": false
+  },
+  "22-02": {
+    "label": "Journée du margarita",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍹",
+    "officiel_onu": false
+  },
+  "10-03": {
+    "label": "Journée internationale du génial",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "😎",
+    "officiel_onu": false
+  },
+  "18-03": {
+    "label": "Journée des moments gênants",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "😳",
+    "officiel_onu": false
+  },
+  "20-03": {
+    "label": "Journée mondiale du conte",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "📖",
+    "officiel_onu": false
+  },
+  "21-03": {
+    "label": "Journée mondiale de la marionnette",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "🎭",
+    "officiel_onu": false
+  },
+  "25-03": {
+    "label": "Journée internationale de la gaufre",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🧇",
+    "officiel_onu": false
+  },
+  "27-03": {
+    "label": "Journée internationale du gribouillage",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "✏️",
+    "officiel_onu": false
+  },
+  "01-04": {
+    "label": "Journée du fun",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🎉",
+    "officiel_onu": false
+  },
+  "03-04": {
+    "label": "Journée mondiale de la fête",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🥳",
+    "officiel_onu": false
+  },
+  "04-04": {
+    "label": "404 Day",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "💻",
+    "officiel_onu": false
   },
   "09-04": {
     "label": "Journée de la licorne",
     "type": "insolite",
     "categorie": "fun",
     "emoji": "🦄",
+    "officiel_onu": false
+  },
+  "19-04": {
+    "label": "Journée de l'ail",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🧄",
+    "officiel_onu": false
+  },
+  "25-04": {
+    "label": "Journée mondiale du manchot",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐧",
+    "officiel_onu": false
+  },
+  "26-04": {
+    "label": "Alien Day",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "👽",
+    "officiel_onu": false
+  },
+  "30-04": {
+    "label": "Journée du bubble tea",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🧋",
+    "officiel_onu": false
+  },
+  "04-05": {
+    "label": "Star Wars Day — May the 4th",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "🌌",
+    "officiel_onu": false
+  },
+  "22-05": [
+    {
+      "label": "Journée Sherlock Holmes",
+      "type": "insolite",
+      "categorie": "culture",
+      "emoji": "🕵️",
+      "officiel_onu": false
+    },
+    {
+      "label": "Bitcoin Pizza Day",
+      "type": "insolite",
+      "categorie": "geek",
+      "emoji": "🍕",
+      "officiel_onu": false
+    }
+  ],
+  "23-05": {
+    "label": "Journée mondiale de la tortue",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐢",
+    "officiel_onu": false
+  },
+  "25-05": {
+    "label": "Journée des geeks",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "🤓",
+    "officiel_onu": false
+  },
+  "26-05": {
+    "label": "Journée mondiale de Dracula",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "🧛",
+    "officiel_onu": false
+  },
+  "27-05": {
+    "label": "Journée mondiale de la loutre",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🦦",
+    "officiel_onu": false
+  },
+  "05-06": {
+    "label": "Journée de la montgolfière",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🎈",
+    "officiel_onu": false
+  },
+  "06-06": {
+    "label": "Journée du yo-yo",
+    "type": "insolite",
+    "categorie": "jeu",
+    "emoji": "🪀",
+    "officiel_onu": false
+  },
+  "14-06": {
+    "label": "Journée internationale du bain",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🛁",
+    "officiel_onu": false
+  },
+  "15-06": {
+    "label": "Journée de la photographie de nature",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "📷",
+    "officiel_onu": false
+  },
+  "18-06": {
+    "label": "Journée internationale de la panique",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "😱",
+    "officiel_onu": false
+  },
+  "21-06": {
+    "label": "Fête mondiale de la musique",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "🎵",
+    "officiel_onu": false
+  },
+  "22-06": {
+    "label": "Journée du baiser",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "💋",
+    "officiel_onu": false
+  },
+  "27-06": {
+    "label": "Journée des lunettes de soleil",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "😎",
     "officiel_onu": false
   },
   "01-07": {
@@ -29,11 +309,32 @@
     "emoji": "😂",
     "officiel_onu": false
   },
+  "02-07": {
+    "label": "Journée mondiale des OVNI",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "🛸",
+    "officiel_onu": false
+  },
   "07-07": {
     "label": "Journée mondiale du chocolat",
     "type": "insolite",
     "categorie": "gourmand",
     "emoji": "🍫",
+    "officiel_onu": false
+  },
+  "10-07": {
+    "label": "Journée du chaton",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐱",
+    "officiel_onu": false
+  },
+  "13-07": {
+    "label": "Journée « Assume ton côté geek »",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "🤓",
     "officiel_onu": false
   },
   "17-07": {
@@ -43,11 +344,102 @@
     "emoji": "😀",
     "officiel_onu": false
   },
+  "19-07": {
+    "label": "Journée internationale du karaoké",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🎤",
+    "officiel_onu": false
+  },
+  "22-07": {
+    "label": "Journée du hamac",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🏝️",
+    "officiel_onu": false
+  },
+  "01-08": {
+    "label": "Journée du World Wide Web",
+    "type": "insolite",
+    "categorie": "numérique",
+    "emoji": "🌐",
+    "officiel_onu": false
+  },
+  "03-08": {
+    "label": "Journée de la pastèque",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍉",
+    "officiel_onu": false
+  },
+  "07-08": {
+    "label": "Journée internationale de la bière",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍺",
+    "officiel_onu": false
+  },
   "08-08": {
     "label": "Journée internationale du chat",
     "type": "insolite",
     "categorie": "animaux",
     "emoji": "🐱",
+    "officiel_onu": false
+  },
+  "09-08": {
+    "label": "Journée des amoureux des livres",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "📚",
+    "officiel_onu": false
+  },
+  "10-08": {
+    "label": "Journée mondiale du lion",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🦁",
+    "officiel_onu": false
+  },
+  "12-08": {
+    "label": "Journée mondiale de l'éléphant",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐘",
+    "officiel_onu": false
+  },
+  "26-08": {
+    "label": "Journée du chien",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐶",
+    "officiel_onu": false
+  },
+  "01-09": {
+    "label": "Journée du chat roux",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐈",
+    "officiel_onu": false
+  },
+  "02-09": {
+    "label": "Journée mondiale de la noix de coco",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🥥",
+    "officiel_onu": false
+  },
+  "12-09": {
+    "label": "Journée des jeux vidéo",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "🎮",
+    "officiel_onu": false
+  },
+  "13-09": {
+    "label": "Journée internationale du chocolat",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍫",
     "officiel_onu": false
   },
   "19-09": {
@@ -57,12 +449,165 @@
     "emoji": "🏴‍☠️",
     "officiel_onu": false
   },
+  "25-09": {
+    "label": "Journée de la bande dessinée",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "💬",
+    "officiel_onu": false
+  },
+  "30-09": {
+    "label": "Journée internationale du podcast",
+    "type": "insolite",
+    "categorie": "numérique",
+    "emoji": "🎙️",
+    "officiel_onu": false
+  },
   "01-10": {
     "label": "Journée internationale du café",
     "type": "insolite",
     "categorie": "gourmand",
     "emoji": "☕",
-    "officiel_onu": false,
-    "note": "Célébration reconnue par l’Organisation internationale du café."
+    "officiel_onu": false
+  },
+  "02-10": {
+    "label": "Journée mondiale du sourire",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "😁",
+    "officiel_onu": false
+  },
+  "03-10": {
+    "label": "Journée des geeks de la tech",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "💻",
+    "officiel_onu": false
+  },
+  "17-10": {
+    "label": "Journée du paresseux",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🦥",
+    "officiel_onu": false
+  },
+  "25-10": {
+    "label": "Journée mondiale des pâtes",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍝",
+    "officiel_onu": false
+  },
+  "28-10": {
+    "label": "Journée internationale de l'animation",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "🎬",
+    "officiel_onu": false
+  },
+  "29-10": {
+    "label": "Journée du chat",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐈",
+    "officiel_onu": false
+  },
+  "01-11": {
+    "label": "Journée mondiale vegan",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🥕",
+    "officiel_onu": false
+  },
+  "03-11": {
+    "label": "Journée du sandwich",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🥪",
+    "officiel_onu": false
+  },
+  "04-11": {
+    "label": "Journée des bonbons",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍬",
+    "officiel_onu": false
+  },
+  "06-11": {
+    "label": "Journée des nachos",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🧀",
+    "officiel_onu": false
+  },
+  "11-11": {
+    "label": "Journée des célibataires",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🙋",
+    "officiel_onu": false
+  },
+  "19-11": {
+    "label": "Journée des records Guinness",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🏆",
+    "officiel_onu": false
+  },
+  "20-11": {
+    "label": "Journée « Donne un nom à ton PC »",
+    "type": "insolite",
+    "categorie": "geek",
+    "emoji": "🖥️",
+    "officiel_onu": false
+  },
+  "04-12": {
+    "label": "Journée du cookie",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍪",
+    "officiel_onu": false
+  },
+  "05-12": {
+    "label": "Journée internationale du ninja",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🥷",
+    "officiel_onu": false
+  },
+  "08-12": {
+    "label": "Journée du brownie",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍫",
+    "officiel_onu": false
+  },
+  "09-12": {
+    "label": "Journée mondiale de la techno",
+    "type": "insolite",
+    "categorie": "culture",
+    "emoji": "🎧",
+    "officiel_onu": false
+  },
+  "14-12": {
+    "label": "Journée du singe",
+    "type": "insolite",
+    "categorie": "animaux",
+    "emoji": "🐒",
+    "officiel_onu": false
+  },
+  "16-12": {
+    "label": "Journée de tout ce qui est recouvert de chocolat",
+    "type": "insolite",
+    "categorie": "gourmand",
+    "emoji": "🍫",
+    "officiel_onu": false
+  },
+  "18-12": {
+    "label": "Journée du pull de Noël moche",
+    "type": "insolite",
+    "categorie": "fun",
+    "emoji": "🎄",
+    "officiel_onu": false
   }
 }
