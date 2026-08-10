@@ -1,8 +1,26 @@
 [
   {
-    "date": "2026-08-10T11:58:01.978Z",
+    "date": "2026-08-10T13:42:23.083Z",
     "icone": "🌋",
     "texte": "Etna — Italie — Sicily Volcanic Province : nouvelle activité éruptive",
     "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-10T13:00:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : Wildfires, drought and extreme heat, 2026",
+    "source": "ESA"
+  },
+  {
+    "date": "2026-08-10T12:34:27.787Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 7.4 — 5 km E of San José del Palmar, Colombia",
+    "source": "USGS"
+  },
+  {
+    "date": "2026-08-10T11:59:00.000Z",
+    "icone": "🔭",
+    "texte": "ESA Science : How ESA mimics and models the 2026 total solar eclipse",
+    "source": "ESA Science"
   }
 ]
