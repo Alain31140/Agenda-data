@@ -1,9 +1,21 @@
 [
   {
-    "date": "2026-08-10T13:42:23.083Z",
+    "date": "2026-08-10T15:15:48.137Z",
     "icone": "🌋",
     "texte": "Etna — Italie — Sicily Volcanic Province : nouvelle activité éruptive",
     "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-10T14:00:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : Lion Nebula roars to life for Webb",
+    "source": "ESA"
+  },
+  {
+    "date": "2026-08-10T14:00:00.000Z",
+    "icone": "🔭",
+    "texte": "ESA Science : Lion Nebula roars to life for Webb",
+    "source": "ESA Science"
   },
   {
     "date": "2026-08-10T13:00:00.000Z",
@@ -12,9 +24,9 @@
     "source": "ESA"
   },
   {
-    "date": "2026-08-10T12:34:27.787Z",
+    "date": "2026-08-10T12:34:28.125Z",
     "icone": "🌍",
-    "texte": "Séisme de magnitude 7.4 — 5 km E of San José del Palmar, Colombia",
+    "texte": "Séisme de magnitude 7.4 — 5 km S of San José del Palmar, Colombia",
     "source": "USGS"
   },
   {
