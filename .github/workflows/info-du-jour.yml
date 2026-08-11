@@ -3,9 +3,8 @@ name: Infos du jour Instagram
 on:
   workflow_dispatch:
   schedule:
-    # GitHub utilise UTC. Les deux horaires couvrent heure d'été / heure d'hiver à Paris.
-    - cron: "5 22 * * *"
-    - cron: "5 23 * * *"
+    - cron: "5 0 * * *"
+      timezone: "Europe/Paris"
 
 permissions:
   contents: write
@@ -32,7 +31,7 @@ jobs:
       - name: Installer les dépendances
         run: pip install -r requirements.txt
 
-      - name: Vérifier l'heure locale
+      - name: Déterminer la date locale
         id: clock
         env:
           TIMEZONE: ${{ vars.TIMEZONE || 'Europe/Paris' }}
@@ -42,16 +41,12 @@ jobs:
           from datetime import datetime
           from zoneinfo import ZoneInfo
           now = datetime.now(ZoneInfo(os.environ['TIMEZONE']))
-          manual = os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch'
-          allowed = manual or now.hour in (0, 1)
           with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-              f.write(f"run={'true' if allowed else 'false'}\n")
               f.write(f"date={now.date().isoformat()}\n")
-          print('Heure locale:', now.isoformat(), '->', 'RUN' if allowed else 'SKIP')
+          print('Heure locale:', now.isoformat())
           PY
 
       - name: Générer l'image
-        if: steps.clock.outputs.run == 'true'
         env:
           TIMEZONE: ${{ vars.TIMEZONE || 'Europe/Paris' }}
           LATITUDE: ${{ vars.LATITUDE }}
@@ -61,7 +56,6 @@ jobs:
           python info_du_jour.py generate --date "${{ steps.clock.outputs.date }}"
 
       - name: Enregistrer l'image dans Agenda-data
-        if: steps.clock.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -75,7 +69,7 @@ jobs:
           fi
 
       - name: Publier sur Instagram
-        if: steps.clock.outputs.run == 'true' && vars.ENABLE_INSTAGRAM_PUBLISH == 'true'
+        if: vars.ENABLE_INSTAGRAM_PUBLISH == 'true'
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
