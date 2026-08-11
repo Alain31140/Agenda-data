@@ -5,7 +5,7 @@ V1 pensée pour le dépôt GitHub Agenda-data.
 
 Exemples :
     python info_du_jour.py generate --date 2026-08-11
-    python info_du_jour.py generate --date 2026-08-11 --latitude 43.60 --longitude 1.44
+    python info_du_jour.py generate --date 2026-08-11
     python info_du_jour.py publish --file Instagram/2026-08-11.png
 
 La publication Instagram utilise l'Instagram API avec Instagram Login.
@@ -34,6 +34,11 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = Path(__file__).resolve().parent
 DEFAULT_OUTPUT_DIR = ROOT / "Instagram"
 DEFAULT_TIMEZONE = os.getenv("TIMEZONE", "Europe/Paris")
+DEFAULT_LATITUDE = 48.8566
+DEFAULT_LONGITUDE = 2.3522
+DEFAULT_LOCATION_NAME = "Paris"
+MOON_DIR = ROOT / "Instagram" / "lune"
+SYNODIC_MONTH_DAYS = 29.53058867
 
 MONTHS_FR = [
     "janvier", "février", "mars", "avril", "mai", "juin",
@@ -208,6 +213,59 @@ def compute_sun_times(target: date, latitude: float | None, longitude: float | N
     return event(True), event(False)
 
 
+def compute_moon_phase(target: date) -> dict[str, Any]:
+    """Retourne une des 8 phases lunaires et le PNG associé.
+
+    Calcul basé sur l'âge moyen de la Lune depuis une nouvelle lune de référence
+    (6 janvier 2000 à 18:14 UTC). La précision est largement suffisante pour
+    choisir une icône parmi 8 phases dans une publication quotidienne.
+    """
+    reference = datetime(2000, 1, 6, 18, 14, tzinfo=ZoneInfo("UTC"))
+    current = datetime(target.year, target.month, target.day, 12, 0, tzinfo=ZoneInfo("UTC"))
+    age_days = ((current - reference).total_seconds() / 86400.0) % SYNODIC_MONTH_DAYS
+    fraction = age_days / SYNODIC_MONTH_DAYS
+    index = int(math.floor(fraction * 8.0 + 0.5)) % 8
+
+    phases = [
+        ("Nouvelle lune", "nouvelle-lune.png"),
+        ("Premier croissant", "premier-croissant.png"),
+        ("Premier quartier", "premier-quartier.png"),
+        ("Gibbeuse croissante", "gibbeuse-croissante.png"),
+        ("Pleine lune", "pleine-lune.png"),
+        ("Gibbeuse décroissante", "gibbeuse-decroissante.png"),
+        ("Dernier quartier", "dernier-quartier.png"),
+        ("Dernier croissant", "dernier-croissant.png"),
+    ]
+    name, filename = phases[index]
+    return {
+        "name": name,
+        "filename": filename,
+        "path": MOON_DIR / filename,
+        "index": index,
+        "age_days": round(age_days, 2),
+        "illumination_percent": round(50.0 * (1.0 - math.cos(2.0 * math.pi * fraction)), 1),
+    }
+
+
+def paste_moon(img: Image.Image, moon: dict[str, Any], box: tuple[int, int, int, int]) -> bool:
+    path = Path(moon["path"])
+    if not path.exists():
+        return False
+    moon_img = Image.open(path).convert("RGBA")
+    x1, y1, x2, y2 = box
+    max_w, max_h = x2 - x1, y2 - y1
+    moon_img.thumbnail((max_w, max_h), Image.Resampling.LANCZOS)
+    x = x1 + (max_w - moon_img.width) // 2
+    y = y1 + (max_h - moon_img.height) // 2
+    if img.mode != "RGBA":
+        base = img.convert("RGBA")
+        base.alpha_composite(moon_img, (x, y))
+        img.paste(base.convert("RGB"))
+    else:
+        img.alpha_composite(moon_img, (x, y))
+    return True
+
+
 def find_font(bold: bool, size: int) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
     candidates = []
     if bold:
@@ -283,7 +341,7 @@ def fit_font(draw: ImageDraw.ImageDraw, text: str, max_width: int, start_size: i
 
 
 def render_image(data: dict[str, Any], sunrise: str | None, sunset: str | None,
-                 location_name: str | None, output: Path) -> None:
+                 location_name: str | None, moon: dict[str, Any], output: Path) -> None:
     W, H = 1080, 1080
     img = Image.new("RGB", (W, H), "#f6efe6")
     draw = ImageDraw.Draw(img)
@@ -294,6 +352,15 @@ def render_image(data: dict[str, Any], sunrise: str | None, sunset: str | None,
     date_font = find_font(False, 40)
     draw.text((80, 70), "Bonjour", font=title_font, fill="#222222")
     draw.text((80, 160), data["date_fr"].capitalize(), font=date_font, fill="#555555")
+
+    # Phase lunaire : image à droite du bandeau + libellé court.
+    if paste_moon(img, moon, (810, 55, 970, 195)):
+        draw = ImageDraw.Draw(img)
+    moon_font = find_font(True, 22)
+    phase_font = fit_font(draw, moon["name"], 225, 23, min_size=18, bold=False)
+    draw.text((785, 72), "LUNE", font=moon_font, fill="#8c5c3c")
+    phase_w = text_width(draw, moon["name"], phase_font)
+    draw.text((985 - phase_w, 188), moon["name"], font=phase_font, fill="#555555")
 
     y = 275
     left = 80
@@ -334,7 +401,7 @@ def render_image(data: dict[str, Any], sunrise: str | None, sunset: str | None,
     # Si le contenu est trop long, on avertit au lieu de laisser sortir de l'image.
     if y > H - 70:
         # On recrée une version légèrement plus petite de façon simple et déterministe.
-        render_image_compact(data, sunrise, sunset, location_name, output)
+        render_image_compact(data, sunrise, sunset, location_name, moon, output)
         return
 
     draw.text((left, H - 62), "Infos du jour", font=find_font(False, 24), fill="#8a8178")
@@ -343,13 +410,18 @@ def render_image(data: dict[str, Any], sunrise: str | None, sunset: str | None,
 
 
 def render_image_compact(data: dict[str, Any], sunrise: str | None, sunset: str | None,
-                         location_name: str | None, output: Path) -> None:
+                         location_name: str | None, moon: dict[str, Any], output: Path) -> None:
     W, H = 1080, 1080
     img = Image.new("RGB", (W, H), "#f6efe6")
     draw = ImageDraw.Draw(img)
     draw.rounded_rectangle((40, 40, W - 40, 210), radius=34, fill="#fff8ef")
     draw.text((75, 65), "Bonjour", font=find_font(True, 64), fill="#222222")
     draw.text((75, 145), data["date_fr"].capitalize(), font=find_font(False, 35), fill="#555555")
+    if paste_moon(img, moon, (830, 55, 965, 180)):
+        draw = ImageDraw.Draw(img)
+    phase_font = fit_font(draw, moon["name"], 220, 20, min_size=16, bold=False)
+    phase_w = text_width(draw, moon["name"], phase_font)
+    draw.text((985 - phase_w, 178), moon["name"], font=phase_font, fill="#555555")
 
     left, y, max_width = 75, 245, W - 150
     label_font = find_font(True, 25)
@@ -384,12 +456,14 @@ def render_image_compact(data: dict[str, Any], sunrise: str | None, sunset: str 
     img.save(output, format="PNG", optimize=True)
 
 
-def build_caption(data: dict[str, Any], sunrise: str | None, sunset: str | None) -> str:
+def build_caption(data: dict[str, Any], sunrise: str | None, sunset: str | None, moon_name: str | None = None) -> str:
     parts = [f"Bonjour — {data['date_fr'].capitalize()}"]
     if data.get("saint"):
         parts.append(f"Saint du jour : {data['saint']}")
     if sunrise and sunset:
-        parts.append(f"Lever du soleil : {sunrise} — coucher : {sunset}")
+        parts.append(f"Lever du soleil à Paris : {sunrise} — coucher : {sunset}")
+    if moon_name:
+        parts.append(f"Phase de la Lune : {moon_name}")
     return "\n".join(parts)
 
 
@@ -464,18 +538,19 @@ def raw_url_for_file(file_path: Path) -> str:
 
 def cmd_generate(args: argparse.Namespace) -> int:
     target = parse_target_date(args.date, args.timezone)
-    lat = args.latitude if args.latitude is not None else _env_float("LATITUDE")
-    lon = args.longitude if args.longitude is not None else _env_float("LONGITUDE")
-    location_name = args.location or os.getenv("LOCATION_NAME")
+    lat = args.latitude if args.latitude is not None else (_env_float("LATITUDE") or DEFAULT_LATITUDE)
+    lon = args.longitude if args.longitude is not None else (_env_float("LONGITUDE") or DEFAULT_LONGITUDE)
+    location_name = args.location or os.getenv("LOCATION_NAME") or DEFAULT_LOCATION_NAME
 
     data = get_day_data(target)
     sunrise, sunset = compute_sun_times(target, lat, lon, args.timezone)
+    moon = compute_moon_phase(target)
 
     output_dir = Path(args.output_dir) if args.output_dir else DEFAULT_OUTPUT_DIR
     if not output_dir.is_absolute():
         output_dir = ROOT / output_dir
     output = output_dir / f"{target.isoformat()}.png"
-    render_image(data, sunrise, sunset, location_name, output)
+    render_image(data, sunrise, sunset, location_name, moon, output)
 
     metadata = {
         **data,
@@ -485,6 +560,11 @@ def cmd_generate(args: argparse.Namespace) -> int:
         "latitude": lat,
         "longitude": lon,
         "location_name": location_name,
+        "moon_phase": moon["name"],
+        "moon_phase_index": moon["index"],
+        "moon_age_days": moon["age_days"],
+        "moon_illumination_percent": moon["illumination_percent"],
+        "moon_image": str(Path("Instagram") / "lune" / moon["filename"]),
         "image": str(output.relative_to(ROOT)),
     }
     meta_path = output.with_suffix(".json")
@@ -504,7 +584,7 @@ def cmd_publish(args: argparse.Namespace) -> int:
     meta_path = file_path.with_suffix(".json")
     if meta_path.exists():
         data = json.loads(meta_path.read_text(encoding="utf-8"))
-        caption = build_caption(data, data.get("sunrise"), data.get("sunset"))
+        caption = build_caption(data, data.get("sunrise"), data.get("sunset"), data.get("moon_phase"))
     else:
         caption = args.caption or "Bonjour !"
 
@@ -518,11 +598,16 @@ def cmd_publish(args: argparse.Namespace) -> int:
 def cmd_show(args: argparse.Namespace) -> int:
     target = parse_target_date(args.date, args.timezone)
     data = get_day_data(target)
-    lat = args.latitude if args.latitude is not None else _env_float("LATITUDE")
-    lon = args.longitude if args.longitude is not None else _env_float("LONGITUDE")
+    lat = args.latitude if args.latitude is not None else (_env_float("LATITUDE") or DEFAULT_LATITUDE)
+    lon = args.longitude if args.longitude is not None else (_env_float("LONGITUDE") or DEFAULT_LONGITUDE)
     sunrise, sunset = compute_sun_times(target, lat, lon, args.timezone)
+    moon = compute_moon_phase(target)
     data["sunrise"] = sunrise
     data["sunset"] = sunset
+    data["location_name"] = DEFAULT_LOCATION_NAME
+    data["moon_phase"] = moon["name"]
+    data["moon_age_days"] = moon["age_days"]
+    data["moon_illumination_percent"] = moon["illumination_percent"]
     print(json.dumps(data, ensure_ascii=False, indent=2))
     return 0
 
