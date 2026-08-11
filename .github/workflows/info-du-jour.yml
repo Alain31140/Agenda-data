@@ -1,0 +1,85 @@
+name: Infos du jour Instagram
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub utilise UTC. Les deux horaires couvrent heure d'été / heure d'hiver à Paris.
+    - cron: "5 22 * * *"
+    - cron: "5 23 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: infos-du-jour-instagram
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Vérifier l'heure locale
+        id: clock
+        env:
+          TIMEZONE: ${{ vars.TIMEZONE || 'Europe/Paris' }}
+        run: |
+          python - <<'PY'
+          import os
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          now = datetime.now(ZoneInfo(os.environ['TIMEZONE']))
+          manual = os.environ.get('GITHUB_EVENT_NAME') == 'workflow_dispatch'
+          allowed = manual or now.hour in (0, 1)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f"run={'true' if allowed else 'false'}\n")
+              f.write(f"date={now.date().isoformat()}\n")
+          print('Heure locale:', now.isoformat(), '->', 'RUN' if allowed else 'SKIP')
+          PY
+
+      - name: Générer l'image
+        if: steps.clock.outputs.run == 'true'
+        env:
+          TIMEZONE: ${{ vars.TIMEZONE || 'Europe/Paris' }}
+          LATITUDE: ${{ vars.LATITUDE }}
+          LONGITUDE: ${{ vars.LONGITUDE }}
+          LOCATION_NAME: ${{ vars.LOCATION_NAME }}
+        run: |
+          python info_du_jour.py generate --date "${{ steps.clock.outputs.date }}"
+
+      - name: Enregistrer l'image dans Agenda-data
+        if: steps.clock.outputs.run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Instagram/
+          if git diff --cached --quiet; then
+            echo "Rien à enregistrer."
+          else
+            git commit -m "Infos du jour ${{ steps.clock.outputs.date }}"
+            git pull --rebase
+            git push
+          fi
+
+      - name: Publier sur Instagram
+        if: steps.clock.outputs.run == 'true' && vars.ENABLE_INSTAGRAM_PUBLISH == 'true'
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_ACCOUNT_ID: ${{ secrets.INSTAGRAM_ACCOUNT_ID }}
+          INSTAGRAM_API_VERSION: ${{ vars.INSTAGRAM_API_VERSION || 'v23.0' }}
+          PUBLIC_IMAGE_BASE_URL: ${{ vars.PUBLIC_IMAGE_BASE_URL }}
+        run: |
+          python info_du_jour.py publish --file "Instagram/${{ steps.clock.outputs.date }}.png"
