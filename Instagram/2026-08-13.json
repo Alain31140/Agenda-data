@@ -1,0 +1,28 @@
+{
+  "key": "13-08",
+  "date": "2026-08-13",
+  "date_fr": "jeudi 13 août 2026",
+  "saint": "Hippolyte",
+  "saint_type": "saint",
+  "dicton": "Août humide prépare vendange timide.",
+  "journees_mondiales": [],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "06:40",
+  "sunset": "21:10",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Nouvelle lune",
+  "moon_phase_index": 0,
+  "moon_age_days": 0.18,
+  "moon_illumination_percent": 0.0,
+  "moon_image": "Instagram/lune/nouvelle-lune.png",
+  "image": "Instagram/2026-08-13.png"
+}
