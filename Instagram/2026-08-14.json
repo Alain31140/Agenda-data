@@ -1,0 +1,28 @@
+{
+  "key": "14-08",
+  "date": "2026-08-14",
+  "date_fr": "vendredi 14 août 2026",
+  "saint": "Évrard",
+  "saint_type": "saint",
+  "dicton": "En août, les champs prennent leur dernier coup.",
+  "journees_mondiales": [],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "06:41",
+  "sunset": "21:09",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Nouvelle lune",
+  "moon_phase_index": 0,
+  "moon_age_days": 1.18,
+  "moon_illumination_percent": 1.6,
+  "moon_image": "Instagram/lune/nouvelle-lune.png",
+  "image": "Instagram/2026-08-14.png"
+}
