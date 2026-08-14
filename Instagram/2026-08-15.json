@@ -1,0 +1,28 @@
+{
+  "key": "15-08",
+  "date": "2026-08-15",
+  "date_fr": "samedi 15 août 2026",
+  "saint": "Assomption",
+  "saint_type": "fete",
+  "dicton": "Mi-août, l’été touche à son bout.",
+  "journees_mondiales": [],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "06:43",
+  "sunset": "21:07",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Premier croissant",
+  "moon_phase_index": 1,
+  "moon_age_days": 2.18,
+  "moon_illumination_percent": 5.3,
+  "moon_image": "Instagram/lune/premier-croissant.png",
+  "image": "Instagram/2026-08-15.png"
+}
