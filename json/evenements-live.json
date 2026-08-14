@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-08-14T11:56:08.171Z",
+    "date": "2026-08-14T13:40:46.690Z",
     "icone": "🌋",
     "texte": "Etna — Italie — Sicily Volcanic Province : nouvelle activité éruptive",
     "source": "Smithsonian / USGS"
@@ -22,17 +22,5 @@
     "icone": "🚀",
     "texte": "ESA : MTG-I1 captures eclipse path of totality over Europe",
     "source": "ESA"
-  },
-  {
-    "date": "2026-08-12T12:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Musification of the 2026 total solar eclipse",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-08-12T12:00:00.000Z",
-    "icone": "🔭",
-    "texte": "ESA Science : Musification of the 2026 total solar eclipse",
-    "source": "ESA Science"
   }
 ]
