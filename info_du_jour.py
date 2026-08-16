@@ -962,26 +962,27 @@ def render_image(
     # AUJOURD'HUI ON CÉLÈBRE
     # --------------------------------------------------------
 
-    draw.text(
-        (155, y),
-        "Aujourd'hui on célèbre",
-        font=section_font,
-        fill=ink
-    )
-
-    underline(
-        draw,
-        155,
-        515,
-        y + 42,
-        accent,
-        width=3
-    )
-
-    y += 50
-mondiales = data.get("journees_mondiales") or []
+    mondiales = data.get("journees_mondiales") or []
 
     if mondiales:
+        draw.text(
+            (155, y),
+            "Aujourd'hui on célèbre",
+            font=section_font,
+            fill=ink
+        )
+
+        underline(
+            draw,
+            155,
+            515,
+            y + 42,
+            accent,
+            width=3
+        )
+
+        y += 50
+
         for item in mondiales[:2]:
             y = draw_wrapped(
                 draw,
@@ -1001,26 +1002,27 @@ mondiales = data.get("journees_mondiales") or []
     # LA TOUCHE FUN
     # --------------------------------------------------------
 
-    draw.text(
-        (155, y),
-        "La touche fun",
-        font=section_font,
-        fill=accent
-    )
-
-    underline(
-        draw,
-        155,
-        360,
-        y + 42,
-        accent,
-        width=3
-    )
-
-    y += 50
-funs = data.get("journees_fun") or []
+    funs = data.get("journees_fun") or []
 
     if funs:
+        draw.text(
+            (155, y),
+            "La touche fun",
+            font=section_font,
+            fill=accent
+        )
+
+        underline(
+            draw,
+            155,
+            360,
+            y + 42,
+            accent,
+            width=3
+        )
+
+        y += 50
+
         y = draw_wrapped(
             draw,
             (185, y),
@@ -1031,6 +1033,7 @@ funs = data.get("journees_fun") or []
             line_gap=4,
             bullet="• "
         )
+
         y += 20
 
     # --------------------------------------------------------
