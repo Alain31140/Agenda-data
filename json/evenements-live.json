@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-08-16T09:40:40.811Z",
+    "date": "2026-08-16T10:37:59.002Z",
     "icone": "🌋",
     "texte": "Etna — Italie — Sicily Volcanic Province : nouvelle activité éruptive",
     "source": "Smithsonian / USGS"
@@ -16,17 +16,5 @@
     "icone": "🌍",
     "texte": "Séisme de magnitude 6.9 — 15 km NNW of Pematangsiantar, Indonesia",
     "source": "USGS"
-  },
-  {
-    "date": "2026-08-14T10:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : A look back at the 2026 total solar eclipse",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-08-14T10:00:00.000Z",
-    "icone": "🔭",
-    "texte": "ESA Science : A look back at the 2026 total solar eclipse",
-    "source": "ESA Science"
   }
 ]
