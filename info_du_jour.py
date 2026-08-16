@@ -390,50 +390,31 @@ def compute_moon_phase(target: date) -> dict[str, Any]:
 # POLICES ET TEXTE
 # ============================================================
 
+FONT_DIR = ROOT / "Instagram" / "fonts"
+PATRICK_HAND = FONT_DIR / "PatrickHand-Regular.ttf"
+
+
 def find_font(
     bold: bool,
     size: int,
     handwritten: bool = False,
 ) -> ImageFont.FreeTypeFont | ImageFont.ImageFont:
-    candidates: list[str] = []
+    """Utilise Patrick Hand pour tout le visuel."""
+    if PATRICK_HAND.exists():
+        return ImageFont.truetype(str(PATRICK_HAND), size)
 
-    if handwritten:
-        candidates += [
-            # macOS
-            "/System/Library/Fonts/Supplemental/Comic Sans MS.ttf",
-            "/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf",
-
-            # Linux éventuel
-            "/usr/share/fonts/truetype/msttcorefonts/Comic_Sans_MS.ttf",
-
-            # Repli : italique = un peu plus manuscrit
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf",
-            "DejaVuSans-Oblique.ttf",
-        ]
-
-    if bold:
-        candidates += [
-            "DejaVuSans-Bold.ttf",
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
-            "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
-            "/Library/Fonts/Arial Bold.ttf",
-        ]
-    else:
-        candidates += [
-            "DejaVuSans.ttf",
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
-            "/System/Library/Fonts/Supplemental/Arial.ttf",
-            "/Library/Fonts/Arial.ttf",
-        ]
-
+    candidates = [
+        "DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/System/Library/Fonts/Supplemental/Arial.ttf",
+        "/Library/Fonts/Arial.ttf",
+    ]
     for candidate in candidates:
         try:
             return ImageFont.truetype(candidate, size)
         except OSError:
             pass
-
     return ImageFont.load_default()
-
 
 def text_width(
     draw: ImageDraw.ImageDraw,
@@ -1520,6 +1501,10 @@ def _env_float(
 def cmd_generate(
     args: argparse.Namespace,
 ) -> int:
+    if not PATRICK_HAND.exists():
+        raise FileNotFoundError(
+            "Police introuvable : Instagram/fonts/PatrickHand-Regular.ttf"
+        )
     target = parse_target_date(
         args.date,
         args.timezone
