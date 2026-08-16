@@ -979,8 +979,7 @@ def render_image(
     )
 
     y += 50
-
-    mondiales = data.get("journees_mondiales") or []
+mondiales = data.get("journees_mondiales") or []
 
     if mondiales:
         for item in mondiales[:2]:
@@ -994,18 +993,9 @@ def render_image(
                 line_gap=4,
                 bullet="• "
             )
-
             y += 4
-    else:
-        draw.text(
-            (185, y),
-            "Aucune journée particulière aujourd'hui.",
-            font=body_small,
-            fill="#666666"
-        )
-        y += 36
 
-    y += 15
+        y += 15
 
     # --------------------------------------------------------
     # LA TOUCHE FUN
@@ -1028,8 +1018,7 @@ def render_image(
     )
 
     y += 50
-
-    funs = data.get("journees_fun") or []
+funs = data.get("journees_fun") or []
 
     if funs:
         y = draw_wrapped(
@@ -1042,16 +1031,7 @@ def render_image(
             line_gap=4,
             bullet="• "
         )
-    else:
-        draw.text(
-            (185, y),
-            "Pas de journée insolite répertoriée.",
-            font=body_small,
-            fill="#666666"
-        )
-        y += 36
-
-    y += 20
+        y += 20
 
     # --------------------------------------------------------
     # CIEL DU JOUR
