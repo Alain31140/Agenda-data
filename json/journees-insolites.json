@@ -407,6 +407,11 @@
     "emoji": "🐘",
     "officiel_onu": false
   },
+  "12-08": {
+    "label": "Journée fun de test",
+    "type": "journee",
+    "image": "jeunesse.png"
+  },
   "26-08": {
     "label": "Journée du chien",
     "type": "insolite",
