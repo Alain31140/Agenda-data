@@ -8,7 +8,9 @@
   "journees_mondiales": [
     "Journée internationale de test"
   ],
-  "journees_fun": [],
+  "journees_fun": [
+    "Journée fun de test"
+  ],
   "source_files": {
     "saints": "json/saints.json",
     "dictons": "json/dictons-du-jour.json",
