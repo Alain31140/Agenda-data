@@ -540,11 +540,6 @@
     "type": "journee",
     "image": "jeunesse.png"
   },
-  "17-08": {
-    "label": "Journée internationale de test",
-    "type": "journee",
-    "image": "jeunesse.png"
-  },
   "19-08": {
     "label": "Journée mondiale de l'aide humanitaire",
     "type": "journee",
