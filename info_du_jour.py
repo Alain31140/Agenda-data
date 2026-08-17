@@ -1200,8 +1200,10 @@ def render_image(
         footer_font
     )
 
+    footer_y = min(panel_bottom + 35, 1010)
+
     draw.text(
-        ((W - footer_w) // 2, 1010),
+        ((W - footer_w) // 2, footer_y),
         footer,
         font=footer_font,
         fill=ink
@@ -1211,7 +1213,7 @@ def render_image(
         draw,
         (W - footer_w) // 2,
         (W + footer_w) // 2,
-        1051,
+        footer_y + 41,
         "#D34848",
         width=2
     )
