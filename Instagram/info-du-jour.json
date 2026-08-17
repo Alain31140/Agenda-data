@@ -5,12 +5,8 @@
   "saint": "Hyacinthe",
   "saint_type": "saint",
   "dicton": "Quand août souffle, la terre s’assouffle.",
-  "journees_mondiales": [
-    "Journée internationale de test"
-  ],
-  "journees_fun": [
-    "Journée fun de test"
-  ],
+  "journees_mondiales": [],
+  "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
     "dictons": "json/dictons-du-jour.json",
