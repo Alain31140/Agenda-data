@@ -4,6 +4,12 @@
   "date_fr": "lundi 17 août 2026",
   "saint": "Hyacinthe",
   "saint_type": "saint",
+  "saint_info": "Un prénom qui traverse les générations sans perdre son style.",
+  "zodiac": {
+    "name": "Lion",
+    "symbol": "♌",
+    "fun": "solaire, généreux, un brin théâtral"
+  },
   "dicton": "Quand août souffle, la terre s’assouffle.",
   "journees_mondiales": [],
   "journees_fun": [],
