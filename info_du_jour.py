@@ -1328,6 +1328,16 @@ def http_post_form(
             payload = resp.read().decode(
                 "utf-8"
             )
+    except urllib.error.HTTPError as exc:
+        try:
+            detail = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            detail = ""
+        raise RuntimeError(
+            f"Erreur HTTP Instagram sur {url}: "
+            f"HTTP {exc.code} {exc.reason}. "
+            f"Détail Meta: {detail}"
+        ) from exc
     except Exception as exc:
         raise RuntimeError(
             f"Erreur HTTP Instagram sur {url}: {exc}"
@@ -1341,6 +1351,104 @@ def http_post_form(
         )
 
     return data
+
+
+def http_get_json(
+    url: str,
+    token: str,
+) -> dict[str, Any]:
+    req = urllib.request.Request(
+        url,
+        method="GET"
+    )
+
+    req.add_header(
+        "Authorization",
+        f"Bearer {token}"
+    )
+
+    try:
+        with urllib.request.urlopen(
+            req,
+            timeout=60
+        ) as resp:
+            payload = resp.read().decode("utf-8")
+    except urllib.error.HTTPError as exc:
+        try:
+            detail = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            detail = ""
+        raise RuntimeError(
+            f"Erreur HTTP Instagram sur {url}: "
+            f"HTTP {exc.code} {exc.reason}. "
+            f"Détail Meta: {detail}"
+        ) from exc
+    except Exception as exc:
+        raise RuntimeError(
+            f"Erreur HTTP Instagram sur {url}: {exc}"
+        ) from exc
+
+    data = json.loads(payload)
+
+    if "error" in data:
+        raise RuntimeError(
+            f"Erreur Instagram: {data['error']}"
+        )
+
+    return data
+
+
+def wait_for_media_container(
+    creation_id: str,
+    token: str,
+    api_version: str,
+    attempts: int = 20,
+    delay: int = 3,
+) -> None:
+    """
+    Attend que Meta ait fini de traiter le conteneur média avant
+    d'appeler /media_publish. Évite les HTTP 400 quand le conteneur
+    vient juste d'être créé.
+    """
+    status_url = (
+        f"https://graph.instagram.com/"
+        f"{api_version}/"
+        f"{creation_id}"
+        f"?fields=status_code,status"
+    )
+
+    last_status = "UNKNOWN"
+
+    for _ in range(attempts):
+        data = http_get_json(status_url, token)
+        status_code = str(data.get("status_code", "")).upper()
+        status_text = str(data.get("status", "")).strip()
+
+        if status_code:
+            last_status = status_code
+        elif status_text:
+            last_status = status_text
+
+        print(
+            "Statut du conteneur Instagram:",
+            status_code or status_text or data
+        )
+
+        if status_code == "FINISHED":
+            return
+
+        if status_code in {"ERROR", "EXPIRED"}:
+            raise RuntimeError(
+                "Le traitement du média Instagram a échoué : "
+                f"{data}"
+            )
+
+        time.sleep(delay)
+
+    raise RuntimeError(
+        "Le conteneur Instagram n'est pas prêt après attente. "
+        f"Dernier statut : {last_status}"
+    )
 
 
 def wait_until_public(
@@ -1426,6 +1534,14 @@ def publish_instagram(
             "Instagram n'a pas renvoyé "
             f"d'identifiant de conteneur: {container}"
         )
+
+    # La création du conteneur est asynchrone : on attend que Meta
+    # ait réellement fini de traiter l'image avant publication.
+    wait_for_media_container(
+        creation_id,
+        token,
+        api_version
+    )
 
     published = http_post_form(
         f"{base}/media_publish",
@@ -1882,4 +1998,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-    
