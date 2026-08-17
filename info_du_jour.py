@@ -658,6 +658,65 @@ def draw_small_sun(
         )
 
 
+WEEKDAY_DECO_FILES = {
+    0: "lundi.png",
+    1: "mardi.png",
+    2: "mercredi.png",
+    3: "jeudi.png",
+    4: "vendredi.png",
+    5: "samedi.png",
+    6: "dimanche.png",
+}
+
+
+def paste_weekday_deco(
+    img: Image.Image,
+    target: date,
+    box: tuple[int, int, int, int],
+) -> bool:
+    """
+    Place le petit dessin correspondant au jour de la semaine.
+
+    Fichiers attendus :
+      Instagram/deco/lundi.png
+      Instagram/deco/mardi.png
+      ...
+      Instagram/deco/dimanche.png
+    """
+    filename = WEEKDAY_DECO_FILES[target.weekday()]
+    path = ROOT / "Instagram" / "deco" / filename
+
+    if not path.exists():
+        print(f"Décoration absente : {path}")
+        return False
+
+    deco = Image.open(path).convert("RGBA")
+
+    x1, y1, x2, y2 = box
+    max_w = x2 - x1
+    max_h = y2 - y1
+
+    deco.thumbnail(
+        (max_w, max_h),
+        Image.Resampling.LANCZOS
+    )
+
+    x = x1 + (max_w - deco.width) // 2
+    y = y1 + (max_h - deco.height) // 2
+
+    base = img.convert("RGBA")
+    base.alpha_composite(
+        deco,
+        (x, y)
+    )
+
+    img.paste(
+        base.convert("RGB")
+    )
+
+    return True
+
+
 def draw_moon_icon_fallback(
     draw: ImageDraw.ImageDraw,
     box: tuple[int, int, int, int],
@@ -806,13 +865,24 @@ def render_image(
         width=3
     )
 
-    # Petit soleil décoratif.
-    draw_small_sun(
-        draw,
-        948,
-        76,
-        radius=24
-    )
+    # Petit dessin variable selon le jour de la semaine.
+    # S'il manque un PNG dans Instagram/deco/, on garde le soleil
+    # comme solution de secours.
+    if not paste_weekday_deco(
+        img,
+        target,
+        (905, 18, 1050, 138)
+    ):
+        draw = ImageDraw.Draw(img)
+        draw_small_sun(
+            draw,
+            948,
+            76,
+            radius=24
+        )
+    else:
+        # alpha_composite remplace l'image : on recrée le contexte draw.
+        draw = ImageDraw.Draw(img)
 
     # --------------------------------------------------------
     # BONNE FÊTE
