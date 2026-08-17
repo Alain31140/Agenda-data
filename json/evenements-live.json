@@ -1,8 +1,14 @@
 [
   {
-    "date": "2026-08-17T07:15:03.185Z",
+    "date": "2026-08-17T08:02:30.933Z",
     "icone": "🌋",
     "texte": "Etna — Italie — Sicily Volcanic Province : nouvelle activité éruptive",
     "source": "Smithsonian / USGS"
+  },
+  {
+    "date": "2026-08-17T06:00:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : Watch Sophie Adenot’s spacewalk live",
+    "source": "ESA"
   }
 ]
