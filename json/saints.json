@@ -1,378 +1,1827 @@
 {
- "01-01": { "label": "Marie", "type": "saint" },
-"02-01": { "label": "Basile", "type": "saint" },
-"03-01": { "label": "Geneviève", "type": "saint" },
-"04-01": { "label": "Odilon", "type": "saint" },
-"05-01": { "label": "Édouard", "type": "saint" },
-"06-01": { "label": "Melaine", "type": "saint" },
-"07-01": { "label": "Raymond", "type": "saint" },
-"08-01": { "label": "Lucien", "type": "saint" },
-"09-01": { "label": "Alix", "type": "saint" },
-"10-01": { "label": "Guillaume", "type": "saint" },
-"11-01": { "label": "Paulin", "type": "saint" },
-"12-01": { "label": "Tatiana", "type": "saint" },
-"13-01": { "label": "Yvette", "type": "saint" },
-"14-01": { "label": "Nina", "type": "saint" },
-"15-01": { "label": "Rémi", "type": "saint" },
-"16-01": { "label": "Marcel", "type": "saint" },
-"17-01": { "label": "Roseline", "type": "saint" },
-"18-01": { "label": "Prisca", "type": "saint" },
-"19-01": { "label": "Marius", "type": "saint" },
-"20-01": { "label": "Sébastien", "type": "saint" },
-"21-01": { "label": "Agnès", "type": "saint" },
-"22-01": { "label": "Vincent", "type": "saint" },
-"23-01": { "label": "Barnard", "type": "saint" },
-"24-01": { "label": "François de Sales", "type": "saint" },
-"25-01": { "label": "Conversion de Saint Paul", "type": "saint" },
-"26-01": { "label": "Paule", "type": "saint" },
-"27-01": { "label": "Angèle", "type": "saint" },
-"28-01": { "label": "Thomas d’Aquin", "type": "saint" },
-"29-01": { "label": "Gildas", "type": "saint" },
-"30-01": { "label": "Martine", "type": "saint" },
-"31-01": { "label": "Marcelle", "type": "saint" },
-
-"01-02": { "label": "Ella", "type": "saint" },
-"02-02": { "label": "Présentation du Seigneur", "type": "fete" },
-"03-02": { "label": "Blaise", "type": "saint" },
-"04-02": { "label": "Véronique", "type": "saint" },
-"05-02": { "label": "Agathe", "type": "saint" },
-"06-02": { "label": "Gaston", "type": "saint" },
-"07-02": { "label": "Eugénie", "type": "saint" },
-"08-02": { "label": "Jacqueline", "type": "saint" },
-"09-02": { "label": "Apolline", "type": "saint" },
-"10-02": { "label": "Arnaud", "type": "saint" },
-"11-02": { "label": "Notre-Dame de Lourdes", "type": "fete" },
-"12-02": { "label": "Félix", "type": "saint" },
-"13-02": { "label": "Béatrice", "type": "saint" },
-"14-02": { "label": "Valentin", "type": "saint" },
-"15-02": { "label": "Claude", "type": "saint" },
-"16-02": { "label": "Julienne", "type": "saint" },
-"17-02": { "label": "Alexis", "type": "saint" },
-"18-02": { "label": "Bernadette", "type": "saint" },
-"19-02": { "label": "Gabin", "type": "saint" },
-"20-02": { "label": "Aimée", "type": "saint" },
-"21-02": { "label": "Pierre Damien", "type": "saint" },
-"22-02": { "label": "Isabelle", "type": "saint" },
-"23-02": { "label": "Lazare", "type": "saint" },
-"24-02": { "label": "Modeste", "type": "saint" },
-"25-02": { "label": "Roméo", "type": "saint" },
-"26-02": { "label": "Nestor", "type": "saint" },
-"27-02": { "label": "Honorine", "type": "saint" },
-"28-02": { "label": "Romain", "type": "saint" },
-
-"01-03": { "label": "Aubin", "type": "saint" },
-"02-03": { "label": "Charles le Bon", "type": "saint" },
-"03-03": { "label": "Guénolé", "type": "saint" },
-"04-03": { "label": "Casimir", "type": "saint" },
-"05-03": { "label": "Olive", "type": "saint" },
-"06-03": { "label": "Colette", "type": "saint" },
-"07-03": { "label": "Félicité", "type": "saint" },
-"08-03": { "label": "Jean de Dieu", "type": "saint" },
-"09-03": { "label": "Françoise", "type": "saint" },
-"10-03": { "label": "Vivien", "type": "saint" },
-"11-03": { "label": "Rosine", "type": "saint" },
-"12-03": { "label": "Justine", "type": "saint" },
-"13-03": { "label": "Rodrigue", "type": "saint" },
-"14-03": { "label": "Mathilde", "type": "saint" },
-"15-03": { "label": "Louise", "type": "saint" },
-"16-03": { "label": "Bénédicte", "type": "saint" },
-"17-03": { "label": "Patrick", "type": "saint" },
-"18-03": { "label": "Cyrille", "type": "saint" },
-"19-03": { "label": "Joseph", "type": "saint" },
-"20-03": { "label": "Herbert", "type": "saint" },
-"21-03": { "label": "Clémence", "type": "saint" },
-"22-03": { "label": "Léa", "type": "saint" },
-"23-03": { "label": "Victorien", "type": "saint" },
-"24-03": { "label": "Catherine de Suède", "type": "saint" },
-"25-03": { "label": "Annonciation", "type": "fete" },
-"26-03": { "label": "Larissa", "type": "saint" },
-"27-03": { "label": "Habib", "type": "saint" },
-"28-03": { "label": "Gontran", "type": "saint" },
-"29-03": { "label": "Gwladys", "type": "saint" },
-"30-03": { "label": "Amédée", "type": "saint" },
-"31-03": { "label": "Benjamin", "type": "saint" },
-
-"01-04": { "label": "Hugues", "type": "saint" },
-"02-04": { "label": "Sandrine", "type": "saint" },
-"03-04": { "label": "Richard", "type": "saint" },
-"04-04": { "label": "Isidore", "type": "saint" },
-"05-04": { "label": "Irène", "type": "saint" },
-"06-04": { "label": "Marcellin", "type": "saint" },
-"07-04": { "label": "Jean-Baptiste de la Salle", "type": "saint" },
-"08-04": { "label": "Julie", "type": "saint" },
-"09-04": { "label": "Gautier", "type": "saint" },
-"10-04": { "label": "Fulbert", "type": "saint" },
-"11-04": { "label": "Stanislas", "type": "saint" },
-"12-04": { "label": "Jules", "type": "saint" },
-"13-04": { "label": "Ida", "type": "saint" },
-"14-04": { "label": "Maxime", "type": "saint" },
-"15-04": { "label": "Paterne", "type": "saint" },
-"16-04": { "label": "Benoît-Joseph", "type": "saint" },
-"17-04": { "label": "Anicet", "type": "saint" },
-"18-04": { "label": "Parfait", "type": "saint" },
-"19-04": { "label": "Emma", "type": "saint" },
-"20-04": { "label": "Odette", "type": "saint" },
-"21-04": { "label": "Anselme", "type": "saint" },
-"22-04": { "label": "Alexandre", "type": "saint" },
-"23-04": { "label": "Georges", "type": "saint" },
-"24-04": { "label": "Fidèle", "type": "saint" },
-"25-04": { "label": "Marc", "type": "saint" },
-"26-04": { "label": "Alida", "type": "saint" },
-"27-04": { "label": "Zita", "type": "saint" },
-"28-04": { "label": "Valérie", "type": "saint" },
-"29-04": { "label": "Catherine de Sienne", "type": "saint" },
-"30-04": { "label": "Robert", "type": "saint" },
-
-"01-05": { "label": "Fête du Travail", "type": "fete" },
-"02-05": { "label": "Boris", "type": "saint" },
-"03-05": { "label": "Philippe et Jacques", "type": "saint" },
-"04-05": { "label": "Sylvain", "type": "saint" },
-"05-05": { "label": "Judith", "type": "saint" },
-"06-05": { "label": "Prudence", "type": "saint" },
-"07-05": { "label": "Gisèle", "type": "saint" },
-"08-05": { "label": "Victoire 1945", "type": "fete" },
-"09-05": { "label": "Pacôme", "type": "saint" },
-"10-05": { "label": "Solange", "type": "saint" },
-"11-05": { "label": "Estelle", "type": "saint" },
-"12-05": { "label": "Achille", "type": "saint" },
-"13-05": { "label": "Rolande", "type": "saint" },
-"14-05": { "label": "Matthias", "type": "saint" },
-"15-05": { "label": "Denise", "type": "saint" },
-"16-05": { "label": "Honoré", "type": "saint" },
-"17-05": { "label": "Pascal", "type": "saint" },
-"18-05": { "label": "Éric", "type": "saint" },
-"19-05": { "label": "Yves", "type": "saint" },
-"20-05": { "label": "Bernardin", "type": "saint" },
-"21-05": { "label": "Constantin", "type": "saint" },
-"22-05": { "label": "Émile", "type": "saint" },
-"23-05": { "label": "Didier", "type": "saint" },
-"24-05": { "label": "Donatien", "type": "saint" },
-"25-05": { "label": "Sophie", "type": "saint" },
-"26-05": { "label": "Bérenger", "type": "saint" },
-"27-05": { "label": "Augustin", "type": "saint" },
-"28-05": { "label": "Germain", "type": "saint" },
-"29-05": { "label": "Aymard", "type": "saint" },
-"30-05": { "label": "Ferdinand", "type": "saint" },
-"31-05": { "label": "Visitation", "type": "fete" },
-
-"01-06": { "label": "Justin", "type": "saint" },
-"02-06": { "label": "Blandine", "type": "saint" },
-"03-06": { "label": "Kévin", "type": "saint" },
-"04-06": { "label": "Clotilde", "type": "saint" },
-"05-06": { "label": "Igor", "type": "saint" },
-"06-06": { "label": "Norbert", "type": "saint" },
-"07-06": { "label": "Gilbert", "type": "saint" },
-"08-06": { "label": "Médard", "type": "saint" },
-"09-06": { "label": "Diane", "type": "saint" },
-"10-06": { "label": "Landry", "type": "saint" },
-"11-06": { "label": "Barnabé", "type": "saint" },
-"12-06": { "label": "Guy", "type": "saint" },
-"13-06": { "label": "Antoine de Padoue", "type": "saint" },
-"14-06": { "label": "Élisée", "type": "saint" },
-"15-06": { "label": "Germaine", "type": "saint" },
-"16-06": { "label": "Jean-François Régis", "type": "saint" },
-"17-06": { "label": "Hervé", "type": "saint" },
-"18-06": { "label": "Léonce", "type": "saint" },
-"19-06": { "label": "Romuald", "type": "saint" },
-"20-06": { "label": "Silvère", "type": "saint" },
-"21-06": { "label": "Rodolphe", "type": "saint" },
-"22-06": { "label": "Alban", "type": "saint" },
-"23-06": { "label": "Audrey", "type": "saint" },
-"24-06": { "label": "Jean-Baptiste", "type": "saint" },
-"25-06": { "label": "Prosper", "type": "saint" },
-"26-06": { "label": "Anthelme", "type": "saint" },
-"27-06": { "label": "Fernand", "type": "saint" },
-"28-06": { "label": "Irénée", "type": "saint" },
-"29-06": { "label": "Pierre et Paul", "type": "saint" },
-"30-06": { "label": "Martial", "type": "saint" },
-
-"01-07": { "label": "Thierry", "type": "saint" },
-"02-07": { "label": "Martinien", "type": "saint" },
-"03-07": { "label": "Thomas", "type": "saint" },
-"04-07": { "label": "Florent", "type": "saint" },
-"05-07": { "label": "Antoine", "type": "saint" },
-"06-07": { "label": "Mariette", "type": "saint" },
-"07-07": { "label": "Raoul", "type": "saint" },
-"08-07": { "label": "Thibaut", "type": "saint" },
-"09-07": { "label": "Amandine", "type": "saint" },
-"10-07": { "label": "Ulrich", "type": "saint" },
-"11-07": { "label": "Benoît", "type": "saint" },
-"12-07": { "label": "Olivier", "type": "saint" },
-"13-07": { "label": "Henri", "type": "saint" },
-"14-07": { "label": "Fête nationale", "type": "fete" },
-"15-07": { "label": "Donald", "type": "saint" },
-"16-07": { "label": "Notre-Dame du Mont Carmel", "type": "fete" },
-"17-07": { "label": "Charlotte", "type": "saint" },
-"18-07": { "label": "Frédéric", "type": "saint" },
-"19-07": { "label": "Arsène", "type": "saint" },
-"20-07": { "label": "Marina", "type": "saint" },
-"21-07": { "label": "Victor", "type": "saint" },
-"22-07": { "label": "Marie-Madeleine", "type": "saint" },
-"23-07": { "label": "Brigitte", "type": "saint" },
-"24-07": { "label": "Christine", "type": "saint" },
-"25-07": { "label": "Jacques", "type": "saint" },
-"26-07": { "label": "Anne et Joachim", "type": "saint" },
-"27-07": { "label": "Nathalie", "type": "saint" },
-"28-07": { "label": "Samson", "type": "saint" },
-"29-07": { "label": "Marthe", "type": "saint" },
-"30-07": { "label": "Juliette", "type": "saint" },
-"31-07": { "label": "Ignace de Loyola", "type": "saint" },
-
-"01-08": { "label": "Alphonse", "type": "saint" },
-"02-08": { "label": "Julien Eymard", "type": "saint" },
-"03-08": { "label": "Lydie", "type": "saint" },
-"04-08": { "label": "Jean-Marie Vianney", "type": "saint" },
-"05-08": { "label": "Abel", "type": "saint" },
-"06-08": { "label": "Transfiguration", "type": "fete" },
-"07-08": { "label": "Gaétan", "type": "saint" },
-"08-08": { "label": "Dominique", "type": "saint" },
-"09-08": { "label": "Amour", "type": "saint" },
-"10-08": { "label": "Laurent", "type": "saint" },
-"11-08": { "label": "Claire", "type": "saint" },
-"12-08": { "label": "Clarisse", "type": "saint" },
-"13-08": { "label": "Hippolyte", "type": "saint" },
-"14-08": { "label": "Évrard", "type": "saint" },
-"15-08": { "label": "Assomption", "type": "fete" },
-"16-08": { "label": "Armel", "type": "saint" },
-"17-08": { "label": "Hyacinthe", "type": "saint" },
-"18-08": { "label": "Hélène", "type": "saint" },
-"19-08": { "label": "Jean-Eudes", "type": "saint" },
-"20-08": { "label": "Bernard", "type": "saint" },
-"21-08": { "label": "Christophe", "type": "saint" },
-"22-08": { "label": "Fabrice", "type": "saint" },
-"23-08": { "label": "Rose de Lima", "type": "saint" },
-"24-08": { "label": "Barthélemy", "type": "saint" },
-"25-08": { "label": "Louis", "type": "saint" },
-"26-08": { "label": "Natacha", "type": "saint" },
-"27-08": { "label": "Monique", "type": "saint" },
-"28-08": { "label": "Augustin", "type": "saint" },
-"29-08": { "label": "Sabine", "type": "saint" },
-"30-08": { "label": "Fiacre", "type": "saint" },
-"31-08": { "label": "Aristide", "type": "saint" },
-
-"01-09": { "label": "Gilles", "type": "saint" },
-"02-09": { "label": "Ingrid", "type": "saint" },
-"03-09": { "label": "Grégoire", "type": "saint" },
-"04-09": { "label": "Rosalie", "type": "saint" },
-"05-09": { "label": "Raïssa", "type": "saint" },
-"06-09": { "label": "Bertrand", "type": "saint" },
-"07-09": { "label": "Reine", "type": "saint" },
-"08-09": { "label": "Nativité de Marie", "type": "fete" },
-"09-09": { "label": "Alain", "type": "saint" },
-"10-09": { "label": "Inès", "type": "saint" },
-"11-09": { "label": "Adelphe", "type": "saint" },
-"12-09": { "label": "Apollinaire", "type": "saint" },
-"13-09": { "label": "Aimé", "type": "saint" },
-"14-09": { "label": "Croix Glorieuse", "type": "fete" },
-"15-09": { "label": "Roland", "type": "saint" },
-"16-09": { "label": "Édith", "type": "saint" },
-"17-09": { "label": "Renaud", "type": "saint" },
-"18-09": { "label": "Nadège", "type": "saint" },
-"19-09": { "label": "Émilie", "type": "saint" },
-"20-09": { "label": "Davy", "type": "saint" },
-"21-09": { "label": "Matthieu", "type": "saint" },
-"22-09": { "label": "Maurice", "type": "saint" },
-"23-09": { "label": "Constant", "type": "saint" },
-"24-09": { "label": "Thècle", "type": "saint" },
-"25-09": { "label": "Hermann", "type": "saint" },
-"26-09": { "label": "Côme et Damien", "type": "saint" },
-"27-09": { "label": "Vincent de Paul", "type": "saint" },
-"28-09": { "label": "Venceslas", "type": "saint" },
-"29-09": { "label": "Michel", "type": "saint" },
-"30-09": { "label": "Jérôme", "type": "saint" },
-
-"01-10": { "label": "Thérèse de Lisieux", "type": "saint" },
-"02-10": { "label": "Anges gardiens", "type": "fete" },
-"03-10": { "label": "Gérard", "type": "saint" },
-"04-10": { "label": "François d’Assise", "type": "saint" },
-"05-10": { "label": "Fleur", "type": "saint" },
-"06-10": { "label": "Bruno", "type": "saint" },
-"07-10": { "label": "Serge", "type": "saint" },
-"08-10": { "label": "Pélagie", "type": "saint" },
-"09-10": { "label": "Denis", "type": "saint" },
-"10-10": { "label": "Ghislain", "type": "saint" },
-"11-10": { "label": "Firmin", "type": "saint" },
-"12-10": { "label": "Wilfried", "type": "saint" },
-"13-10": { "label": "Géraud", "type": "saint" },
-"14-10": { "label": "Juste", "type": "saint" },
-"15-10": { "label": "Thérèse d’Avila", "type": "saint" },
-"16-10": { "label": "Edwige", "type": "saint" },
-"17-10": { "label": "Baudouin", "type": "saint" },
-"18-10": { "label": "Luc", "type": "saint" },
-"19-10": { "label": "René", "type": "saint" },
-"20-10": { "label": "Adeline", "type": "saint" },
-"21-10": { "label": "Céline", "type": "saint" },
-"22-10": { "label": "Élodie", "type": "saint" },
-"23-10": { "label": "Jean de Capistran", "type": "saint" },
-"24-10": { "label": "Florentin", "type": "saint" },
-"25-10": { "label": "Crépin", "type": "saint" },
-"26-10": { "label": "Dimitri", "type": "saint" },
-"27-10": { "label": "Émeline", "type": "saint" },
-"28-10": { "label": "Simon et Jude", "type": "saint" },
-"29-10": { "label": "Narcisse", "type": "saint" },
-"30-10": { "label": "Bienvenue", "type": "saint" },
-"31-10": { "label": "Quentin", "type": "saint" },
-
-"01-11": { "label": "Toussaint", "type": "fete" },
-"02-11": { "label": "Défunts", "type": "fete" },
-"03-11": { "label": "Hubert", "type": "saint" },
-"04-11": { "label": "Charles Borromée", "type": "saint" },
-"05-11": { "label": "Sylvie", "type": "saint" },
-"06-11": { "label": "Bertille", "type": "saint" },
-"07-11": { "label": "Carine", "type": "saint" },
-"08-11": { "label": "Geoffroy", "type": "saint" },
-"09-11": { "label": "Théodore", "type": "saint" },
-"10-11": { "label": "Léon", "type": "saint" },
-"11-11": { "label": "Armistice 1918", "type": "fete" },
-"12-11": { "label": "Christian", "type": "saint" },
-"13-11": { "label": "Brice", "type": "saint" },
-"14-11": { "label": "Sidoine", "type": "saint" },
-"15-11": { "label": "Albert", "type": "saint" },
-"16-11": { "label": "Marguerite", "type": "saint" },
-"17-11": { "label": "Élisabeth", "type": "saint" },
-"18-11": { "label": "Aude", "type": "saint" },
-"19-11": { "label": "Tanguy", "type": "saint" },
-"20-11": { "label": "Edmond", "type": "saint" },
-"21-11": { "label": "Présentation de Marie", "type": "fete" },
-"22-11": { "label": "Cécile", "type": "saint" },
-"23-11": { "label": "Clément", "type": "saint" },
-"24-11": { "label": "Flora", "type": "saint" },
-"25-11": { "label": "Catherine", "type": "saint" },
-"26-11": { "label": "Delphine", "type": "saint" },
-"27-11": { "label": "Séverin", "type": "saint" },
-"28-11": { "label": "Jacques de la Marche", "type": "saint" },
-"29-11": { "label": "Saturnin", "type": "saint" },
-"30-11": { "label": "André", "type": "saint" },
-
-"01-12": { "label": "Florence", "type": "saint" },
-"02-12": { "label": "Viviane", "type": "saint" },
-"03-12": { "label": "François Xavier", "type": "saint" },
-"04-12": { "label": "Barbara", "type": "saint" },
-"05-12": { "label": "Gérald", "type": "saint" },
-"06-12": { "label": "Nicolas", "type": "saint" },
-"07-12": { "label": "Ambroise", "type": "saint" },
-"08-12": { "label": "Immaculée Conception", "type": "fete" },
-"09-12": { "label": "Pierre Fourier", "type": "saint" },
-"10-12": { "label": "Romaric", "type": "saint" },
-"11-12": { "label": "Daniel", "type": "saint" },
-"12-12": { "label": "Jeanne-Françoise", "type": "saint" },
-"13-12": { "label": "Lucie", "type": "saint" },
-"14-12": { "label": "Odile", "type": "saint" },
-"15-12": { "label": "Ninon", "type": "saint" },
-"16-12": { "label": "Alice", "type": "saint" },
-"17-12": { "label": "Gaël", "type": "saint" },
-"18-12": { "label": "Gatien", "type": "saint" },
-"19-12": { "label": "Urbain", "type": "saint" },
-"20-12": { "label": "Théophile", "type": "saint" },
-"21-12": { "label": "Pierre Canisius", "type": "saint" },
-"22-12": { "label": "Françoise-Xavière", "type": "saint" },
-"23-12": { "label": "Armand", "type": "saint" },
-"24-12": { "label": "Adèle", "type": "saint" },
-"25-12": { "label": "Noël", "type": "fete" },
-"26-12": { "label": "Étienne", "type": "saint" },
-"27-12": { "label": "Jean", "type": "saint" },
-"28-12": { "label": "Innocents", "type": "fete" },
-"29-12": { "label": "David", "type": "saint" },
-"30-12": { "label": "Roger", "type": "saint" },
-"31-12": { "label": "Sylvestre", "type": "saint" }
+  "01-01": {
+    "label": "Marie",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "02-01": {
+    "label": "Basile",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "03-01": {
+    "label": "Geneviève",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "04-01": {
+    "label": "Odilon",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "05-01": {
+    "label": "Édouard",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "06-01": {
+    "label": "Melaine",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "07-01": {
+    "label": "Raymond",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "08-01": {
+    "label": "Lucien",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "09-01": {
+    "label": "Alix",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "10-01": {
+    "label": "Guillaume",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "11-01": {
+    "label": "Paulin",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "12-01": {
+    "label": "Tatiana",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "13-01": {
+    "label": "Yvette",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "14-01": {
+    "label": "Nina",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "15-01": {
+    "label": "Rémi",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "16-01": {
+    "label": "Marcel",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "17-01": {
+    "label": "Roseline",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "18-01": {
+    "label": "Prisca",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "19-01": {
+    "label": "Marius",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "20-01": {
+    "label": "Sébastien",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "21-01": {
+    "label": "Agnès",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "22-01": {
+    "label": "Vincent",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "23-01": {
+    "label": "Barnard",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "24-01": {
+    "label": "François de Sales",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "25-01": {
+    "label": "Conversion de Saint Paul",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "26-01": {
+    "label": "Paule",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "27-01": {
+    "label": "Angèle",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "28-01": {
+    "label": "Thomas d’Aquin",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "29-01": {
+    "label": "Gildas",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "30-01": {
+    "label": "Martine",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "31-01": {
+    "label": "Marcelle",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "01-02": {
+    "label": "Ella",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "02-02": {
+    "label": "Présentation du Seigneur",
+    "type": "fete",
+    "info": "Fête chrétienne aussi appelée Chandeleur, célébrée quarante jours après Noël."
+  },
+  "03-02": {
+    "label": "Blaise",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "04-02": {
+    "label": "Véronique",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "05-02": {
+    "label": "Agathe",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "06-02": {
+    "label": "Gaston",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "07-02": {
+    "label": "Eugénie",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "08-02": {
+    "label": "Jacqueline",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "09-02": {
+    "label": "Apolline",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "10-02": {
+    "label": "Arnaud",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "11-02": {
+    "label": "Notre-Dame de Lourdes",
+    "type": "fete",
+    "info": "Journée associée aux apparitions mariales de Lourdes et au sanctuaire pyrénéen."
+  },
+  "12-02": {
+    "label": "Félix",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "13-02": {
+    "label": "Béatrice",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "14-02": {
+    "label": "Valentin",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "15-02": {
+    "label": "Claude",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "16-02": {
+    "label": "Julienne",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "17-02": {
+    "label": "Alexis",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "18-02": {
+    "label": "Bernadette",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "19-02": {
+    "label": "Gabin",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "20-02": {
+    "label": "Aimée",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "21-02": {
+    "label": "Pierre Damien",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "22-02": {
+    "label": "Isabelle",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "23-02": {
+    "label": "Lazare",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "24-02": {
+    "label": "Modeste",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "25-02": {
+    "label": "Roméo",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "26-02": {
+    "label": "Nestor",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "27-02": {
+    "label": "Honorine",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "28-02": {
+    "label": "Romain",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "01-03": {
+    "label": "Aubin",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "02-03": {
+    "label": "Charles le Bon",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "03-03": {
+    "label": "Guénolé",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "04-03": {
+    "label": "Casimir",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "05-03": {
+    "label": "Olive",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "06-03": {
+    "label": "Colette",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "07-03": {
+    "label": "Félicité",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "08-03": {
+    "label": "Jean de Dieu",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "09-03": {
+    "label": "Françoise",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "10-03": {
+    "label": "Vivien",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "11-03": {
+    "label": "Rosine",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "12-03": {
+    "label": "Justine",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "13-03": {
+    "label": "Rodrigue",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "14-03": {
+    "label": "Mathilde",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "15-03": {
+    "label": "Louise",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "16-03": {
+    "label": "Bénédicte",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "17-03": {
+    "label": "Patrick",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "18-03": {
+    "label": "Cyrille",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "19-03": {
+    "label": "Joseph",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "20-03": {
+    "label": "Herbert",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "21-03": {
+    "label": "Clémence",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "22-03": {
+    "label": "Léa",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "23-03": {
+    "label": "Victorien",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "24-03": {
+    "label": "Catherine de Suède",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "25-03": {
+    "label": "Annonciation",
+    "type": "fete",
+    "info": "Fête chrétienne rappelant l’annonce faite à Marie de la naissance de Jésus."
+  },
+  "26-03": {
+    "label": "Larissa",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "27-03": {
+    "label": "Habib",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "28-03": {
+    "label": "Gontran",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "29-03": {
+    "label": "Gwladys",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "30-03": {
+    "label": "Amédée",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "31-03": {
+    "label": "Benjamin",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "01-04": {
+    "label": "Hugues",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "02-04": {
+    "label": "Sandrine",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "03-04": {
+    "label": "Richard",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "04-04": {
+    "label": "Isidore",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "05-04": {
+    "label": "Irène",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "06-04": {
+    "label": "Marcellin",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "07-04": {
+    "label": "Jean-Baptiste de la Salle",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "08-04": {
+    "label": "Julie",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "09-04": {
+    "label": "Gautier",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "10-04": {
+    "label": "Fulbert",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "11-04": {
+    "label": "Stanislas",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "12-04": {
+    "label": "Jules",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "13-04": {
+    "label": "Ida",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "14-04": {
+    "label": "Maxime",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "15-04": {
+    "label": "Paterne",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "16-04": {
+    "label": "Benoît-Joseph",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "17-04": {
+    "label": "Anicet",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "18-04": {
+    "label": "Parfait",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "19-04": {
+    "label": "Emma",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "20-04": {
+    "label": "Odette",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "21-04": {
+    "label": "Anselme",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "22-04": {
+    "label": "Alexandre",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "23-04": {
+    "label": "Georges",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "24-04": {
+    "label": "Fidèle",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "25-04": {
+    "label": "Marc",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "26-04": {
+    "label": "Alida",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "27-04": {
+    "label": "Zita",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "28-04": {
+    "label": "Valérie",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "29-04": {
+    "label": "Catherine de Sienne",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "30-04": {
+    "label": "Robert",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "01-05": {
+    "label": "Fête du Travail",
+    "type": "fete",
+    "info": "Journée internationale consacrée au monde du travail, célébrée le 1er mai."
+  },
+  "02-05": {
+    "label": "Boris",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "03-05": {
+    "label": "Philippe et Jacques",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "04-05": {
+    "label": "Sylvain",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "05-05": {
+    "label": "Judith",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "06-05": {
+    "label": "Prudence",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "07-05": {
+    "label": "Gisèle",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "08-05": {
+    "label": "Victoire 1945",
+    "type": "fete",
+    "info": "Commémoration de la victoire des Alliés en Europe le 8 mai 1945."
+  },
+  "09-05": {
+    "label": "Pacôme",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "10-05": {
+    "label": "Solange",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "11-05": {
+    "label": "Estelle",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "12-05": {
+    "label": "Achille",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "13-05": {
+    "label": "Rolande",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "14-05": {
+    "label": "Matthias",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "15-05": {
+    "label": "Denise",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "16-05": {
+    "label": "Honoré",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "17-05": {
+    "label": "Pascal",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "18-05": {
+    "label": "Éric",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "19-05": {
+    "label": "Yves",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "20-05": {
+    "label": "Bernardin",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "21-05": {
+    "label": "Constantin",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "22-05": {
+    "label": "Émile",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "23-05": {
+    "label": "Didier",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "24-05": {
+    "label": "Donatien",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "25-05": {
+    "label": "Sophie",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "26-05": {
+    "label": "Bérenger",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "27-05": {
+    "label": "Augustin",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "28-05": {
+    "label": "Germain",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "29-05": {
+    "label": "Aymard",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "30-05": {
+    "label": "Ferdinand",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "31-05": {
+    "label": "Visitation",
+    "type": "fete",
+    "info": "Fête chrétienne rappelant la visite de Marie à sa cousine Élisabeth."
+  },
+  "01-06": {
+    "label": "Justin",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "02-06": {
+    "label": "Blandine",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "03-06": {
+    "label": "Kévin",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "04-06": {
+    "label": "Clotilde",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "05-06": {
+    "label": "Igor",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "06-06": {
+    "label": "Norbert",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "07-06": {
+    "label": "Gilbert",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "08-06": {
+    "label": "Médard",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "09-06": {
+    "label": "Diane",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "10-06": {
+    "label": "Landry",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "11-06": {
+    "label": "Barnabé",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "12-06": {
+    "label": "Guy",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "13-06": {
+    "label": "Antoine de Padoue",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "14-06": {
+    "label": "Élisée",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "15-06": {
+    "label": "Germaine",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "16-06": {
+    "label": "Jean-François Régis",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "17-06": {
+    "label": "Hervé",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "18-06": {
+    "label": "Léonce",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "19-06": {
+    "label": "Romuald",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "20-06": {
+    "label": "Silvère",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "21-06": {
+    "label": "Rodolphe",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "22-06": {
+    "label": "Alban",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "23-06": {
+    "label": "Audrey",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "24-06": {
+    "label": "Jean-Baptiste",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "25-06": {
+    "label": "Prosper",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "26-06": {
+    "label": "Anthelme",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "27-06": {
+    "label": "Fernand",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "28-06": {
+    "label": "Irénée",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "29-06": {
+    "label": "Pierre et Paul",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "30-06": {
+    "label": "Martial",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "01-07": {
+    "label": "Thierry",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "02-07": {
+    "label": "Martinien",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "03-07": {
+    "label": "Thomas",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "04-07": {
+    "label": "Florent",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "05-07": {
+    "label": "Antoine",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "06-07": {
+    "label": "Mariette",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "07-07": {
+    "label": "Raoul",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "08-07": {
+    "label": "Thibaut",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "09-07": {
+    "label": "Amandine",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "10-07": {
+    "label": "Ulrich",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "11-07": {
+    "label": "Benoît",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "12-07": {
+    "label": "Olivier",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "13-07": {
+    "label": "Henri",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "14-07": {
+    "label": "Fête nationale",
+    "type": "fete",
+    "info": "Le 14 juillet, fête nationale française, entre commémoration historique et feux d’artifice."
+  },
+  "15-07": {
+    "label": "Donald",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "16-07": {
+    "label": "Notre-Dame du Mont Carmel",
+    "type": "fete",
+    "info": "Fête mariale liée à la tradition du Carmel."
+  },
+  "17-07": {
+    "label": "Charlotte",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "18-07": {
+    "label": "Frédéric",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "19-07": {
+    "label": "Arsène",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "20-07": {
+    "label": "Marina",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "21-07": {
+    "label": "Victor",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "22-07": {
+    "label": "Marie-Madeleine",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "23-07": {
+    "label": "Brigitte",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "24-07": {
+    "label": "Christine",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "25-07": {
+    "label": "Jacques",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "26-07": {
+    "label": "Anne et Joachim",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "27-07": {
+    "label": "Nathalie",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "28-07": {
+    "label": "Samson",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "29-07": {
+    "label": "Marthe",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "30-07": {
+    "label": "Juliette",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "31-07": {
+    "label": "Ignace de Loyola",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "01-08": {
+    "label": "Alphonse",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "02-08": {
+    "label": "Julien Eymard",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "03-08": {
+    "label": "Lydie",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "04-08": {
+    "label": "Jean-Marie Vianney",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "05-08": {
+    "label": "Abel",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "06-08": {
+    "label": "Transfiguration",
+    "type": "fete",
+    "info": "Fête chrétienne rappelant la Transfiguration de Jésus sur le mont Thabor."
+  },
+  "07-08": {
+    "label": "Gaétan",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "08-08": {
+    "label": "Dominique",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "09-08": {
+    "label": "Amour",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "10-08": {
+    "label": "Laurent",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "11-08": {
+    "label": "Claire",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "12-08": {
+    "label": "Clarisse",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "13-08": {
+    "label": "Hippolyte",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "14-08": {
+    "label": "Évrard",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "15-08": {
+    "label": "Assomption",
+    "type": "fete",
+    "info": "Grande fête mariale célébrée le 15 août."
+  },
+  "16-08": {
+    "label": "Armel",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "17-08": {
+    "label": "Hyacinthe",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "18-08": {
+    "label": "Hélène",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "19-08": {
+    "label": "Jean-Eudes",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "20-08": {
+    "label": "Bernard",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "21-08": {
+    "label": "Christophe",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "22-08": {
+    "label": "Fabrice",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "23-08": {
+    "label": "Rose de Lima",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "24-08": {
+    "label": "Barthélemy",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "25-08": {
+    "label": "Louis",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "26-08": {
+    "label": "Natacha",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "27-08": {
+    "label": "Monique",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "28-08": {
+    "label": "Augustin",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "29-08": {
+    "label": "Sabine",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "30-08": {
+    "label": "Fiacre",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "31-08": {
+    "label": "Aristide",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "01-09": {
+    "label": "Gilles",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "02-09": {
+    "label": "Ingrid",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "03-09": {
+    "label": "Grégoire",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "04-09": {
+    "label": "Rosalie",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "05-09": {
+    "label": "Raïssa",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "06-09": {
+    "label": "Bertrand",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "07-09": {
+    "label": "Reine",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "08-09": {
+    "label": "Nativité de Marie",
+    "type": "fete",
+    "info": "Fête chrétienne célébrant la naissance de la Vierge Marie."
+  },
+  "09-09": {
+    "label": "Alain",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "10-09": {
+    "label": "Inès",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "11-09": {
+    "label": "Adelphe",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "12-09": {
+    "label": "Apollinaire",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "13-09": {
+    "label": "Aimé",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "14-09": {
+    "label": "Croix Glorieuse",
+    "type": "fete",
+    "info": "Fête chrétienne consacrée à la Croix du Christ."
+  },
+  "15-09": {
+    "label": "Roland",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "16-09": {
+    "label": "Édith",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "17-09": {
+    "label": "Renaud",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "18-09": {
+    "label": "Nadège",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "19-09": {
+    "label": "Émilie",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "20-09": {
+    "label": "Davy",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "21-09": {
+    "label": "Matthieu",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "22-09": {
+    "label": "Maurice",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "23-09": {
+    "label": "Constant",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "24-09": {
+    "label": "Thècle",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "25-09": {
+    "label": "Hermann",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "26-09": {
+    "label": "Côme et Damien",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "27-09": {
+    "label": "Vincent de Paul",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "28-09": {
+    "label": "Venceslas",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "29-09": {
+    "label": "Michel",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "30-09": {
+    "label": "Jérôme",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "01-10": {
+    "label": "Thérèse de Lisieux",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "02-10": {
+    "label": "Anges gardiens",
+    "type": "fete",
+    "info": "Fête chrétienne consacrée aux anges gardiens."
+  },
+  "03-10": {
+    "label": "Gérard",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "04-10": {
+    "label": "François d’Assise",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "05-10": {
+    "label": "Fleur",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "06-10": {
+    "label": "Bruno",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "07-10": {
+    "label": "Serge",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "08-10": {
+    "label": "Pélagie",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "09-10": {
+    "label": "Denis",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "10-10": {
+    "label": "Ghislain",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "11-10": {
+    "label": "Firmin",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "12-10": {
+    "label": "Wilfried",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "13-10": {
+    "label": "Géraud",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "14-10": {
+    "label": "Juste",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "15-10": {
+    "label": "Thérèse d’Avila",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "16-10": {
+    "label": "Edwige",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "17-10": {
+    "label": "Baudouin",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "18-10": {
+    "label": "Luc",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "19-10": {
+    "label": "René",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "20-10": {
+    "label": "Adeline",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "21-10": {
+    "label": "Céline",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "22-10": {
+    "label": "Élodie",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "23-10": {
+    "label": "Jean de Capistran",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "24-10": {
+    "label": "Florentin",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "25-10": {
+    "label": "Crépin",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "26-10": {
+    "label": "Dimitri",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "27-10": {
+    "label": "Émeline",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "28-10": {
+    "label": "Simon et Jude",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "29-10": {
+    "label": "Narcisse",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "30-10": {
+    "label": "Bienvenue",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "31-10": {
+    "label": "Quentin",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "01-11": {
+    "label": "Toussaint",
+    "type": "fete",
+    "info": "Fête chrétienne célébrant tous les saints, connus ou inconnus."
+  },
+  "02-11": {
+    "label": "Défunts",
+    "type": "fete",
+    "info": "Journée de mémoire et de prière pour les défunts, célébrée le 2 novembre."
+  },
+  "03-11": {
+    "label": "Hubert",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "04-11": {
+    "label": "Charles Borromée",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "05-11": {
+    "label": "Sylvie",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "06-11": {
+    "label": "Bertille",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "07-11": {
+    "label": "Carine",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "08-11": {
+    "label": "Geoffroy",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "09-11": {
+    "label": "Théodore",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "10-11": {
+    "label": "Léon",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "11-11": {
+    "label": "Armistice 1918",
+    "type": "fete",
+    "info": "Commémoration de l’armistice du 11 novembre 1918 mettant fin aux combats de la Première Guerre mondiale."
+  },
+  "12-11": {
+    "label": "Christian",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "13-11": {
+    "label": "Brice",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "14-11": {
+    "label": "Sidoine",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "15-11": {
+    "label": "Albert",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "16-11": {
+    "label": "Marguerite",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "17-11": {
+    "label": "Élisabeth",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "18-11": {
+    "label": "Aude",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "19-11": {
+    "label": "Tanguy",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "20-11": {
+    "label": "Edmond",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "21-11": {
+    "label": "Présentation de Marie",
+    "type": "fete",
+    "info": "Fête chrétienne traditionnelle consacrée à la présentation de Marie au Temple."
+  },
+  "22-11": {
+    "label": "Cécile",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "23-11": {
+    "label": "Clément",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "24-11": {
+    "label": "Flora",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "25-11": {
+    "label": "Catherine",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "26-11": {
+    "label": "Delphine",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "27-11": {
+    "label": "Séverin",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "28-11": {
+    "label": "Jacques de la Marche",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "29-11": {
+    "label": "Saturnin",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "30-11": {
+    "label": "André",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "01-12": {
+    "label": "Florence",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "02-12": {
+    "label": "Viviane",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "03-12": {
+    "label": "François Xavier",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "04-12": {
+    "label": "Barbara",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "05-12": {
+    "label": "Gérald",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "06-12": {
+    "label": "Nicolas",
+    "type": "saint",
+    "info": "Un prénom chaleureux, facile à retenir et plein de charme."
+  },
+  "07-12": {
+    "label": "Ambroise",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "08-12": {
+    "label": "Immaculée Conception",
+    "type": "fete",
+    "info": "Fête catholique célébrant la conception de Marie préservée du péché originel."
+  },
+  "09-12": {
+    "label": "Pierre Fourier",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "10-12": {
+    "label": "Romaric",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "11-12": {
+    "label": "Daniel",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "12-12": {
+    "label": "Jeanne-Françoise",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "13-12": {
+    "label": "Lucie",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "14-12": {
+    "label": "Odile",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "15-12": {
+    "label": "Ninon",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "16-12": {
+    "label": "Alice",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "17-12": {
+    "label": "Gaël",
+    "type": "saint",
+    "info": "Un prénom élégant, discret mais bien présent."
+  },
+  "18-12": {
+    "label": "Gatien",
+    "type": "saint",
+    "info": "Un prénom qui sonne doux et intemporel."
+  },
+  "19-12": {
+    "label": "Urbain",
+    "type": "saint",
+    "info": "Un prénom au ton franc, simple et sympathique."
+  },
+  "20-12": {
+    "label": "Théophile",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "21-12": {
+    "label": "Pierre Canisius",
+    "type": "saint",
+    "info": "Un prénom ancien qui garde une vraie fraîcheur."
+  },
+  "22-12": {
+    "label": "Françoise-Xavière",
+    "type": "saint",
+    "info": "Un prénom à l’allure classique, avec une touche de caractère."
+  },
+  "23-12": {
+    "label": "Armand",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  },
+  "24-12": {
+    "label": "Adèle",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "25-12": {
+    "label": "Noël",
+    "type": "fete",
+    "info": "Fête chrétienne célébrant la naissance de Jésus, devenue aussi une grande fête familiale."
+  },
+  "26-12": {
+    "label": "Étienne",
+    "type": "saint",
+    "info": "Un prénom à la sonorité douce, avec un vrai petit air de fête."
+  },
+  "27-12": {
+    "label": "Jean",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "28-12": {
+    "label": "Innocents",
+    "type": "fete",
+    "info": "Fête chrétienne rappelant les Saints Innocents de l’Évangile."
+  },
+  "29-12": {
+    "label": "David",
+    "type": "saint",
+    "info": "Un prénom qui a du relief et une belle présence."
+  },
+  "30-12": {
+    "label": "Roger",
+    "type": "saint",
+    "info": "Un prénom traditionnel avec un petit côté pétillant."
+  },
+  "31-12": {
+    "label": "Sylvestre",
+    "type": "saint",
+    "info": "Un prénom qui traverse les générations sans perdre son style."
+  }
 }
