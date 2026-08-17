@@ -873,7 +873,7 @@ def render_image(
 
     if dicton:
         box_top = y
-        box_bottom = y + 205
+        box_bottom = y + 160
 
         draw.rounded_rectangle(
             (145, box_top, 955, box_bottom),
@@ -935,9 +935,9 @@ def render_image(
         line_h = 39
         text_block_h = len(lines) * line_h
 
-        start_y = box_top + 75 + max(
+        start_y = box_top + 52 + max(
             0,
-            (95 - text_block_h) // 2
+            (70 - text_block_h) // 2
         )
 
         for line in lines[:4]:
@@ -1040,8 +1040,8 @@ def render_image(
     # CIEL DU JOUR
     # --------------------------------------------------------
 
-    panel_top = min(y, 830)
-    panel_bottom = 995
+    panel_top = min(y, 780)
+    panel_bottom = panel_top + 220
 
     draw.rounded_rectangle(
         (135, panel_top, 965, panel_bottom),
