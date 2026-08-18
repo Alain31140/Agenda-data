@@ -795,6 +795,16 @@ def draw_seyes_page(
     base.alpha_composite(lines)
     img.paste(base.convert("RGB"))
 
+    # Les perforations doivent rester franchement blanches :
+    # on les redessine après l'ombre et les réglures pour éviter
+    # que l'ombre de la feuille ne les grise.
+    draw = ImageDraw.Draw(img)
+    for cy in range(74, H - 48, 72):
+        draw.ellipse(
+            (hole_x - 13, cy - 13, hole_x + 13, cy + 13),
+            fill="#FFFFFF"
+        )
+
     # --------------------------------------------------------
     # COIN INFÉRIEUR DROIT CORNÉ
     # --------------------------------------------------------
@@ -821,7 +831,7 @@ def draw_seyes_page(
     )
 
     # Marqueur volontairement visible dans GitHub Desktop :
-    # STYLE_SEYES_DECHIREE_V3_WHITE_BG
+    # STYLE_SEYES_DECHIREE_V4_WHITE_HOLES
 
 
 def underline(
