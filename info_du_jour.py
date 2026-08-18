@@ -668,82 +668,113 @@ def draw_seyes_page(
     img: Image.Image,
     target: date,
 ) -> None:
-    """Dessine directement une page de cahier Seyès."""
+    """Dessine une page de cahier Seyès avec bord gauche déchiré et coin corné."""
     draw = ImageDraw.Draw(img)
-
     W, H = img.size
 
-    # Fond papier légèrement ivoire.
-    draw.rectangle(
-        (0, 0, W, H),
-        fill="#FBF8EF"
-    )
+    # Fond extérieur très discret : il ne se voit que le long de la déchirure
+    # et derrière le coin corné.
+    desk = "#E7DDCC"
+    draw.rectangle((0, 0, W, H), fill=desk)
 
-    # Très légère teinte saisonnière.
+    # Papier légèrement teinté selon la saison.
     season = season_for_date(target)
+    draw.rectangle((0, 0, W, H), fill=SEASON_ACCENTS[season])
 
-    draw.rectangle(
-        (0, 0, W, H),
-        fill=SEASON_ACCENTS[season]
-    )
-
-    # On pose ensuite une couche ivoire semi-transparente pour garder
-    # la saison très discrète.
     overlay = Image.new(
         "RGBA",
         (W, H),
-        (251, 248, 239, 220)
+        (251, 248, 239, 220),
     )
-
     img_rgba = img.convert("RGBA")
     img_rgba.alpha_composite(overlay)
     img.paste(img_rgba.convert("RGB"))
-
     draw = ImageDraw.Draw(img)
 
-    # Réglure Seyès simplifiée :
-    # grande ligne toutes les 32 px,
-    # trois petites lignes intermédiaires.
+    # Réglure Seyès simplifiée : une grande ligne et trois petites.
     y_start = 70
     major_step = 32
     minor_step = major_step / 4
-
     major = "#A9C9E7"
     minor = "#D7E6F4"
 
     y = y_start
-
     while y < H:
         for n in range(4):
             yy = y + n * minor_step
-
             if yy >= H:
                 break
-
             color = major if n == 0 else minor
             width = 2 if n == 0 else 1
-
-            draw.line(
-                (0, int(yy), W, int(yy)),
-                fill=color,
-                width=width
-            )
-
+            draw.line((0, int(yy), W, int(yy)), fill=color, width=width)
         y += major_step
 
-    # Marge rouge comme un cahier d'école.
+    # Marge rouge du cahier.
     margin_x = 108
+    draw.line((margin_x, 0, margin_x, H), fill="#D96B6B", width=3)
+    draw.line((margin_x + 10, 0, margin_x + 10, H), fill="#E6A0A0", width=1)
 
-    draw.line(
-        (margin_x, 0, margin_x, H),
-        fill="#D96B6B",
-        width=3
+    # --------------------------------------------------------
+    # BORD GAUCHE DÉCHIRÉ
+    # --------------------------------------------------------
+    # On recouvre une petite bande du papier avec le fond extérieur.
+    # La courbe est déterministe : le rendu reste identique d'un lancement
+    # à l'autre et ne nécessite aucun fichier image supplémentaire.
+    tear_points: list[tuple[int, int]] = []
+    step = 14
+    for yy in range(-step, H + step * 2, step):
+        xx = int(23 + 8 * math.sin(yy * 0.071) + 4 * math.sin(yy * 0.193))
+        xx = max(10, min(38, xx))
+        tear_points.append((xx, yy))
+
+    outside_poly = [(0, 0)] + tear_points + [(0, H)]
+    draw.polygon(outside_poly, fill=desk)
+
+    # Petite ombre/fibre sur la tranche pour donner du relief.
+    for i in range(len(tear_points) - 1):
+        x1, y1 = tear_points[i]
+        x2, y2 = tear_points[i + 1]
+        draw.line((x1 + 2, y1, x2 + 2, y2), fill="#C8BBA8", width=2)
+        if i % 3 == 0:
+            draw.line((x1 + 5, y1 + 2, x1 + 12, y1 + 5), fill="#E7DDCC", width=1)
+
+    # --------------------------------------------------------
+    # COIN BAS DROIT CORNÉ
+    # --------------------------------------------------------
+    fold = 82
+    corner_x = W - 1
+    corner_y = H - 1
+
+    # Ombre sous le pli.
+    draw.polygon(
+        [
+            (corner_x - fold - 8, corner_y),
+            (corner_x, corner_y - fold - 8),
+            (corner_x, corner_y),
+        ],
+        fill="#CFC2AE",
     )
 
+    # Revers du papier.
+    draw.polygon(
+        [
+            (corner_x - fold, corner_y),
+            (corner_x, corner_y - fold),
+            (corner_x, corner_y),
+        ],
+        fill="#F3EEE4",
+    )
+
+    # Ligne du pli et léger reflet.
     draw.line(
-        (margin_x + 10, 0, margin_x + 10, H),
-        fill="#E6A0A0",
-        width=1
+        (corner_x - fold, corner_y, corner_x, corner_y - fold),
+        fill="#B8AB98",
+        width=2,
+    )
+    draw.line(
+        (corner_x - fold + 7, corner_y - 2, corner_x - 2, corner_y - fold + 7),
+        fill="#FFFDFC",
+        width=2,
     )
 
 
@@ -1525,58 +1556,13 @@ def build_caption(
     sunset: str | None,
     moon_name: str | None = None,
 ) -> str:
-    parts = [
-        data["date_fr"].capitalize()
-    ]
+    """Légende volontairement courte.
 
-    if data.get("saint"):
-        saint_part = f"🎉 Bonne fête à {data['saint']}"
-        if data.get("saint_info"):
-            saint_part += f"\n{data['saint_info']}"
-        parts.append(saint_part)
-
-    zodiac = data.get("zodiac") or {}
-    if zodiac.get("name"):
-        parts.append(
-            f"{zodiac.get('symbol', '')} {zodiac['name']} — {zodiac.get('fun', '')}".strip()
-        )
-
-    if data.get("dicton"):
-        parts.append(
-            f"📜 Dicton : {data['dicton']}"
-        )
-
-    mondiales = data.get("journees_mondiales") or []
-
-    if mondiales:
-        parts.append(
-            "🌍 Aujourd'hui : "
-            + " • ".join(mondiales)
-        )
-
-    funs = data.get("journees_fun") or []
-
-    if funs:
-        parts.append(
-            "😄 La touche fun : "
-            + funs[0]
-        )
-
-    if sunrise and sunset:
-        parts.append(
-            f"☀️ Paris : lever {sunrise} — coucher {sunset}"
-        )
-
-    if moon_name:
-        parts.append(
-            f"🌙 Lune : {moon_name}"
-        )
-
-    parts.append(
-        "Belle journée à tous !"
-    )
-
-    return "\n\n".join(parts)
+    L'image contient déjà toutes les informations du jour. Une légende courte
+    évite de recopier tout le contenu sous l'image, notamment lorsque Meta
+    relaie automatiquement la publication Instagram vers Facebook.
+    """
+    return "Belle journée à tous !"
 
 
 # ============================================================
