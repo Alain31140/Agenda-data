@@ -8,7 +8,8 @@
   "zodiac": {
     "name": "Lion",
     "symbol": "♌",
-    "fun": "solaire, généreux, un brin théâtral"
+    "fun": "solaire, généreux, un brin théâtral",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/lion.png"
   },
   "dicton": "Août sec garde les champs nets.",
   "journees_mondiales": [],
