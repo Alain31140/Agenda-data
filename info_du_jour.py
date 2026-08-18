@@ -27,6 +27,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+import unicodedata
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any
@@ -82,6 +83,64 @@ ZODIAC_SYMBOLS = {
     "Lion": "♌", "Vierge": "♍", "Balance": "♎", "Scorpion": "♏",
     "Sagittaire": "♐", "Capricorne": "♑", "Verseau": "♒", "Poissons": "♓",
 }
+
+ZODIAC_DIR_CANDIDATES = [
+    ROOT / "zodiac",
+    ROOT / "Instagram" / "zodiac",
+    ROOT / "instagram" / "zodiac",
+    ROOT / "assets" / "zodiac",
+    ROOT / "images" / "zodiac",
+]
+
+ZODIAC_IMAGE_ALIASES = {
+    "Bélier": ["belier", "bélier", "bélier_kawaii_au_bandana_rouge"],
+    "Taureau": ["taureau", "taureau_kawaii_dans_un_fauteuil_vert"],
+    "Gémeaux": ["gemeaux", "gémeaux", "jumeaux_gémeaux_en_sticker_kawaii"],
+    "Cancer": ["cancer"],
+    "Lion": ["lion", "lion_royal_avec_couronne_dorée"],
+    "Vierge": ["vierge"],
+    "Balance": ["balance", "balance_dorée_kawaii_avec_cœur_et_plume"],
+    "Scorpion": ["scorpion", "scorpion_violet_kawaii_brillant"],
+    "Sagittaire": ["sagittaire", "archère_chibi_du_sagittaire_étoilée"],
+    "Capricorne": ["capricorne", "capricorne_kawaii_dans_les_montagnes"],
+    "Verseau": ["verseau", "verseau_chibi_et_urne_dorée_scintillante"],
+    "Poissons": ["poissons"],
+}
+
+
+def slugify_name(text: str) -> str:
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    text = text.lower()
+    text = re.sub(r"[^a-z0-9]+", "_", text).strip("_")
+    return text
+
+
+def find_zodiac_image(sign_name: str) -> Path | None:
+    aliases = ZODIAC_IMAGE_ALIASES.get(sign_name, [])
+    wanted = {slugify_name(a) for a in aliases + [sign_name] if a}
+
+    for folder in ZODIAC_DIR_CANDIDATES:
+        if not folder.exists():
+            continue
+        for ext in ("*.png", "*.webp", "*.jpg", "*.jpeg"):
+            for p in folder.glob(ext):
+                if slugify_name(p.stem) in wanted:
+                    return p
+        for ext in ("*.png", "*.webp", "*.jpg", "*.jpeg"):
+            for p in folder.glob(ext):
+                stem = slugify_name(p.stem)
+                if any(token in stem for token in wanted):
+                    return p
+    # Dernier secours : recherche globale dans le dépôt.
+    for p in ROOT.rglob("*.png"):
+        if ".git" in p.parts:
+            continue
+        stem = slugify_name(p.stem)
+        if any(token in stem for token in wanted):
+            return p
+    return None
+
 
 def zodiac_for_date(target: date) -> dict[str, str]:
     md = (target.month, target.day)
@@ -156,7 +215,10 @@ def normalize_name(name: str) -> str:
 
 def find_data_file(expected_name: str) -> Path:
     expected = normalize_name(expected_name)
-    candidates = [ROOT, ROOT / "json", ROOT / "JSON", ROOT / "data", ROOT / "Data"]
+    candidates = [
+        ROOT, ROOT / "json", ROOT / "JSON", ROOT / "data", ROOT / "Data",
+        ROOT / "data-save", ROOT / "Data-save", ROOT / "data_save", ROOT / "Data_save"
+    ]
 
     for folder in candidates:
         if not folder.exists():
@@ -240,15 +302,19 @@ def parse_target_date(raw: str | None, timezone: str) -> date:
 def get_day_data(target: date) -> dict[str, Any]:
     key = target.strftime("%d-%m")
 
-    files = {
-        name: find_data_file(filename)
-        for name, filename in DATA_BASENAMES.items()
-    }
+    files: dict[str, Path | None] = {}
+    db: dict[str, dict[str, Any]] = {}
 
-    db = {
-        name: load_json(path)
-        for name, path in files.items()
-    }
+    for name, filename in DATA_BASENAMES.items():
+        try:
+            path = find_data_file(filename)
+            files[name] = path
+            db[name] = load_json(path)
+        except FileNotFoundError:
+            if name == "saints":
+                raise
+            files[name] = None
+            db[name] = {}
 
     saint_obj = db["saints"].get(key) or {}
     saint = saint_obj.get("label") if isinstance(saint_obj, dict) else None
@@ -259,6 +325,9 @@ def get_day_data(target: date) -> dict[str, Any]:
         else ""
     )
     zodiac = zodiac_for_date(target)
+    zodiac_image = find_zodiac_image(zodiac["name"])
+    if zodiac_image:
+        zodiac["image"] = str(zodiac_image)
 
     dicton = db["dictons"].get(key)
     if dicton is not None:
@@ -284,7 +353,7 @@ def get_day_data(target: date) -> dict[str, Any]:
         "journees_mondiales": mondiales,
         "journees_fun": insolites,
         "source_files": {
-            k: str(v.relative_to(ROOT))
+            k: (str(v.relative_to(ROOT)) if v else "")
             for k, v in files.items()
         },
     }
@@ -831,6 +900,31 @@ def paste_moon(
     return True
 
 
+def paste_asset(
+    img: Image.Image,
+    asset_path: str | Path | None,
+    box: tuple[int, int, int, int],
+) -> bool:
+    if not asset_path:
+        return False
+
+    path = Path(asset_path)
+    if not path.exists():
+        return False
+
+    asset = Image.open(path).convert("RGBA")
+    x1, y1, x2, y2 = box
+    max_w = x2 - x1
+    max_h = y2 - y1
+    asset.thumbnail((max_w, max_h), Image.Resampling.LANCZOS)
+    x = x1 + (max_w - asset.width) // 2
+    y = y1 + (max_h - asset.height) // 2
+    base = img.convert("RGBA")
+    base.alpha_composite(asset, (x, y))
+    img.paste(base.convert("RGB"))
+    return True
+
+
 # ============================================================
 # IMAGE INSTAGRAM
 # ============================================================
@@ -1012,25 +1106,44 @@ def render_image(
     zodiac_name = zodiac.get("name") or ""
     zodiac_symbol = zodiac.get("symbol") or ""
     zodiac_fun = zodiac.get("fun") or ""
+    zodiac_image = zodiac.get("image")
 
     if zodiac_name:
-        zodiac_text = (
-            f"{zodiac_symbol} {zodiac_name} — {zodiac_fun}"
-            if zodiac_fun
-            else f"{zodiac_symbol} {zodiac_name}"
-        )
-        zodiac_font = fit_font(
+        icon_pasted = paste_asset(img, zodiac_image, (145, y - 4, 220, y + 70))
+        if icon_pasted:
+            draw = ImageDraw.Draw(img)
+        text_x = 235 if icon_pasted else 185
+
+        zodiac_title = f"{zodiac_symbol} {zodiac_name}"
+        title_font = fit_font(
             draw,
-            zodiac_text,
-            max_width=720,
-            start_size=21,
-            min_size=17,
+            zodiac_title,
+            max_width=660 if icon_pasted else 720,
+            start_size=25,
+            min_size=20,
             handwritten=True,
         )
-        draw.text((185, y), zodiac_text, font=zodiac_font, fill=accent)
-        y += 34
+        draw.text((text_x, y), zodiac_title, font=title_font, fill=accent)
 
-    y += 12
+        if zodiac_fun:
+            fun_font = fit_font(
+                draw,
+                zodiac_fun,
+                max_width=650 if icon_pasted else 720,
+                start_size=19,
+                min_size=16,
+                handwritten=True,
+            )
+            fun_lines = wrap_text(draw, zodiac_fun, fun_font, 650 if icon_pasted else 720)[:2]
+            fun_y = y + 28
+            for line in fun_lines:
+                draw.text((text_x, fun_y), line, font=fun_font, fill="#5E6B76")
+                fun_y += 23
+            y = max(fun_y, y + (72 if icon_pasted else 52))
+        else:
+            y += 72 if icon_pasted else 34
+
+    y += 10
 
     # --------------------------------------------------------
     # DICTON
