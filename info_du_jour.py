@@ -2334,6 +2334,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
 
     return p
+    
 
 
 def main() -> int:
@@ -2350,6 +2351,7 @@ def main() -> int:
         )
 
         return 1
+
 
 
 if __name__ == "__main__":
