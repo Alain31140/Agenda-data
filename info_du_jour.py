@@ -676,7 +676,7 @@ def draw_seyes_page(
     # --------------------------------------------------------
     # FOND EXTÉRIEUR + OMBRE DE LA FEUILLE
     # --------------------------------------------------------
-    outer = Image.new("RGB", (W, H), "#D9D2C7")
+    outer = Image.new("RGB", (W, H), "#FFFFFF")
     img.paste(outer)
 
     paper_left = 28
@@ -727,7 +727,7 @@ def draw_seyes_page(
     shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     shadow_draw = ImageDraw.Draw(shadow)
     shadow_poly = [(x + 8, y + 8) for x, y in paper_polygon]
-    shadow_draw.polygon(shadow_poly, fill=(55, 45, 35, 55))
+    shadow_draw.polygon(shadow_poly, fill=(120, 120, 120, 38))
     img_rgba = img.convert("RGBA")
     img_rgba.alpha_composite(shadow)
 
@@ -821,7 +821,7 @@ def draw_seyes_page(
     )
 
     # Marqueur volontairement visible dans GitHub Desktop :
-    # STYLE_SEYES_DECHIREE_V2
+    # STYLE_SEYES_DECHIREE_V3_WHITE_BG
 
 
 def underline(
@@ -2317,5 +2317,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
-    
