@@ -724,10 +724,28 @@ def draw_seyes_page(
     )
 
     # Ombre décalée.
+    # On conserve l'ombre générale de la feuille, mais on supprime
+    # localement l'ombre visible dans les perforations pour qu'elles
+    # restent bien blanches sur un fond blanc.
     shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     shadow_draw = ImageDraw.Draw(shadow)
     shadow_poly = [(x + 8, y + 8) for x, y in paper_polygon]
     shadow_draw.polygon(shadow_poly, fill=(120, 120, 120, 38))
+
+    hole_x = paper_left + 34
+    hole_radius = 13
+    shadow_clear_radius = hole_radius + 6
+    for cy in range(74, H - 48, 72):
+        shadow_draw.ellipse(
+            (
+                hole_x - shadow_clear_radius,
+                cy - shadow_clear_radius,
+                hole_x + shadow_clear_radius,
+                cy + shadow_clear_radius,
+            ),
+            fill=(0, 0, 0, 0)
+        )
+
     img_rgba = img.convert("RGBA")
     img_rgba.alpha_composite(shadow)
 
@@ -739,10 +757,14 @@ def draw_seyes_page(
     mask_draw.polygon(paper_polygon, fill=255)
 
     # Perforations sur la gauche.
-    hole_x = paper_left + 34
     for cy in range(74, H - 48, 72):
         mask_draw.ellipse(
-            (hole_x - 13, cy - 13, hole_x + 13, cy + 13),
+            (
+                hole_x - hole_radius,
+                cy - hole_radius,
+                hole_x + hole_radius,
+                cy + hole_radius,
+            ),
             fill=0
         )
 
@@ -801,7 +823,12 @@ def draw_seyes_page(
     draw = ImageDraw.Draw(img)
     for cy in range(74, H - 48, 72):
         draw.ellipse(
-            (hole_x - 13, cy - 13, hole_x + 13, cy + 13),
+            (
+                hole_x - hole_radius,
+                cy - hole_radius,
+                hole_x + hole_radius,
+                cy + hole_radius,
+            ),
             fill="#FFFFFF"
         )
 
@@ -831,7 +858,7 @@ def draw_seyes_page(
     )
 
     # Marqueur volontairement visible dans GitHub Desktop :
-    # STYLE_SEYES_DECHIREE_V4_WHITE_HOLES
+    # STYLE_SEYES_DECHIREE_V5_WHITE_HOLES_NO_LOCAL_SHADOW
 
 
 def underline(
