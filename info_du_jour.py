@@ -668,83 +668,160 @@ def draw_seyes_page(
     img: Image.Image,
     target: date,
 ) -> None:
-    """Dessine directement une page de cahier Seyès."""
-    draw = ImageDraw.Draw(img)
-
+    """Dessine une vraie feuille Seyès : bord gauche déchiré, perforations,
+    légère ombre et coin inférieur droit corné.
+    """
     W, H = img.size
 
-    # Fond papier légèrement ivoire.
-    draw.rectangle(
-        (0, 0, W, H),
-        fill="#FBF8EF"
+    # --------------------------------------------------------
+    # FOND EXTÉRIEUR + OMBRE DE LA FEUILLE
+    # --------------------------------------------------------
+    outer = Image.new("RGB", (W, H), "#D9D2C7")
+    img.paste(outer)
+
+    paper_left = 28
+    paper_top = 18
+    paper_right = W - 22
+    paper_bottom = H - 18
+
+    # Bord gauche volontairement irrégulier (effet feuille arrachée).
+    tear_points = [
+        (paper_left + 14, paper_top),
+        (paper_left + 5, 48),
+        (paper_left + 19, 78),
+        (paper_left + 8, 112),
+        (paper_left + 23, 146),
+        (paper_left + 7, 184),
+        (paper_left + 18, 222),
+        (paper_left + 4, 262),
+        (paper_left + 20, 300),
+        (paper_left + 8, 340),
+        (paper_left + 24, 380),
+        (paper_left + 5, 420),
+        (paper_left + 19, 462),
+        (paper_left + 7, 506),
+        (paper_left + 23, 550),
+        (paper_left + 5, 594),
+        (paper_left + 20, 640),
+        (paper_left + 8, 686),
+        (paper_left + 24, 732),
+        (paper_left + 6, 780),
+        (paper_left + 19, 828),
+        (paper_left + 7, 876),
+        (paper_left + 22, 924),
+        (paper_left + 5, 972),
+        (paper_left + 16, paper_bottom),
+    ]
+
+    paper_polygon = (
+        tear_points
+        + [
+            (paper_right - 22, paper_bottom),
+            (paper_right, paper_bottom - 22),
+            (paper_right, paper_top + 18),
+            (paper_right - 18, paper_top),
+        ]
     )
 
-    # Très légère teinte saisonnière.
-    season = season_for_date(target)
-
-    draw.rectangle(
-        (0, 0, W, H),
-        fill=SEASON_ACCENTS[season]
-    )
-
-    # On pose ensuite une couche ivoire semi-transparente pour garder
-    # la saison très discrète.
-    overlay = Image.new(
-        "RGBA",
-        (W, H),
-        (251, 248, 239, 220)
-    )
-
+    # Ombre décalée.
+    shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    shadow_draw = ImageDraw.Draw(shadow)
+    shadow_poly = [(x + 8, y + 8) for x, y in paper_polygon]
+    shadow_draw.polygon(shadow_poly, fill=(55, 45, 35, 55))
     img_rgba = img.convert("RGBA")
-    img_rgba.alpha_composite(overlay)
+    img_rgba.alpha_composite(shadow)
+
+    # --------------------------------------------------------
+    # MASQUE DE LA FEUILLE
+    # --------------------------------------------------------
+    mask = Image.new("L", (W, H), 0)
+    mask_draw = ImageDraw.Draw(mask)
+    mask_draw.polygon(paper_polygon, fill=255)
+
+    # Perforations sur la gauche.
+    hole_x = paper_left + 34
+    for cy in range(74, H - 48, 72):
+        mask_draw.ellipse(
+            (hole_x - 13, cy - 13, hole_x + 13, cy + 13),
+            fill=0
+        )
+
+    # Papier ivoire avec très légère teinte saisonnière.
+    season = season_for_date(target)
+    paper = Image.new("RGB", (W, H), SEASON_ACCENTS[season])
+    paper_overlay = Image.new("RGBA", (W, H), (251, 248, 239, 226))
+    paper_rgba = paper.convert("RGBA")
+    paper_rgba.alpha_composite(paper_overlay)
+    paper = paper_rgba.convert("RGB")
+
+    img_rgba.paste(paper.convert("RGBA"), (0, 0), mask)
     img.paste(img_rgba.convert("RGB"))
 
-    draw = ImageDraw.Draw(img)
+    # --------------------------------------------------------
+    # RÉGLURE SEYÈS, CLIPPÉE À LA FEUILLE
+    # --------------------------------------------------------
+    lines = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    lines_draw = ImageDraw.Draw(lines)
 
-    # Réglure Seyès simplifiée :
-    # grande ligne toutes les 32 px,
-    # trois petites lignes intermédiaires.
     y_start = 70
     major_step = 32
     minor_step = major_step / 4
-
     major = "#A9C9E7"
     minor = "#D7E6F4"
 
     y = y_start
-
     while y < H:
         for n in range(4):
             yy = y + n * minor_step
-
             if yy >= H:
                 break
-
-            color = major if n == 0 else minor
-            width = 2 if n == 0 else 1
-
-            draw.line(
+            lines_draw.line(
                 (0, int(yy), W, int(yy)),
-                fill=color,
-                width=width
+                fill=major if n == 0 else minor,
+                width=2 if n == 0 else 1
             )
-
         y += major_step
 
-    # Marge rouge comme un cahier d'école.
+    # Marge rouge de cahier.
     margin_x = 108
+    lines_draw.line((margin_x, 0, margin_x, H), fill="#D96B6B", width=3)
+    lines_draw.line((margin_x + 10, 0, margin_x + 10, H), fill="#E6A0A0", width=1)
 
-    draw.line(
-        (margin_x, 0, margin_x, H),
-        fill="#D96B6B",
-        width=3
+    alpha = lines.getchannel("A")
+    clipped_alpha = Image.composite(alpha, Image.new("L", (W, H), 0), mask)
+    lines.putalpha(clipped_alpha)
+
+    base = img.convert("RGBA")
+    base.alpha_composite(lines)
+    img.paste(base.convert("RGB"))
+
+    # --------------------------------------------------------
+    # COIN INFÉRIEUR DROIT CORNÉ
+    # --------------------------------------------------------
+    draw = ImageDraw.Draw(img)
+    fold = 105
+    x2 = paper_right
+    y2 = paper_bottom
+
+    # Petite ombre sous le pli.
+    draw.polygon(
+        [(x2 - fold - 8, y2), (x2, y2 - fold - 8), (x2, y2)],
+        fill="#C8BFAF"
     )
 
-    draw.line(
-        (margin_x + 10, 0, margin_x + 10, H),
-        fill="#E6A0A0",
-        width=1
+    # Face repliée.
+    draw.polygon(
+        [(x2 - fold, y2), (x2, y2 - fold), (x2 - 10, y2 - 10)],
+        fill="#F2E9D8"
     )
+    draw.line(
+        (x2 - fold, y2, x2, y2 - fold),
+        fill="#BFB4A3",
+        width=2
+    )
+
+    # Marqueur volontairement visible dans GitHub Desktop :
+    # STYLE_SEYES_DECHIREE_V2
 
 
 def underline(
@@ -1525,58 +1602,12 @@ def build_caption(
     sunset: str | None,
     moon_name: str | None = None,
 ) -> str:
-    parts = [
-        data["date_fr"].capitalize()
-    ]
+    """Légende courte : l'image contient déjà toutes les informations.
 
-    if data.get("saint"):
-        saint_part = f"🎉 Bonne fête à {data['saint']}"
-        if data.get("saint_info"):
-            saint_part += f"\n{data['saint_info']}"
-        parts.append(saint_part)
-
-    zodiac = data.get("zodiac") or {}
-    if zodiac.get("name"):
-        parts.append(
-            f"{zodiac.get('symbol', '')} {zodiac['name']} — {zodiac.get('fun', '')}".strip()
-        )
-
-    if data.get("dicton"):
-        parts.append(
-            f"📜 Dicton : {data['dicton']}"
-        )
-
-    mondiales = data.get("journees_mondiales") or []
-
-    if mondiales:
-        parts.append(
-            "🌍 Aujourd'hui : "
-            + " • ".join(mondiales)
-        )
-
-    funs = data.get("journees_fun") or []
-
-    if funs:
-        parts.append(
-            "😄 La touche fun : "
-            + funs[0]
-        )
-
-    if sunrise and sunset:
-        parts.append(
-            f"☀️ Paris : lever {sunrise} — coucher {sunset}"
-        )
-
-    if moon_name:
-        parts.append(
-            f"🌙 Lune : {moon_name}"
-        )
-
-    parts.append(
-        "Belle journée à tous !"
-    )
-
-    return "\n\n".join(parts)
+    Cela évite de recopier tout le bulletin en texte lorsque Meta relaie
+    automatiquement la publication Instagram vers Facebook.
+    """
+    return "Belle journée à tous !"
 
 
 # ============================================================
