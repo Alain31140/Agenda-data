@@ -2308,8 +2308,6 @@ def build_parser() -> argparse.ArgumentParser:
 
     return p
 
-    
-
 
 def main() -> int:
     parser = build_parser()
