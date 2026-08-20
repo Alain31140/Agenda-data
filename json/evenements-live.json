@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-08-20T18:00:18.626Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.7 — 31 km NW of Aniso, Peru",
+    "source": "USGS"
+  },
+  {
     "date": "2026-08-20T07:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : ESA’s photosynthesis satellite fuelled",
