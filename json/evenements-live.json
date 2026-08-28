@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08-28T12:20:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : Ariane 6 launch with MTG-I2 – highlights",
+    "source": "ESA"
+  },
+  {
+    "date": "2026-08-28T09:03:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : Observing Samba and Tango’s reentries",
+    "source": "ESA"
+  },
+  {
     "date": "2026-08-27T21:07:38.352Z",
     "icone": "🌍",
     "texte": "Séisme de magnitude 6.0 — 145 km N of Caluula, Somalia",
@@ -30,15 +42,9 @@
     "source": "ESA"
   },
   {
-    "date": "2026-08-27T07:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : MTG-I2 ready for launch on Ariane 6",
-    "source": "ESA"
-  },
-  {
     "date": "2026-08-27T05:17:00.000Z",
-    "icone": "🔭",
-    "texte": "ESA Science : Watch live: BepiColombo begins its arrival at Mercury",
-    "source": "ESA Science"
+    "icone": "🚀",
+    "texte": "ESA : Watch live: BepiColombo begins its arrival at Mercury",
+    "source": "ESA"
   }
 ]
