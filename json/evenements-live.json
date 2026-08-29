@@ -12,12 +12,6 @@
     "source": "ESA"
   },
   {
-    "date": "2026-08-27T21:07:38.352Z",
-    "icone": "🌍",
-    "texte": "Séisme de magnitude 6.0 — 145 km N of Caluula, Somalia",
-    "source": "USGS"
-  },
-  {
     "date": "2026-08-27T20:48:00.000Z",
     "icone": "🚀",
     "texte": "ESA : MTG-I2 completes Europe’s latest weather trio",
@@ -46,5 +40,11 @@
     "icone": "🚀",
     "texte": "ESA : Watch live: BepiColombo begins its arrival at Mercury",
     "source": "ESA"
+  },
+  {
+    "date": "2026-08-27T05:17:00.000Z",
+    "icone": "🔭",
+    "texte": "ESA Science : Watch live: BepiColombo begins its arrival at Mercury",
+    "source": "ESA Science"
   }
 ]
