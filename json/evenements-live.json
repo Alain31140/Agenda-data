@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-09-03T11:17:24.056Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.3 — 84 km SSW of Nikolski, Alaska",
+    "source": "USGS"
+  },
+  {
+    "date": "2026-09-03T10:00:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : Latest updates: BepiColombo's arrival at Mercury",
+    "source": "ESA"
+  },
+  {
     "date": "2026-09-03T08:00:00.000Z",
     "icone": "🔭",
     "texte": "ESA Science : Hubble's superbubble scene",
@@ -33,12 +45,6 @@
     "date": "2026-09-02T10:20:00.000Z",
     "icone": "🚀",
     "texte": "ESA : Cluster’s encore for reentry science a success",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-09-02T07:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : ESA’s first lunar rover rolls forward",
     "source": "ESA"
   }
 ]
