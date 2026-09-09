@@ -1,26 +1,14 @@
 [
   {
+    "date": "2026-09-09T06:20:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : MTG-I2 reaches its final orbit",
+    "source": "ESA"
+  },
+  {
     "date": "2026-09-08T08:45:00.000Z",
     "icone": "🚀",
     "texte": "ESA : Anak Krakatau eruption by Sentinel-3",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-09-07T08:25:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : BepiColombo begins Mercury arrival with MTM separation success",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-09-07T08:25:00.000Z",
-    "icone": "🔭",
-    "texte": "ESA Science : BepiColombo begins Mercury arrival with MTM separation success",
-    "source": "ESA Science"
-  },
-  {
-    "date": "2026-09-07T06:10:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Europe's space future in focus at the International Space Summit",
     "source": "ESA"
   }
 ]
