@@ -1,20 +1,14 @@
 [
   {
-    "date": "2026-09-11T21:23:55.001Z",
+    "date": "2026-09-11T21:23:55.907Z",
     "icone": "🌍",
-    "texte": "Séisme de magnitude 6.6 — 115 km NNE of Teluknaga, Indonesia",
+    "texte": "Séisme de magnitude 6.5 — 126 km NNE of Teluknaga, Indonesia",
     "source": "USGS"
   },
   {
     "date": "2026-09-11T08:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : A team of teams like never before: rehearsing a unique launch at ESA mission control",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-09-10T14:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Name our dino – ESA’s Hera asteroid mission mascot!",
     "source": "ESA"
   }
 ]
