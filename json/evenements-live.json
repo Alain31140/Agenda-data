@@ -1,26 +1,14 @@
 [
   {
+    "date": "2026-09-20T09:17:35.624Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.4 — 49 km NNE of Kainantu, Papua New Guinea",
+    "source": "USGS"
+  },
+  {
     "date": "2026-09-18T22:01:00.000Z",
     "icone": "🚀",
     "texte": "ESA : ESA and The Pokémon Company International reveal Europe-wide exhibition and astronaut Pikachu experience",
     "source": "ESA"
-  },
-  {
-    "date": "2026-09-18T08:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : A galaxy spinning out of sync",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-09-18T08:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Earth from Space: Laguna Colorada",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-09-18T08:00:00.000Z",
-    "icone": "🔭",
-    "texte": "ESA Science : A galaxy spinning out of sync",
-    "source": "ESA Science"
   }
 ]
