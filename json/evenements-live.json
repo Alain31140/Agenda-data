@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-09-25T21:23:03.309Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.6 — 80 km ENE of Tadine, New Caledonia",
+    "source": "USGS"
+  },
+  {
     "date": "2026-09-25T12:20:00.000Z",
     "icone": "🚀",
     "texte": "ESA : Three Earth Explorer candidates go forward",
