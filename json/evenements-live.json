@@ -18,12 +18,6 @@
     "source": "ESA"
   },
   {
-    "date": "2026-10-08T09:00:07.768Z",
-    "icone": "🌍",
-    "texte": "Séisme de magnitude 6.3 — 102 km NE of Norsup, Vanuatu",
-    "source": "USGS"
-  },
-  {
     "date": "2026-10-08T09:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : Solar Orbiter tracks origin of mysterious magnetic switchbacks",
@@ -40,11 +34,5 @@
     "icone": "🚀",
     "texte": "ESA : Keeping the sky dark and quiet",
     "source": "ESA"
-  },
-  {
-    "date": "2026-10-07T15:00:00.000Z",
-    "icone": "🔭",
-    "texte": "ESA Science : Mars’s oddest cloud may be even odder than we thought",
-    "source": "ESA Science"
   }
 ]
