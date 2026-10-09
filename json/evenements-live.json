@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-10-09T20:25:39.080Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.6 — 14 km W of Río Grande, Panama",
+    "source": "USGS"
+  },
+  {
+    "date": "2026-10-09T17:56:06.036Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 7.7 — 12 km WSW of Pitaloza Arriba, Panama",
+    "source": "USGS"
+  },
+  {
     "date": "2026-10-09T08:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : Earth from Space: Namibia’s biggest salt pan",
