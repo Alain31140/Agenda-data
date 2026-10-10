@@ -18,21 +18,9 @@
     "source": "USGS"
   },
   {
-    "date": "2026-10-09T17:56:06.036Z",
-    "icone": "🌍",
-    "texte": "Séisme de magnitude 7.7 — 12 km WSW of Pitaloza Arriba, Panama",
-    "source": "USGS"
-  },
-  {
     "date": "2026-10-09T08:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : Earth from Space: Namibia’s biggest salt pan",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-10-08T16:51:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Splashdown confirmed for Sophie Adenot",
     "source": "ESA"
   }
 ]
