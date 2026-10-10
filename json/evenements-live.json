@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-10T04:14:01.786Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.0 — 7 km N of La Tronosa, Panama",
+    "source": "USGS"
+  },
+  {
     "date": "2026-10-09T20:25:39.080Z",
     "icone": "🌍",
     "texte": "Séisme de magnitude 6.6 — 14 km W of Río Grande, Panama",
@@ -40,11 +46,5 @@
     "icone": "🔭",
     "texte": "ESA Science : Solar Orbiter tracks origin of mysterious magnetic switchbacks",
     "source": "ESA Science"
-  },
-  {
-    "date": "2026-10-08T08:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Keeping the sky dark and quiet",
-    "source": "ESA"
   }
 ]
