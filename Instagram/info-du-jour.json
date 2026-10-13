@@ -1,19 +1,19 @@
 {
-  "key": "12-10",
-  "date": "2026-10-12",
-  "date_fr": "lundi 12 octobre 2026",
-  "saint": "Wilfried",
+  "key": "13-10",
+  "date": "2026-10-13",
+  "date_fr": "mardi 13 octobre 2026",
+  "saint": "Géraud",
   "saint_type": "saint",
-  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
+  "saint_info": "Un prénom au ton franc, simple et sympathique.",
   "zodiac": {
     "name": "Balance",
     "symbol": "♎",
     "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
   },
-  "dicton": "Octobre frais prépare saison froide.",
+  "dicton": "En octobre, la nature s’endort doucement.",
   "journees_mondiales": [
-    "Journée mondiale des oiseaux migrateurs"
+    "Journée internationale pour la réduction des risques de catastrophes"
   ],
   "journees_fun": [],
   "source_files": {
@@ -22,16 +22,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:06",
-  "sunset": "19:08",
+  "sunrise": "08:07",
+  "sunset": "19:06",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
-  "moon_phase": "Nouvelle lune",
-  "moon_phase_index": 0,
-  "moon_age_days": 1.12,
-  "moon_illumination_percent": 1.4,
-  "moon_image": "Instagram/lune/nouvelle-lune.png",
-  "image": "Instagram/2026-10-12.png"
+  "moon_phase": "Premier croissant",
+  "moon_phase_index": 1,
+  "moon_age_days": 2.12,
+  "moon_illumination_percent": 5.0,
+  "moon_image": "Instagram/lune/premier-croissant.png",
+  "image": "Instagram/2026-10-13.png"
 }

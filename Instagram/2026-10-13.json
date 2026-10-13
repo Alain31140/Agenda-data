@@ -1,0 +1,37 @@
+{
+  "key": "13-10",
+  "date": "2026-10-13",
+  "date_fr": "mardi 13 octobre 2026",
+  "saint": "Géraud",
+  "saint_type": "saint",
+  "saint_info": "Un prénom au ton franc, simple et sympathique.",
+  "zodiac": {
+    "name": "Balance",
+    "symbol": "♎",
+    "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
+  },
+  "dicton": "En octobre, la nature s’endort doucement.",
+  "journees_mondiales": [
+    "Journée internationale pour la réduction des risques de catastrophes"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:07",
+  "sunset": "19:06",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Premier croissant",
+  "moon_phase_index": 1,
+  "moon_age_days": 2.12,
+  "moon_illumination_percent": 5.0,
+  "moon_image": "Instagram/lune/premier-croissant.png",
+  "image": "Instagram/2026-10-13.png"
+}
