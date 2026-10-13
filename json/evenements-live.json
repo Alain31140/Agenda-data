@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-10-13T18:45:03.231Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.0 — 126 km S of Kokopo, Papua New Guinea",
+    "source": "USGS"
+  },
+  {
+    "date": "2026-10-13T12:23:07.248Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.8 — central Mid-Atlantic Ridge",
+    "source": "USGS"
+  },
+  {
+    "date": "2026-10-13T12:00:00.000Z",
+    "icone": "🔭",
+    "texte": "ESA Science : Mars moon lander set to launch on 19 October",
+    "source": "ESA Science"
+  },
+  {
     "date": "2026-10-13T05:44:46.919Z",
     "icone": "🌍",
     "texte": "Séisme de magnitude 6.7 — central Mid-Atlantic Ridge",
