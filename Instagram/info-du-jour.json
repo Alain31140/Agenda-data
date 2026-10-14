@@ -1,20 +1,18 @@
 {
-  "key": "13-10",
-  "date": "2026-10-13",
-  "date_fr": "mardi 13 octobre 2026",
-  "saint": "Géraud",
+  "key": "14-10",
+  "date": "2026-10-14",
+  "date_fr": "mercredi 14 octobre 2026",
+  "saint": "Juste",
   "saint_type": "saint",
-  "saint_info": "Un prénom au ton franc, simple et sympathique.",
+  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
   "zodiac": {
     "name": "Balance",
     "symbol": "♎",
     "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
   },
-  "dicton": "En octobre, la nature s’endort doucement.",
-  "journees_mondiales": [
-    "Journée internationale pour la réduction des risques de catastrophes"
-  ],
+  "dicton": "Octobre orageux annonce hiver changeant.",
+  "journees_mondiales": [],
   "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
@@ -22,16 +20,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:07",
-  "sunset": "19:06",
+  "sunrise": "08:09",
+  "sunset": "19:04",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Premier croissant",
   "moon_phase_index": 1,
-  "moon_age_days": 2.12,
-  "moon_illumination_percent": 5.0,
+  "moon_age_days": 3.12,
+  "moon_illumination_percent": 10.6,
   "moon_image": "Instagram/lune/premier-croissant.png",
-  "image": "Instagram/2026-10-13.png"
+  "image": "Instagram/2026-10-14.png"
 }
