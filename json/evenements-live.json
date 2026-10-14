@@ -6,21 +6,9 @@
     "source": "USGS"
   },
   {
-    "date": "2026-10-13T12:23:07.248Z",
-    "icone": "🌍",
-    "texte": "Séisme de magnitude 6.8 — central Mid-Atlantic Ridge",
-    "source": "USGS"
-  },
-  {
     "date": "2026-10-13T12:00:00.000Z",
     "icone": "🔭",
     "texte": "ESA Science : Mars moon lander set to launch on 19 October",
     "source": "ESA Science"
-  },
-  {
-    "date": "2026-10-12T13:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Welcome home, Sophie Adenot",
-    "source": "ESA"
   }
 ]
