@@ -1,0 +1,37 @@
+{
+  "key": "15-10",
+  "date": "2026-10-15",
+  "date_fr": "jeudi 15 octobre 2026",
+  "saint": "Thérèse d’Avila",
+  "saint_type": "saint",
+  "saint_info": "Un prénom au ton franc, simple et sympathique.",
+  "zodiac": {
+    "name": "Balance",
+    "symbol": "♎",
+    "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
+  },
+  "dicton": "Mi-octobre, l’automne est profond.",
+  "journees_mondiales": [
+    "Journée internationale des femmes rurales"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:10",
+  "sunset": "19:02",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Premier croissant",
+  "moon_phase_index": 1,
+  "moon_age_days": 4.12,
+  "moon_illumination_percent": 18.0,
+  "moon_image": "Instagram/lune/premier-croissant.png",
+  "image": "Instagram/2026-10-15.png"
+}
