@@ -1,0 +1,37 @@
+{
+  "key": "16-10",
+  "date": "2026-10-16",
+  "date_fr": "vendredi 16 octobre 2026",
+  "saint": "Edwige",
+  "saint_type": "saint",
+  "saint_info": "Un prénom qui traverse les générations sans perdre son style.",
+  "zodiac": {
+    "name": "Balance",
+    "symbol": "♎",
+    "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
+  },
+  "dicton": "Octobre lumineux annonce hiver serein.",
+  "journees_mondiales": [
+    "Journée mondiale de l'alimentation"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:12",
+  "sunset": "19:00",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Premier croissant",
+  "moon_phase_index": 1,
+  "moon_age_days": 5.12,
+  "moon_illumination_percent": 26.8,
+  "moon_image": "Instagram/lune/premier-croissant.png",
+  "image": "Instagram/2026-10-16.png"
+}
