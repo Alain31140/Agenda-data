@@ -1,40 +1,35 @@
 {
-  "key": "17-10",
-  "date": "2026-10-17",
-  "date_fr": "samedi 17 octobre 2026",
-  "saint": "Baudouin",
+  "key": "18-10",
+  "date": "2026-10-18",
+  "date_fr": "dimanche 18 octobre 2026",
+  "saint": "Luc",
   "saint_type": "saint",
-  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
+  "saint_info": "Un prénom à la sonorité douce, avec un vrai petit air de fête.",
   "zodiac": {
     "name": "Balance",
     "symbol": "♎",
     "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
   },
-  "dicton": "Quand octobre souffle, les arbres se dépouillent.",
-  "journees_mondiales": [
-    "Journée internationale pour l'élimination de la pauvreté",
-    "Journée internationale du patrimoine culturel immatériel"
-  ],
-  "journees_fun": [
-    "🦥 Journée du paresseux"
-  ],
+  "dicton": "Octobre sec prépare hiver net.",
+  "journees_mondiales": [],
+  "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
     "dictons": "json/dictons-du-jour.json",
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:13",
-  "sunset": "18:58",
+  "sunrise": "08:15",
+  "sunset": "18:56",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Premier quartier",
   "moon_phase_index": 2,
-  "moon_age_days": 6.12,
-  "moon_illumination_percent": 36.7,
+  "moon_age_days": 7.12,
+  "moon_illumination_percent": 47.2,
   "moon_image": "Instagram/lune/premier-quartier.png",
-  "image": "Instagram/2026-10-17.png"
+  "image": "Instagram/2026-10-18.png"
 }
