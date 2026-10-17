@@ -1,37 +1,40 @@
 {
-  "key": "16-10",
-  "date": "2026-10-16",
-  "date_fr": "vendredi 16 octobre 2026",
-  "saint": "Edwige",
+  "key": "17-10",
+  "date": "2026-10-17",
+  "date_fr": "samedi 17 octobre 2026",
+  "saint": "Baudouin",
   "saint_type": "saint",
-  "saint_info": "Un prénom qui traverse les générations sans perdre son style.",
+  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
   "zodiac": {
     "name": "Balance",
     "symbol": "♎",
     "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
   },
-  "dicton": "Octobre lumineux annonce hiver serein.",
+  "dicton": "Quand octobre souffle, les arbres se dépouillent.",
   "journees_mondiales": [
-    "Journée mondiale de l'alimentation"
+    "Journée internationale pour l'élimination de la pauvreté",
+    "Journée internationale du patrimoine culturel immatériel"
   ],
-  "journees_fun": [],
+  "journees_fun": [
+    "🦥 Journée du paresseux"
+  ],
   "source_files": {
     "saints": "json/saints.json",
     "dictons": "json/dictons-du-jour.json",
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:12",
-  "sunset": "19:00",
+  "sunrise": "08:13",
+  "sunset": "18:58",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
-  "moon_phase": "Premier croissant",
-  "moon_phase_index": 1,
-  "moon_age_days": 5.12,
-  "moon_illumination_percent": 26.8,
-  "moon_image": "Instagram/lune/premier-croissant.png",
-  "image": "Instagram/2026-10-16.png"
+  "moon_phase": "Premier quartier",
+  "moon_phase_index": 2,
+  "moon_age_days": 6.12,
+  "moon_illumination_percent": 36.7,
+  "moon_image": "Instagram/lune/premier-quartier.png",
+  "image": "Instagram/2026-10-17.png"
 }
