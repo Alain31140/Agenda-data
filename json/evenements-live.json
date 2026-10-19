@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "date": "2026-10-19T12:00:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : Euclid discovers new comet",
+    "source": "ESA"
+  },
+  {
+    "date": "2026-10-19T12:00:00.000Z",
+    "icone": "🔭",
+    "texte": "ESA Science : Euclid discovers new comet",
+    "source": "ESA Science"
+  },
+  {
+    "date": "2026-10-19T07:49:04.900Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.0 — 186 km NW of Port-Olry, Vanuatu",
+    "source": "USGS"
+  }
+]
