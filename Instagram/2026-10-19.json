@@ -1,0 +1,35 @@
+{
+  "key": "19-10",
+  "date": "2026-10-19",
+  "date_fr": "lundi 19 octobre 2026",
+  "saint": "René",
+  "saint_type": "saint",
+  "saint_info": "Un prénom à la sonorité douce, avec un vrai petit air de fête.",
+  "zodiac": {
+    "name": "Balance",
+    "symbol": "♎",
+    "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
+  },
+  "dicton": "Pluie d’octobre fait terre riche.",
+  "journees_mondiales": [],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:16",
+  "sunset": "18:54",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Premier quartier",
+  "moon_phase_index": 2,
+  "moon_age_days": 8.12,
+  "moon_illumination_percent": 57.8,
+  "moon_image": "Instagram/lune/premier-quartier.png",
+  "image": "Instagram/2026-10-19.png"
+}
