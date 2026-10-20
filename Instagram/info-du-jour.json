@@ -1,18 +1,20 @@
 {
-  "key": "19-10",
-  "date": "2026-10-19",
-  "date_fr": "lundi 19 octobre 2026",
-  "saint": "René",
+  "key": "20-10",
+  "date": "2026-10-20",
+  "date_fr": "mardi 20 octobre 2026",
+  "saint": "Adeline",
   "saint_type": "saint",
-  "saint_info": "Un prénom à la sonorité douce, avec un vrai petit air de fête.",
+  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
   "zodiac": {
     "name": "Balance",
     "symbol": "♎",
     "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
   },
-  "dicton": "Pluie d’octobre fait terre riche.",
-  "journees_mondiales": [],
+  "dicton": "Octobre changeant annonce froid approchant.",
+  "journees_mondiales": [
+    "Journée mondiale de la statistique"
+  ],
   "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
@@ -20,16 +22,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:16",
-  "sunset": "18:54",
+  "sunrise": "08:18",
+  "sunset": "18:52",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Premier quartier",
   "moon_phase_index": 2,
-  "moon_age_days": 8.12,
-  "moon_illumination_percent": 57.8,
+  "moon_age_days": 9.12,
+  "moon_illumination_percent": 68.0,
   "moon_image": "Instagram/lune/premier-quartier.png",
-  "image": "Instagram/2026-10-19.png"
+  "image": "Instagram/2026-10-20.png"
 }
