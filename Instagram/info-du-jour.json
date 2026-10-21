@@ -1,20 +1,18 @@
 {
-  "key": "20-10",
-  "date": "2026-10-20",
-  "date_fr": "mardi 20 octobre 2026",
-  "saint": "Adeline",
+  "key": "21-10",
+  "date": "2026-10-21",
+  "date_fr": "mercredi 21 octobre 2026",
+  "saint": "Céline",
   "saint_type": "saint",
-  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
+  "saint_info": "Un prénom qui a du relief et une belle présence.",
   "zodiac": {
     "name": "Balance",
     "symbol": "♎",
     "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
   },
-  "dicton": "Octobre changeant annonce froid approchant.",
-  "journees_mondiales": [
-    "Journée mondiale de la statistique"
-  ],
+  "dicton": "Octobre frais resserre les jours.",
+  "journees_mondiales": [],
   "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
@@ -22,16 +20,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:18",
-  "sunset": "18:52",
+  "sunrise": "08:19",
+  "sunset": "18:50",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
-  "moon_phase": "Premier quartier",
-  "moon_phase_index": 2,
-  "moon_age_days": 9.12,
-  "moon_illumination_percent": 68.0,
-  "moon_image": "Instagram/lune/premier-quartier.png",
-  "image": "Instagram/2026-10-20.png"
+  "moon_phase": "Gibbeuse croissante",
+  "moon_phase_index": 3,
+  "moon_age_days": 10.12,
+  "moon_illumination_percent": 77.5,
+  "moon_image": "Instagram/lune/gibbeuse-croissante.png",
+  "image": "Instagram/2026-10-21.png"
 }
