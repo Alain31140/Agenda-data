@@ -1,8 +1,20 @@
 [
   {
+    "date": "2026-10-22T14:33:39.014Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 7.0 — 183 km ENE of Nagqu, China",
+    "source": "USGS"
+  },
+  {
     "date": "2026-10-22T09:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : ESA Open Days 2026",
+    "source": "ESA"
+  },
+  {
+    "date": "2026-10-22T08:26:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : ESA Council approves appointment of two new directors",
     "source": "ESA"
   },
   {
