@@ -1,9 +1,15 @@
 [
   {
-    "date": "2026-10-22T14:33:39.014Z",
+    "date": "2026-10-22T14:33:40.353Z",
     "icone": "🌍",
-    "texte": "Séisme de magnitude 7.0 — 183 km ENE of Nagqu, China",
+    "texte": "Séisme de magnitude 7.0 — 191 km ENE of Nagqu, China",
     "source": "USGS"
+  },
+  {
+    "date": "2026-10-22T14:00:00.000Z",
+    "icone": "🚀",
+    "texte": "ESA : 350th ESA Council: Media information session",
+    "source": "ESA"
   },
   {
     "date": "2026-10-22T09:00:00.000Z",
