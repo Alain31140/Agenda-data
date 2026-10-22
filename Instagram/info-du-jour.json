@@ -1,17 +1,17 @@
 {
-  "key": "21-10",
-  "date": "2026-10-21",
-  "date_fr": "mercredi 21 octobre 2026",
-  "saint": "Céline",
+  "key": "22-10",
+  "date": "2026-10-22",
+  "date_fr": "jeudi 22 octobre 2026",
+  "saint": "Élodie",
   "saint_type": "saint",
-  "saint_info": "Un prénom qui a du relief et une belle présence.",
+  "saint_info": "Un prénom élégant, discret mais bien présent.",
   "zodiac": {
     "name": "Balance",
     "symbol": "♎",
     "fun": "charme, diplomatie… et cinq minutes de plus pour choisir",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/balance.png"
   },
-  "dicton": "Octobre frais resserre les jours.",
+  "dicton": "Quand octobre sourit, l’hiver suit.",
   "journees_mondiales": [],
   "journees_fun": [],
   "source_files": {
@@ -20,16 +20,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:19",
-  "sunset": "18:50",
+  "sunrise": "08:21",
+  "sunset": "18:48",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Gibbeuse croissante",
   "moon_phase_index": 3,
-  "moon_age_days": 10.12,
-  "moon_illumination_percent": 77.5,
+  "moon_age_days": 11.12,
+  "moon_illumination_percent": 85.7,
   "moon_image": "Instagram/lune/gibbeuse-croissante.png",
-  "image": "Instagram/2026-10-21.png"
+  "image": "Instagram/2026-10-22.png"
 }
