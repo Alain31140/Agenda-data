@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-10-24T02:35:57.362Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.3 — 170 km NW of Port-Olry, Vanuatu",
+    "source": "USGS"
+  },
+  {
+    "date": "2026-10-24T02:31:28.641Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.9 — 197 km WNW of Port-Olry, Vanuatu",
+    "source": "USGS"
+  },
+  {
     "date": "2026-10-23T08:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : Earth from Space: The pink city",
