@@ -1,19 +1,20 @@
 {
-  "key": "23-10",
-  "date": "2026-10-23",
-  "date_fr": "vendredi 23 octobre 2026",
-  "saint": "Jean de Capistran",
+  "key": "24-10",
+  "date": "2026-10-24",
+  "date_fr": "samedi 24 octobre 2026",
+  "saint": "Florentin",
   "saint_type": "saint",
-  "saint_info": "Un prénom élégant, discret mais bien présent.",
+  "saint_info": "Un prénom ancien qui garde une vraie fraîcheur.",
   "zodiac": {
     "name": "Scorpion",
     "symbol": "♏",
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "Octobre humide annonce saison froide douce ou rude.",
+  "dicton": "Octobre calme prépare hiver tranquille.",
   "journees_mondiales": [
-    "Journée internationale de la panthère des neiges"
+    "Semaine mondiale de l’éducation aux médias et à l’information",
+    "Journée mondiale d'information sur le développement"
   ],
   "journees_fun": [],
   "source_files": {
@@ -22,16 +23,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:23",
-  "sunset": "18:47",
+  "sunrise": "08:24",
+  "sunset": "18:45",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
-  "moon_phase": "Gibbeuse croissante",
-  "moon_phase_index": 3,
-  "moon_age_days": 12.12,
-  "moon_illumination_percent": 92.3,
-  "moon_image": "Instagram/lune/gibbeuse-croissante.png",
-  "image": "Instagram/2026-10-23.png"
+  "moon_phase": "Pleine lune",
+  "moon_phase_index": 4,
+  "moon_age_days": 13.12,
+  "moon_illumination_percent": 97.0,
+  "moon_image": "Instagram/lune/pleine-lune.png",
+  "image": "Instagram/2026-10-24.png"
 }
