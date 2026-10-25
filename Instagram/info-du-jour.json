@@ -1,38 +1,37 @@
 {
-  "key": "24-10",
-  "date": "2026-10-24",
-  "date_fr": "samedi 24 octobre 2026",
-  "saint": "Florentin",
+  "key": "25-10",
+  "date": "2026-10-25",
+  "date_fr": "dimanche 25 octobre 2026",
+  "saint": "Crépin",
   "saint_type": "saint",
-  "saint_info": "Un prénom ancien qui garde une vraie fraîcheur.",
+  "saint_info": "Un prénom à la sonorité douce, avec un vrai petit air de fête.",
   "zodiac": {
     "name": "Scorpion",
     "symbol": "♏",
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "Octobre calme prépare hiver tranquille.",
-  "journees_mondiales": [
-    "Semaine mondiale de l’éducation aux médias et à l’information",
-    "Journée mondiale d'information sur le développement"
+  "dicton": "Octobre venteux fait tomber les derniers fruits.",
+  "journees_mondiales": [],
+  "journees_fun": [
+    "🍝 Journée mondiale des pâtes"
   ],
-  "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
     "dictons": "json/dictons-du-jour.json",
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:24",
-  "sunset": "18:45",
+  "sunrise": "07:26",
+  "sunset": "17:43",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Pleine lune",
   "moon_phase_index": 4,
-  "moon_age_days": 13.12,
-  "moon_illumination_percent": 97.0,
+  "moon_age_days": 14.12,
+  "moon_illumination_percent": 99.5,
   "moon_image": "Instagram/lune/pleine-lune.png",
-  "image": "Instagram/2026-10-24.png"
+  "image": "Instagram/2026-10-25.png"
 }
