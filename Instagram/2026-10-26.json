@@ -1,0 +1,35 @@
+{
+  "key": "26-10",
+  "date": "2026-10-26",
+  "date_fr": "lundi 26 octobre 2026",
+  "saint": "Dimitri",
+  "saint_type": "saint",
+  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "Pluie d’octobre nourrit les sols.",
+  "journees_mondiales": [],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "07:27",
+  "sunset": "17:41",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Pleine lune",
+  "moon_phase_index": 4,
+  "moon_age_days": 15.12,
+  "moon_illumination_percent": 99.9,
+  "moon_image": "Instagram/lune/pleine-lune.png",
+  "image": "Instagram/2026-10-26.png"
+}
