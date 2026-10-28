@@ -1,8 +1,8 @@
 {
-  "key": "27-10",
-  "date": "2026-10-27",
-  "date_fr": "mardi 27 octobre 2026",
-  "saint": "Émeline",
+  "key": "28-10",
+  "date": "2026-10-28",
+  "date_fr": "mercredi 28 octobre 2026",
+  "saint": "Simon et Jude",
   "saint_type": "saint",
   "saint_info": "Un prénom chaleureux, facile à retenir et plein de charme.",
   "zodiac": {
@@ -11,27 +11,27 @@
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "Octobre froid annonce hiver proche.",
-  "journees_mondiales": [
-    "Journée mondiale du patrimoine audiovisuel"
+  "dicton": "Fin octobre, l’automne s’efface lentement.",
+  "journees_mondiales": [],
+  "journees_fun": [
+    "🎬 Journée internationale de l'animation"
   ],
-  "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
     "dictons": "json/dictons-du-jour.json",
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "07:29",
-  "sunset": "17:39",
+  "sunrise": "07:30",
+  "sunset": "17:38",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
-  "moon_phase": "Pleine lune",
-  "moon_phase_index": 4,
-  "moon_age_days": 16.12,
-  "moon_illumination_percent": 98.0,
-  "moon_image": "Instagram/lune/pleine-lune.png",
-  "image": "Instagram/2026-10-27.png"
+  "moon_phase": "Gibbeuse décroissante",
+  "moon_phase_index": 5,
+  "moon_age_days": 17.12,
+  "moon_illumination_percent": 93.9,
+  "moon_image": "Instagram/lune/gibbeuse-decroissante.png",
+  "image": "Instagram/2026-10-28.png"
 }
