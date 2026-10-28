@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-10-28T02:21:45.806Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.0 — 214 km NW of Port-Olry, Vanuatu",
+    "source": "USGS"
+  },
+  {
     "date": "2026-10-27T14:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : First light: Hera resolves two asteroids instead of one",
