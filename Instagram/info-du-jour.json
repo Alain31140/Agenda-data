@@ -1,40 +1,35 @@
 {
-  "key": "29-10",
-  "date": "2026-10-29",
-  "date_fr": "jeudi 29 octobre 2026",
-  "saint": "Narcisse",
+  "key": "30-10",
+  "date": "2026-10-30",
+  "date_fr": "vendredi 30 octobre 2026",
+  "saint": "Bienvenue",
   "saint_type": "saint",
-  "saint_info": "Un prénom qui sonne doux et intemporel.",
+  "saint_info": "Un prénom traditionnel avec un petit côté pétillant.",
   "zodiac": {
     "name": "Scorpion",
     "symbol": "♏",
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "Octobre clair prépare hiver stable.",
-  "journees_mondiales": [
-    "Journée internationale des soins et de l’assistance",
-    "Journée mondiale du codage"
-  ],
-  "journees_fun": [
-    "🐈 Journée du chat"
-  ],
+  "dicton": "Derniers jours d’octobre, le froid s’installe.",
+  "journees_mondiales": [],
+  "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
     "dictons": "json/dictons-du-jour.json",
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "07:32",
-  "sunset": "17:36",
+  "sunrise": "07:34",
+  "sunset": "17:34",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Gibbeuse décroissante",
   "moon_phase_index": 5,
-  "moon_age_days": 18.12,
-  "moon_illumination_percent": 87.8,
+  "moon_age_days": 19.12,
+  "moon_illumination_percent": 80.1,
   "moon_image": "Instagram/lune/gibbeuse-decroissante.png",
-  "image": "Instagram/2026-10-29.png"
+  "image": "Instagram/2026-10-30.png"
 }
