@@ -1,18 +1,20 @@
 {
-  "key": "30-10",
-  "date": "2026-10-30",
-  "date_fr": "vendredi 30 octobre 2026",
-  "saint": "Bienvenue",
+  "key": "31-10",
+  "date": "2026-10-31",
+  "date_fr": "samedi 31 octobre 2026",
+  "saint": "Quentin",
   "saint_type": "saint",
-  "saint_info": "Un prénom traditionnel avec un petit côté pétillant.",
+  "saint_info": "Un prénom chaleureux, facile à retenir et plein de charme.",
   "zodiac": {
     "name": "Scorpion",
     "symbol": "♏",
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "Derniers jours d’octobre, le froid s’installe.",
-  "journees_mondiales": [],
+  "dicton": "Fin octobre, la saison sombre commence.",
+  "journees_mondiales": [
+    "Journée mondiale des villes"
+  ],
   "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
@@ -20,16 +22,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "07:34",
-  "sunset": "17:34",
+  "sunrise": "07:35",
+  "sunset": "17:33",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Gibbeuse décroissante",
   "moon_phase_index": 5,
-  "moon_age_days": 19.12,
-  "moon_illumination_percent": 80.1,
+  "moon_age_days": 20.12,
+  "moon_illumination_percent": 71.0,
   "moon_image": "Instagram/lune/gibbeuse-decroissante.png",
-  "image": "Instagram/2026-10-30.png"
+  "image": "Instagram/2026-10-31.png"
 }
