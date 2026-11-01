@@ -1,5 +1,11 @@
 [
   {
+    "date": "2026-11-01T11:47:03.778Z",
+    "icone": "🌍",
+    "texte": "Séisme de magnitude 6.0 — 165 km NW of Port-Olry, Vanuatu",
+    "source": "USGS"
+  },
+  {
     "date": "2026-10-31T22:15:02.901Z",
     "icone": "🌍",
     "texte": "Séisme de magnitude 6.0 — 58 km SSE of Shima, Japan",
@@ -9,12 +15,6 @@
     "date": "2026-10-30T15:00:00.000Z",
     "icone": "🚀",
     "texte": "ESA : What happened this month at the European Space Agency? (October 2026)",
-    "source": "ESA"
-  },
-  {
-    "date": "2026-10-30T09:00:00.000Z",
-    "icone": "🚀",
-    "texte": "ESA : Earth from Space: Champi’s eerie eye",
     "source": "ESA"
   }
 ]
