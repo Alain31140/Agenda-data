@@ -1,37 +1,37 @@
 {
-  "key": "01-11",
-  "date": "2026-11-01",
-  "date_fr": "dimanche 1 novembre 2026",
-  "saint": "Toussaint",
+  "key": "02-11",
+  "date": "2026-11-02",
+  "date_fr": "lundi 2 novembre 2026",
+  "saint": "Défunts",
   "saint_type": "fete",
-  "saint_info": "Fête chrétienne célébrant tous les saints, connus ou inconnus.",
+  "saint_info": "Journée de mémoire et de prière pour les défunts, célébrée le 2 novembre.",
   "zodiac": {
     "name": "Scorpion",
     "symbol": "♏",
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "À la Toussaint, l’hiver est en chemin.",
-  "journees_mondiales": [],
-  "journees_fun": [
-    "🥕 Journée mondiale vegan"
+  "dicton": "Quand novembre est beau, l’hiver est nouveau.",
+  "journees_mondiales": [
+    "Journée internationale de la fin de l’impunité pour les crimes commis contre des journalistes"
   ],
+  "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
     "dictons": "json/dictons-du-jour.json",
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "07:37",
-  "sunset": "17:31",
+  "sunrise": "07:38",
+  "sunset": "17:29",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Dernier quartier",
   "moon_phase_index": 6,
-  "moon_age_days": 21.12,
-  "moon_illumination_percent": 60.9,
+  "moon_age_days": 22.12,
+  "moon_illumination_percent": 50.3,
   "moon_image": "Instagram/lune/dernier-quartier.png",
-  "image": "Instagram/2026-11-01.png"
+  "image": "Instagram/2026-11-02.png"
 }
