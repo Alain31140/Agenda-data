@@ -1,0 +1,38 @@
+{
+  "key": "05-11",
+  "date": "2026-11-05",
+  "date_fr": "jeudi 5 novembre 2026",
+  "saint": "Sylvie",
+  "saint_type": "saint",
+  "saint_info": "Un prénom qui traverse les générations sans perdre son style.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "En novembre, la nature s’endort doucement.",
+  "journees_mondiales": [
+    "Journée mondiale de sensibilisation aux tsunamis",
+    "Journée mondiale de la langue romani"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "07:43",
+  "sunset": "17:25",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Dernier croissant",
+  "moon_phase_index": 7,
+  "moon_age_days": 25.12,
+  "moon_illumination_percent": 20.5,
+  "moon_image": "Instagram/lune/dernier-croissant.png",
+  "image": "Instagram/2026-11-05.png"
+}
