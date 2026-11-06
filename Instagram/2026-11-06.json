@@ -1,0 +1,40 @@
+{
+  "key": "06-11",
+  "date": "2026-11-06",
+  "date_fr": "vendredi 6 novembre 2026",
+  "saint": "Bertille",
+  "saint_type": "saint",
+  "saint_info": "Un prénom élégant, discret mais bien présent.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "Novembre venteux chasse les dernières feuilles.",
+  "journees_mondiales": [
+    "Journée internationale pour la prévention de l'exploitation de l'environnement en temps de guerre et de conflit armé",
+    "Journée internationale contre la violence et le harcèlement en milieu scolaire, y compris le cyber-harcèlement"
+  ],
+  "journees_fun": [
+    "🧀 Journée des nachos"
+  ],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "07:45",
+  "sunset": "17:23",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Dernier croissant",
+  "moon_phase_index": 7,
+  "moon_age_days": 26.12,
+  "moon_illumination_percent": 12.6,
+  "moon_image": "Instagram/lune/dernier-croissant.png",
+  "image": "Instagram/2026-11-06.png"
+}
