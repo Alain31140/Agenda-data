@@ -1,0 +1,35 @@
+{
+  "key": "07-11",
+  "date": "2026-11-07",
+  "date_fr": "samedi 7 novembre 2026",
+  "saint": "Carine",
+  "saint_type": "saint",
+  "saint_info": "Un prénom élégant, discret mais bien présent.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "Quand novembre rit, l’hiver grandit.",
+  "journees_mondiales": [],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "07:46",
+  "sunset": "17:21",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Dernier croissant",
+  "moon_phase_index": 7,
+  "moon_age_days": 27.12,
+  "moon_illumination_percent": 6.5,
+  "moon_image": "Instagram/lune/dernier-croissant.png",
+  "image": "Instagram/2026-11-07.png"
+}
