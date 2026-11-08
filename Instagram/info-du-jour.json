@@ -1,8 +1,8 @@
 {
-  "key": "07-11",
-  "date": "2026-11-07",
-  "date_fr": "samedi 7 novembre 2026",
-  "saint": "Carine",
+  "key": "08-11",
+  "date": "2026-11-08",
+  "date_fr": "dimanche 8 novembre 2026",
+  "saint": "Geoffroy",
   "saint_type": "saint",
   "saint_info": "Un prénom élégant, discret mais bien présent.",
   "zodiac": {
@@ -11,7 +11,7 @@
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "Quand novembre rit, l’hiver grandit.",
+  "dicton": "Novembre humide nourrit la terre endormie.",
   "journees_mondiales": [],
   "journees_fun": [],
   "source_files": {
@@ -20,16 +20,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "07:46",
-  "sunset": "17:21",
+  "sunrise": "07:48",
+  "sunset": "17:20",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
-  "moon_phase": "Dernier croissant",
-  "moon_phase_index": 7,
-  "moon_age_days": 27.12,
-  "moon_illumination_percent": 6.5,
-  "moon_image": "Instagram/lune/dernier-croissant.png",
-  "image": "Instagram/2026-11-07.png"
+  "moon_phase": "Nouvelle lune",
+  "moon_phase_index": 0,
+  "moon_age_days": 28.12,
+  "moon_illumination_percent": 2.2,
+  "moon_image": "Instagram/lune/nouvelle-lune.png",
+  "image": "Instagram/2026-11-08.png"
 }
