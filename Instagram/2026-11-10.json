@@ -1,0 +1,38 @@
+{
+  "key": "10-11",
+  "date": "2026-11-10",
+  "date_fr": "mardi 10 novembre 2026",
+  "saint": "Léon",
+  "saint_type": "saint",
+  "saint_info": "Un prénom qui a du relief et une belle présence.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "Novembre froid annonce hiver dur.",
+  "journees_mondiales": [
+    "Semaine mondiale de la science au service de la paix et du développement",
+    "Journée mondiale de la science au service de la paix et du développement"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "07:51",
+  "sunset": "17:17",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Nouvelle lune",
+  "moon_phase_index": 0,
+  "moon_age_days": 0.58,
+  "moon_illumination_percent": 0.4,
+  "moon_image": "Instagram/lune/nouvelle-lune.png",
+  "image": "Instagram/2026-11-10.png"
+}

@@ -1,18 +1,21 @@
 {
-  "key": "09-11",
-  "date": "2026-11-09",
-  "date_fr": "lundi 9 novembre 2026",
-  "saint": "Théodore",
+  "key": "10-11",
+  "date": "2026-11-10",
+  "date_fr": "mardi 10 novembre 2026",
+  "saint": "Léon",
   "saint_type": "saint",
-  "saint_info": "Un prénom chaleureux, facile à retenir et plein de charme.",
+  "saint_info": "Un prénom qui a du relief et une belle présence.",
   "zodiac": {
     "name": "Scorpion",
     "symbol": "♏",
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "Pluie de novembre fait hiver fertile.",
-  "journees_mondiales": [],
+  "dicton": "Novembre froid annonce hiver dur.",
+  "journees_mondiales": [
+    "Semaine mondiale de la science au service de la paix et du développement",
+    "Journée mondiale de la science au service de la paix et du développement"
+  ],
   "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
@@ -20,16 +23,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "07:50",
-  "sunset": "17:19",
+  "sunrise": "07:51",
+  "sunset": "17:17",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Nouvelle lune",
   "moon_phase_index": 0,
-  "moon_age_days": 29.12,
-  "moon_illumination_percent": 0.2,
+  "moon_age_days": 0.58,
+  "moon_illumination_percent": 0.4,
   "moon_image": "Instagram/lune/nouvelle-lune.png",
-  "image": "Instagram/2026-11-09.png"
+  "image": "Instagram/2026-11-10.png"
 }
