@@ -1,18 +1,21 @@
 {
-  "key": "13-11",
-  "date": "2026-11-13",
-  "date_fr": "vendredi 13 novembre 2026",
-  "saint": "Brice",
+  "key": "14-11",
+  "date": "2026-11-14",
+  "date_fr": "samedi 14 novembre 2026",
+  "saint": "Sidoine",
   "saint_type": "saint",
-  "saint_info": "Un prénom qui a du relief et une belle présence.",
+  "saint_info": "Un prénom qui traverse les générations sans perdre son style.",
   "zodiac": {
     "name": "Scorpion",
     "symbol": "♏",
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "En novembre, les jours raccourcissent vite.",
-  "journees_mondiales": [],
+  "dicton": "Novembre orageux annonce hiver changeant.",
+  "journees_mondiales": [
+    "Journée mondiale du diabète",
+    "Journée internationale contre le trafic illicite de biens culturels"
+  ],
   "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
@@ -20,16 +23,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "07:56",
-  "sunset": "17:13",
+  "sunrise": "07:57",
+  "sunset": "17:12",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Premier croissant",
   "moon_phase_index": 1,
-  "moon_age_days": 3.58,
-  "moon_illumination_percent": 13.9,
+  "moon_age_days": 4.58,
+  "moon_illumination_percent": 22.0,
   "moon_image": "Instagram/lune/premier-croissant.png",
-  "image": "Instagram/2026-11-13.png"
+  "image": "Instagram/2026-11-14.png"
 }
