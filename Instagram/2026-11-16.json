@@ -1,0 +1,38 @@
+{
+  "key": "16-11",
+  "date": "2026-11-16",
+  "date_fr": "lundi 16 novembre 2026",
+  "saint": "Marguerite",
+  "saint_type": "saint",
+  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "Novembre lumineux annonce hiver serein.",
+  "journees_mondiales": [
+    "Journée mondiale du souvenir des victimes de la circulation routière",
+    "Journée internationale du régime méditerranéen"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:01",
+  "sunset": "17:10",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Premier quartier",
+  "moon_phase_index": 2,
+  "moon_age_days": 6.58,
+  "moon_illumination_percent": 41.6,
+  "moon_image": "Instagram/lune/premier-quartier.png",
+  "image": "Instagram/2026-11-16.png"
+}
