@@ -1,0 +1,37 @@
+{
+  "key": "17-11",
+  "date": "2026-11-17",
+  "date_fr": "mardi 17 novembre 2026",
+  "saint": "Élisabeth",
+  "saint_type": "saint",
+  "saint_info": "Un prénom ancien qui garde une vraie fraîcheur.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "Quand novembre souffle, les arbres sont nus.",
+  "journees_mondiales": [
+    "Journée mondiale pour l'élimination du cancer du col de l'utérus"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:02",
+  "sunset": "17:08",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Premier quartier",
+  "moon_phase_index": 2,
+  "moon_age_days": 7.58,
+  "moon_illumination_percent": 52.2,
+  "moon_image": "Instagram/lune/premier-quartier.png",
+  "image": "Instagram/2026-11-17.png"
+}

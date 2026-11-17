@@ -1,20 +1,19 @@
 {
-  "key": "16-11",
-  "date": "2026-11-16",
-  "date_fr": "lundi 16 novembre 2026",
-  "saint": "Marguerite",
+  "key": "17-11",
+  "date": "2026-11-17",
+  "date_fr": "mardi 17 novembre 2026",
+  "saint": "Élisabeth",
   "saint_type": "saint",
-  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
+  "saint_info": "Un prénom ancien qui garde une vraie fraîcheur.",
   "zodiac": {
     "name": "Scorpion",
     "symbol": "♏",
     "fun": "intense, mystérieux, rarement tiède",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
   },
-  "dicton": "Novembre lumineux annonce hiver serein.",
+  "dicton": "Quand novembre souffle, les arbres sont nus.",
   "journees_mondiales": [
-    "Journée mondiale du souvenir des victimes de la circulation routière",
-    "Journée internationale du régime méditerranéen"
+    "Journée mondiale pour l'élimination du cancer du col de l'utérus"
   ],
   "journees_fun": [],
   "source_files": {
@@ -23,16 +22,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:01",
-  "sunset": "17:10",
+  "sunrise": "08:02",
+  "sunset": "17:08",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Premier quartier",
   "moon_phase_index": 2,
-  "moon_age_days": 6.58,
-  "moon_illumination_percent": 41.6,
+  "moon_age_days": 7.58,
+  "moon_illumination_percent": 52.2,
   "moon_image": "Instagram/lune/premier-quartier.png",
-  "image": "Instagram/2026-11-16.png"
+  "image": "Instagram/2026-11-17.png"
 }
