@@ -1,0 +1,39 @@
+{
+  "key": "19-11",
+  "date": "2026-11-19",
+  "date_fr": "jeudi 19 novembre 2026",
+  "saint": "Tanguy",
+  "saint_type": "saint",
+  "saint_info": "Un prénom ancien qui garde une vraie fraîcheur.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "Pluie de novembre nourrit les semailles.",
+  "journees_mondiales": [
+    "Journée mondiale des toilettes"
+  ],
+  "journees_fun": [
+    "🏆 Journée des records Guinness"
+  ],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:05",
+  "sunset": "17:06",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Gibbeuse croissante",
+  "moon_phase_index": 3,
+  "moon_age_days": 9.58,
+  "moon_illumination_percent": 72.6,
+  "moon_image": "Instagram/lune/gibbeuse-croissante.png",
+  "image": "Instagram/2026-11-19.png"
+}
