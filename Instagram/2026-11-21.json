@@ -1,0 +1,38 @@
+{
+  "key": "21-11",
+  "date": "2026-11-21",
+  "date_fr": "samedi 21 novembre 2026",
+  "saint": "Présentation de Marie",
+  "saint_type": "fete",
+  "saint_info": "Fête chrétienne traditionnelle consacrée à la présentation de Marie au Temple.",
+  "zodiac": {
+    "name": "Scorpion",
+    "symbol": "♏",
+    "fun": "intense, mystérieux, rarement tiède",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+  },
+  "dicton": "Novembre frais resserre les jours.",
+  "journees_mondiales": [
+    "Journée mondiale de la philosophie",
+    "Journée mondiale de la télévision"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:08",
+  "sunset": "17:04",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Gibbeuse croissante",
+  "moon_phase_index": 3,
+  "moon_age_days": 11.58,
+  "moon_illumination_percent": 89.0,
+  "moon_image": "Instagram/lune/gibbeuse-croissante.png",
+  "image": "Instagram/2026-11-21.png"
+}
