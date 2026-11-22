@@ -1,21 +1,18 @@
 {
-  "key": "21-11",
-  "date": "2026-11-21",
-  "date_fr": "samedi 21 novembre 2026",
-  "saint": "Présentation de Marie",
-  "saint_type": "fete",
-  "saint_info": "Fête chrétienne traditionnelle consacrée à la présentation de Marie au Temple.",
+  "key": "22-11",
+  "date": "2026-11-22",
+  "date_fr": "dimanche 22 novembre 2026",
+  "saint": "Cécile",
+  "saint_type": "saint",
+  "saint_info": "Un prénom qui a du relief et une belle présence.",
   "zodiac": {
-    "name": "Scorpion",
-    "symbol": "♏",
-    "fun": "intense, mystérieux, rarement tiède",
-    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/scorpion.png"
+    "name": "Sagittaire",
+    "symbol": "♐",
+    "fun": "optimiste, voyageur, déjà prêt à repartir",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/sagittaire.png"
   },
-  "dicton": "Novembre frais resserre les jours.",
-  "journees_mondiales": [
-    "Journée mondiale de la philosophie",
-    "Journée mondiale de la télévision"
-  ],
+  "dicton": "Quand novembre sourit, l’hiver suit.",
+  "journees_mondiales": [],
   "journees_fun": [],
   "source_files": {
     "saints": "json/saints.json",
@@ -23,16 +20,16 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:08",
-  "sunset": "17:04",
+  "sunrise": "08:10",
+  "sunset": "17:03",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
   "longitude": 2.3522,
   "location_name": "Paris",
   "moon_phase": "Gibbeuse croissante",
   "moon_phase_index": 3,
-  "moon_age_days": 11.58,
-  "moon_illumination_percent": 89.0,
+  "moon_age_days": 12.58,
+  "moon_illumination_percent": 94.7,
   "moon_image": "Instagram/lune/gibbeuse-croissante.png",
-  "image": "Instagram/2026-11-21.png"
+  "image": "Instagram/2026-11-22.png"
 }
