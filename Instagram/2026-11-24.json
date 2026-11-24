@@ -1,0 +1,37 @@
+{
+  "key": "24-11",
+  "date": "2026-11-24",
+  "date_fr": "mardi 24 novembre 2026",
+  "saint": "Flora",
+  "saint_type": "saint",
+  "saint_info": "Un prénom au ton franc, simple et sympathique.",
+  "zodiac": {
+    "name": "Sagittaire",
+    "symbol": "♐",
+    "fun": "optimiste, voyageur, déjà prêt à repartir",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/sagittaire.png"
+  },
+  "dicton": "Novembre calme prépare hiver paisible.",
+  "journees_mondiales": [
+    "Journée mondiale des jumeaux siamois"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:13",
+  "sunset": "17:01",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Pleine lune",
+  "moon_phase_index": 4,
+  "moon_age_days": 14.58,
+  "moon_illumination_percent": 100.0,
+  "moon_image": "Instagram/lune/pleine-lune.png",
+  "image": "Instagram/2026-11-24.png"
+}
