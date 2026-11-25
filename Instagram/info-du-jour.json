@@ -1,19 +1,19 @@
 {
-  "key": "24-11",
-  "date": "2026-11-24",
-  "date_fr": "mardi 24 novembre 2026",
-  "saint": "Flora",
+  "key": "25-11",
+  "date": "2026-11-25",
+  "date_fr": "mercredi 25 novembre 2026",
+  "saint": "Catherine",
   "saint_type": "saint",
-  "saint_info": "Un prénom au ton franc, simple et sympathique.",
+  "saint_info": "Un prénom à l’allure classique, avec une touche de caractère.",
   "zodiac": {
     "name": "Sagittaire",
     "symbol": "♐",
     "fun": "optimiste, voyageur, déjà prêt à repartir",
     "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/sagittaire.png"
   },
-  "dicton": "Novembre calme prépare hiver paisible.",
+  "dicton": "Novembre venteux fait place au froid.",
   "journees_mondiales": [
-    "Journée mondiale des jumeaux siamois"
+    "Journée internationale pour l'élimination de la violence à l'égard des femmes"
   ],
   "journees_fun": [],
   "source_files": {
@@ -22,7 +22,7 @@
     "mondiales": "json/journees-mondiales.json",
     "insolites": "json/journees-insolites.json"
   },
-  "sunrise": "08:13",
+  "sunrise": "08:14",
   "sunset": "17:01",
   "timezone": "Europe/Paris",
   "latitude": 48.8566,
@@ -30,8 +30,8 @@
   "location_name": "Paris",
   "moon_phase": "Pleine lune",
   "moon_phase_index": 4,
-  "moon_age_days": 14.58,
-  "moon_illumination_percent": 100.0,
+  "moon_age_days": 15.58,
+  "moon_illumination_percent": 99.2,
   "moon_image": "Instagram/lune/pleine-lune.png",
-  "image": "Instagram/2026-11-24.png"
+  "image": "Instagram/2026-11-25.png"
 }
