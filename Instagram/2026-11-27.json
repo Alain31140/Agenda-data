@@ -1,0 +1,37 @@
+{
+  "key": "27-11",
+  "date": "2026-11-27",
+  "date_fr": "vendredi 27 novembre 2026",
+  "saint": "Séverin",
+  "saint_type": "saint",
+  "saint_info": "Un prénom élégant, discret mais bien présent.",
+  "zodiac": {
+    "name": "Sagittaire",
+    "symbol": "♐",
+    "fun": "optimiste, voyageur, déjà prêt à repartir",
+    "image": "/home/runner/work/Agenda-data/Agenda-data/zodiac/sagittaire.png"
+  },
+  "dicton": "Novembre froid annonce gel prochain.",
+  "journees_mondiales": [
+    "Journée internationale de l’engagement dans la science pour le développement durable"
+  ],
+  "journees_fun": [],
+  "source_files": {
+    "saints": "json/saints.json",
+    "dictons": "json/dictons-du-jour.json",
+    "mondiales": "json/journees-mondiales.json",
+    "insolites": "json/journees-insolites.json"
+  },
+  "sunrise": "08:17",
+  "sunset": "16:59",
+  "timezone": "Europe/Paris",
+  "latitude": 48.8566,
+  "longitude": 2.3522,
+  "location_name": "Paris",
+  "moon_phase": "Gibbeuse décroissante",
+  "moon_phase_index": 5,
+  "moon_age_days": 17.58,
+  "moon_illumination_percent": 91.3,
+  "moon_image": "Instagram/lune/gibbeuse-decroissante.png",
+  "image": "Instagram/2026-11-27.png"
+}
